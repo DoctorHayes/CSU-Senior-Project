@@ -41,41 +41,33 @@ An Integrated Development Environment (IDE) will be needed to compose the projec
 This project will allow me to further my knowledge and skills in the field of computer science. As the first real project that I will be undertaking independently and with few strict guidelines, it will provide me a greater chance to exercise my decision-making and self-pacing skills than in previous projects. With the project I have planned out, I will gain personal experience in developing Google Chrome extensions - a topic I have no prior knowledge of when it comes to programming. By the end of the project, I will have aquired valuable skills in this area that will further allow me to develop more Chrome extensions in the future. This, in turn, will contribute to my growth as a programmer in general.
 
 ### Outline of Future Research Efforts: <br/>
-- how to access and use the Google Chrome API
-    - through Google's official documentation and tutorials with supplementary YouTube videos if needed
-- how to add an extension to the Chrome Web Store
-    - through Google's official documentation and tutorials with supplementary YouTube videos if needed
-- how to use fetch and display verses from Bible Gateway
-    - use Chrome extension source viewer with supplementary YouTube videos if needed
-- how to narrow fetches from Bible Gateway to different Bible versions
-    - use Chrome extension source viewer with supplementary YouTube videos if needed
-- how to store user preferences using Chrome storage API
-    - through Google's official documentation and tutorials with supplementary YouTube videos if needed
-- how to implement basic light and dark modes
-    - through Google's official documentation and tutorials with supplementary YouTube videos if needed
-- how to allow users to upload their own image as the background
-    - through Google's official documentation and tutorials with supplementary YouTube videos if needed
-- how to implement custom font styles and colors
-    - through Google's official documentation and tutorials with supplementary YouTube videos if needed
-- how to create UI for different screen sizes and resolutions
-    - through Google's official documentation and tutorials with supplementary YouTube videos and online forums if needed
-- how to allow for preset locations and user-selected locations for the verse's text box
-    - through Google's official documentation and tutorials with supplementary YouTube videos and online forums if needed
-- how to create the verse randomizer to avoid repeats
-    - thorugh online tutorials with supplementary YouTube videos if needed
-- how to create an additional UI for custom Bible verse selection
-    - through Google's official documentation and tutorials with supplementary YouTube videos
-- how to handle errors and exceptions (and how to register such with users)
-    - through Google's official documentation and tutorials with supplementary YouTube videos and online forums if needed
-- how to optimize extension performance and memory usage
-    - through Google's official documentation and tutorials with supplementary YouTube videos and online forums if needed
+The following outline lists all that I must learn how to implement in order to achieve the full scope of functionality for my Google Chrome extension. In summary, it includes fetching various Bible features from Bible Gateway, creating user-friendly customizing options for the UI, and adjusting for different screen sizes and resolutions.
 <br/>
+
+- how to access and use the Google Chrome API
+
+- how to add an extension to the Chrome Web Store
+- how to use fetch and display verses from Bible Gateway
+- how to narrow fetches from Bible Gateway to different Bible versions
+- how to store user preferences using Chrome storage API
+- how to implement basic light and dark modes
+- how to allow users to upload their own image as the background
+- how to implement custom font styles and colors
+- how to create UI for different screen sizes and resolutions
+- how to allow for preset locations and user-selected locations for the verse's text box
+- how to create the verse randomizer to avoid repeats
+- how to create an additional UI for custom Bible verse selection
+- how to handle errors and exceptions (and how to register such with users)
+- how to optimize extension performance and memory usage
+<br/> 
+#### Solutions:
+I plan to identify solutions to these challenge through Google's official documentation and tutorials with supplementary YouTube videos and online forums, if needed.
 
 #### Deliverables:
 - Minimal Viable Product ("Order of Things") Deliverable
 - Final Product Deliverable
 
-<br/>
+<br/> <br/>
 
 ### Schedule: <br/>
 
