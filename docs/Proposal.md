@@ -59,7 +59,6 @@ The following outline lists all that I must learn how to implement in order to a
 - how to create an additional UI for custom Bible verse selection
 - how to handle errors and exceptions (and how to register such with users)
 - how to optimize extension performance and memory usage
-<br/> 
 
 #### Solutions:
 I plan to identify solutions to these challenge through Google's official documentation and tutorials with supplementary YouTube videos and online forums, if needed.
