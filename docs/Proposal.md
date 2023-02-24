@@ -67,7 +67,7 @@ I plan to identify solutions to these challenge through Google's official docume
 - Minimal Viable Product ("Order of Things") Deliverable
 - Final Product Deliverable
 
-<br/> <br/>
+<br/>
 
 ### Schedule: <br/>
 
