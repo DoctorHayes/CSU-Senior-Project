@@ -34,7 +34,3 @@ Priority: (couple words OR # w/ scale)
 Dependencies: (#)
 </p>
 ----
-----
-----
-----
-(HUGE NF)
