@@ -362,19 +362,46 @@ Dependencies: 1 (???)
 ID Number: 14
 </p>
 <p>
-Type: Functional
+Type: Look and Feel - Style
 </p>
 <p>
 Description:<br/>
-&emsp; The extension will allow users to easily share Bible verses via social media.
+&emsp; The extension will have a cohesive visual style across all customization options. 
 </p>
 <p>
 Rationale:<br/>
-&emsp; Sharing Bible verses is a common practice among Christians, and social media is a popular platform for doing so.
+&emsp; Consistent visual design helps create a more professional and polished user experience. 
 </p>
 <p>
 Fit Criterion:<br/>
-&emsp; The user should be able to share a Bible verse to their social media account with a few clicks.
+&emsp; Whether the basic visual design is cohesive will be decided by survey. It will be accepted if surveyors, on a scale of 1 to 5, rate it a 4 on average.
+</p>
+<p>
+Priority: 3
+</p>
+<p>
+Dependencies: 1 (???)
+</p>
+
+----
+
+<p>
+ID Number: 15
+</p>
+<p>
+Type: Look and Feel - Appearance
+</p>
+<p>
+Description:<br/>
+&emsp; The extension will provide some basic, high-quality background images for users to choose from. 
+</p>
+<p>
+Rationale:<br/>
+&emsp; The background image is a key visual element of the extension, and high-quality images can enhance the user experience. Supplying them will be helpful for those wishing to test the extension's features or are not technically literate enough to insert their own.
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; The user should be able to choose from a variety of high quality background images.
 </p>
 <p>
 Priority: 5
@@ -386,25 +413,25 @@ Dependencies: 1 (???)
 ----
 
 <p>
-ID Number: 10
+ID Number: 16
 </p>
 <p>
-Type: Functional
+Type: Performance
 </p>
 <p>
 Description:<br/>
-&emsp; The extension will allow users to easily share Bible verses via social media.
+&emsp; The extension will not cause any errors or crashes in the browser. 
 </p>
 <p>
 Rationale:<br/>
-&emsp; Sharing Bible verses is a common practice among Christians, and social media is a popular platform for doing so.
+&emsp; Rationale: Extension errors or crashes can disrupt both the user's Scripture and browsing experience and cause frustration.
 </p>
 <p>
 Fit Criterion:<br/>
-&emsp; The user should be able to share a Bible verse to their social media account with a few clicks.
+&emsp; The extension will be tested thoroughly - at least 50 times - to ensure it does not cause any errors or crashes in the browser. 
 </p>
 <p>
-Priority: 5
+Priority: 2
 </p>
 <p>
 Dependencies: 1 (???)
@@ -413,25 +440,25 @@ Dependencies: 1 (???)
 ----
 
 <p>
-ID Number: 10
+ID Number: 17
 </p>
 <p>
-Type: Functional
+Type: Look and Feel - Appearance 
 </p>
 <p>
 Description:<br/>
-&emsp; The extension will allow users to easily share Bible verses via social media.
+&emsp; The extension will implement minimal menus on the new tab. Instead, the majority of menus will be present in the page of the extension itself (as seen in the top of Google Chrome, in the Extensions section).
 </p>
 <p>
 Rationale:<br/>
-&emsp; Sharing Bible verses is a common practice among Christians, and social media is a popular platform for doing so.
+&emsp; Users may find visual elements such as extensive customizing menus as distracting or unnecessary. At the same time, these menus will still remain at short reach while in the Extensions section.
 </p>
 <p>
 Fit Criterion:<br/>
-&emsp; The user should be able to share a Bible verse to their social media account with a few clicks.
+&emsp; The user menus will mostly be implemented in the extension page rather than on a new tab.
 </p>
 <p>
-Priority: 5
+Priority: 2
 </p>
 <p>
 Dependencies: 1 (???)
@@ -440,52 +467,25 @@ Dependencies: 1 (???)
 ----
 
 <p>
-ID Number: 10
+ID Number: 18
 </p>
 <p>
-Type: Functional
-</p>
-<p>
-Description:<br/>
-&emsp; The extension will allow users to easily share Bible verses via social media.
-</p>
-<p>
-Rationale:<br/>
-&emsp; Sharing Bible verses is a common practice among Christians, and social media is a popular platform for doing so.
-</p>
-<p>
-Fit Criterion:<br/>
-&emsp; The user should be able to share a Bible verse to their social media account with a few clicks.
-</p>
-<p>
-Priority: 5
-</p>
-<p>
-Dependencies: 1 (???)
-</p>
-
-----
-
-<p>
-ID Number: 10
-</p>
-<p>
-Type: Functional
+Type: Look and Feel - Appearance 
 </p>
 <p>
 Description:<br/>
-&emsp; The extension will allow users to easily share Bible verses via social media.
+&emsp; The extension will support light and dark mode for the verse window. 
 </p>
 <p>
 Rationale:<br/>
-&emsp; Sharing Bible verses is a common practice among Christians, and social media is a popular platform for doing so.
+&emsp; Allowing differing light or dark mode settings may seem strange. However, allowing the option to have it be different allows for those who may want it an improved user experience. It may help a user focus in on the verse with the contrast in color.
 </p>
 <p>
 Fit Criterion:<br/>
-&emsp; The user should be able to share a Bible verse to their social media account with a few clicks.
+&emsp; The user can set one or both the background and verse window to be light or dark mode.
 </p>
 <p>
-Priority: 5
+Priority: 4
 </p>
 <p>
 Dependencies: 1 (???)
