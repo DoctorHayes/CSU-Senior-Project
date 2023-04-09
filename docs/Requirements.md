@@ -1,7 +1,7 @@
 ### Requirements Document ###
 
 (20-50+ requirements)
-Priority Scale - 1 is the highest, 5 is the lowest.
+Priority Scale - 1 is the highest, 3 is the lowest. (???)
 
 ----
 
@@ -12,15 +12,15 @@ ID Number: 1
 Type: Functional
 </p>
 <p>
-Description: (sentences)<br/>
-&emsp; The extension will display a Bible verse on the new tab page. 
+Description:<br/>
+&emsp; The extension will display a Bible verse on the new tab page. This will be implemented from the website Bible Gateway. 
 </p>
 <p>
-Rationale: (sentences)<br/>
-&emsp; This is the main functionality of the extension and it will serve the purpose of providing the user with a Bible verse.
+Rationale:<br/>
+&emsp; This is the main functionality of the extension, and it will serve the purpose of providing the user with a Bible verse.
 </p>
 <p>
-Fit Criterion: (sentences)<br/>
+Fit Criterion:<br/>
 &emsp; A Bible verse is displayed on the new tab page - yes or no.
 </p>
 <p>
@@ -35,33 +35,487 @@ Dependencies: (#) (???)
 <p>
 ID Number: 2
 </p>
-
 <p>
-Type: (couple words)
+Type: Functional
 </p>
-
 <p>
-Description: (sentences)<br/>
-&emsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Description:<br/>
+&emsp; The extension will allow users to choose their preferred browser for the search bar. 
 </p>
-
 <p>
-Rationale: (sentences)<br/>
-&emsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Rationale:<br/>
+&emsp; Users may prefer a different search engine, and giving them the option to choose their preferred search bar will increase the extension's appeal. In addition, not providing this feature would be a direct downgrade from the default browser. 
 </p>
-
 <p>
-Fit Criterion: (sentences)<br/>
-&emsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Fit Criterion:<br/>
+&emsp; Users can choose their preferred browser for the search bar in an options menu.
 </p>
-
 <p>
-Priority: (couple words OR # w/ scale)
+Priority: 2
 </p>
-
 <p>
-Dependencies: (#) (???)
+Dependencies: 1 (???)
 </p>
 
 ----
-(HUGE NF)
+
+<p>
+ID Number: 3
+</p>
+<p>
+Type: Functional
+</p>
+<p>
+Description:<br/>
+&emsp; The extension will allow users to choose their own background image or style. 
+</p>
+<p>
+Rationale:<br/>
+&emsp; Customization is a key aspect of the extension, and allowing users to choose their own background image or style will make the extension more personal. 
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; Users can choose their own background image or style in an options menu.
+</p>
+<p>
+Priority: 1
+</p>
+<p>
+Dependencies: 1 (???)
+</p>
+
+----
+
+<p>
+ID Number: 4
+</p>
+<p>
+Type: Functional
+</p>
+<p>
+Description:<br/>
+&emsp; The extension will allow users to choose the location of the verse window on the new tab page. 
+</p>
+<p>
+Rationale:<br/>
+&emsp; Customization is a key aspect of the extension, and allowing users to choose the location of the verse window will make the extension more personal.
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; Users can choose the location of the verse window in an options menu. 
+</p>
+<p>
+Priority: 1
+</p>
+<p>
+Dependencies: 1 (???)
+</p>
+
+----
+
+<p>
+ID Number: 5
+</p>
+<p>
+Type: Functional
+</p>
+<p>
+Description:<br/>
+&emsp; The extension will allow users to choose their preferred version of the Bible. 
+</p>
+<p>
+Rationale:<br/>
+&emsp; Customization is a key aspect of the extension, and users may have a preferred version of the Bible to read. Giving them the option to choose it will increase the extension's appeal.
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; Users can choose their preferred Bible version in an options menu.
+</p>
+<p>
+Priority: 1
+</p>
+<p>
+Dependencies: 2 (???)
+</p>
+
+----
+
+<p>
+ID Number: 6
+</p>
+<p>
+Type: Functional
+</p>
+<p>
+Description:<br/>
+&emsp; The extension will display the "Verse of the Day" from Bible Gateway by default. 
+</p>
+<p>
+Rationale:<br/>
+&emsp; Displaying the "Verse of the Day" will provide users with a daily Bible verse without requiring any action on their part. This will allow for users to reflect upon the same verses as others, read verses relevant to the Christian calendar, and generally aid those lacking motivation or technical literacy to select the verses themselves.
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; The "Verse of the Day" is displayed by default as the Bible verse on the new tab page. 
+</p>
+<p>
+Priority: 1
+</p>
+<p>
+Dependencies: 1  (???)
+</p>
+
+----
+
+<p>
+ID Number: 7
+</p>
+<p>
+Type: Functional
+</p>
+<p>
+Description:<br/>
+&emsp; The extension will allow users to choose a random Bible verse to display on the new tab page. To clarify, this random verse would be cycled daily, not any time a new tab is opened. This selection will also be purely random, even allowing repeated verses on consecutive days. All of Scripture is God's Word.
+</p>
+<p>
+Rationale:<br/>
+&emsp; Allowing users to receive a random Bible verse will provide them with an alternative series of verses throughout their use of the extension. Some users may prefer this in reading their Scripture.
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; Users can choose for a random Bible verse to display on the new tab page in an options menu. 
+</p>
+<p>
+Priority: 3
+</p>
+<p>
+Dependencies: 1  (???)
+</p>
+
+----
+
+<p>
+ID Number: 8
+</p>
+<p>
+Type: Functional
+</p>
+<p>
+Description:<br/>
+&emsp; The extension will allow users to choose their own custom verse to display on the new tab page. 
+</p>
+<p>
+Rationale:<br/>
+&emsp; Allowing users to choose their own custom verse will provide them with a personalized experience and may be useful for memorization or meditation and study. 
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; Users can choose their own custom verse to display on the new tab page in an options menu. This will be the primary alternate choice of Bible verse. 
+</p>
+<p>
+Priority: 2
+</p>
+<p>
+Dependencies: 1  (???)
+</p>
+
+----
+
+<p>
+ID Number: 9
+</p>
+<p>
+Type: Look and Feel - Appearance
+</p>
+<p>
+Description:<br/>
+&emsp; The extension's default background on the new tab page will be minimalistic with a light or dark mode.
+</p>
+<p>
+Rationale:<br/>
+&emsp; A minimalistic background will provide a clean and unobtrusive look for the extension, while the light/dark option will accentuate that look depending on which a user prefers. In addition, allowing users to choose between the two will allow for a simple binary choice and a clean canvas for those seeking more customization.
+  
+   if they rate the presentation on scale of 1 to 5, with 5 as most pleasing, it is 4 or above
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; The default background will be minimalistic, and there will be an option for light or dark mode in an options menu. Whether these backgrounds are suitable will be decided by survey. It will be accepted if surveyors, on a scale of 1 to 5, rate it a 4 on average.
+</p>
+<p>
+Priority: 1
+</p>
+<p>
+Dependencies: N/A (???)
+</p>
+
+----
+
+<p>
+ID Number: 10
+</p>
+<p>
+Type: Functional
+</p>
+<p>
+Description:<br/>
+&emsp; The extension will allow users to easily share Bible verses via social media.
+</p>
+<p>
+Rationale:<br/>
+&emsp; Sharing Bible verses is a common practice among Christians, and social media is a popular platform for doing so.
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; The user should be able to share a Bible verse to their social media account with a few clicks.
+</p>
+<p>
+Priority: 5
+</p>
+<p>
+Dependencies: 1 (???)
+</p>
+
+----
+
+<p>
+ID Number: 11
+</p>
+<p>
+Type: Performance
+</p>
+<p>
+Description:<br/>
+&emsp; The extension will load very quickly and not slow down the user's browsing experience.
+</p>
+<p>
+Rationale:<br/>
+&emsp; Users expect extensions to load quickly and not interfere with their browsing experience. 
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; The extension should load within 1 second of the user opening a new tab. (This is under the assumption that the user has selected an extremely high definition background.)
+</p>
+<p>
+Priority: 1
+</p>
+<p>
+Dependencies: 1 (???)
+</p>
+
+----
+
+<p>
+ID Number: 12
+</p>
+<p>
+Type: Usability
+</p>
+<p>
+Description:<br/>
+&emsp; The extension will have clear and easy-to-understand instructions for use.
+</p>
+<p>
+Rationale:<br/>
+&emsp; Users need clear instructions to make the most of the extension's features. This especially the case for users that may not be technically literate.
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; The instructions should be concise and easy to understand, with no technical jargon or assumed knowledge.
+</p>
+<p>
+Priority: 2
+</p>
+<p>
+Dependencies: 1 (???)
+</p>
+
+----
+
+<p>
+ID Number: 13
+</p>
+<p>
+Type: Performance
+</p>
+<p>
+Description:<br/>
+&emsp; The extension will be lightweight and not consume excessive system resources. 
+</p>
+<p>
+Rationale:<br/>
+&emsp; Users expect extensions to be lightweight and not consume too much memory or CPU resources. Google Chrome, even with a single tab open, consumes a large amount of memory. Making the extension casually useable is almost as important making it functional.
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; : The extension should consume less than 50 MB of memory and less than 0.3% of the CPU resources when in use. (???)
+</p>
+<p>
+Priority: 2
+</p>
+<p>
+Dependencies: 1 (???)
+</p>
+
+----
+
+<p>
+ID Number: 14
+</p>
+<p>
+Type: Functional
+</p>
+<p>
+Description:<br/>
+&emsp; The extension will allow users to easily share Bible verses via social media.
+</p>
+<p>
+Rationale:<br/>
+&emsp; Sharing Bible verses is a common practice among Christians, and social media is a popular platform for doing so.
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; The user should be able to share a Bible verse to their social media account with a few clicks.
+</p>
+<p>
+Priority: 5
+</p>
+<p>
+Dependencies: 1 (???)
+</p>
+
+----
+
+<p>
+ID Number: 10
+</p>
+<p>
+Type: Functional
+</p>
+<p>
+Description:<br/>
+&emsp; The extension will allow users to easily share Bible verses via social media.
+</p>
+<p>
+Rationale:<br/>
+&emsp; Sharing Bible verses is a common practice among Christians, and social media is a popular platform for doing so.
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; The user should be able to share a Bible verse to their social media account with a few clicks.
+</p>
+<p>
+Priority: 5
+</p>
+<p>
+Dependencies: 1 (???)
+</p>
+
+----
+
+<p>
+ID Number: 10
+</p>
+<p>
+Type: Functional
+</p>
+<p>
+Description:<br/>
+&emsp; The extension will allow users to easily share Bible verses via social media.
+</p>
+<p>
+Rationale:<br/>
+&emsp; Sharing Bible verses is a common practice among Christians, and social media is a popular platform for doing so.
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; The user should be able to share a Bible verse to their social media account with a few clicks.
+</p>
+<p>
+Priority: 5
+</p>
+<p>
+Dependencies: 1 (???)
+</p>
+
+----
+
+<p>
+ID Number: 10
+</p>
+<p>
+Type: Functional
+</p>
+<p>
+Description:<br/>
+&emsp; The extension will allow users to easily share Bible verses via social media.
+</p>
+<p>
+Rationale:<br/>
+&emsp; Sharing Bible verses is a common practice among Christians, and social media is a popular platform for doing so.
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; The user should be able to share a Bible verse to their social media account with a few clicks.
+</p>
+<p>
+Priority: 5
+</p>
+<p>
+Dependencies: 1 (???)
+</p>
+
+----
+
+<p>
+ID Number: 10
+</p>
+<p>
+Type: Functional
+</p>
+<p>
+Description:<br/>
+&emsp; The extension will allow users to easily share Bible verses via social media.
+</p>
+<p>
+Rationale:<br/>
+&emsp; Sharing Bible verses is a common practice among Christians, and social media is a popular platform for doing so.
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; The user should be able to share a Bible verse to their social media account with a few clicks.
+</p>
+<p>
+Priority: 5
+</p>
+<p>
+Dependencies: 1 (???)
+</p>
+
+----
+
+<p>
+ID Number: 10
+</p>
+<p>
+Type: Functional
+</p>
+<p>
+Description:<br/>
+&emsp; The extension will allow users to easily share Bible verses via social media.
+</p>
+<p>
+Rationale:<br/>
+&emsp; Sharing Bible verses is a common practice among Christians, and social media is a popular platform for doing so.
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; The user should be able to share a Bible verse to their social media account with a few clicks.
+</p>
+<p>
+Priority: 5
+</p>
+<p>
+Dependencies: 1 (???)
+</p>
+
+----
