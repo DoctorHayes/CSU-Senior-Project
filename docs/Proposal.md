@@ -77,8 +77,21 @@ Spring 2023 (remainder)
 Fall 2023
 - Test Plan Draft, Week 7
 - Final Test Plan, Week 10
+- Basic Plugin, Week 11
+- Basic New Tab UI, Week 11
+- Bible Verse Window, Week 11
+- Bible Gateway Connection, Week 11
 - Minimal Viable Product, Week 12
 
 Spring 2024
+- Basic Options Menu, Week 4
+- "Verse of the Day", Week 5
+- Verse Selector, Week 5
+- Bible Version Selector, Week 5
+- Light/Dark Modes, Week 6
+- Background Selector, Week 7
+- Font and Color Options, Week 7
+- Advanced UI Customization Options, Week 8
+- Testing and Optimizing, Week 9-10
 - Final Product with Documentation, Week 11
 - Final Defense Presentation, Week 12
