@@ -26,7 +26,7 @@ Fit Criterion:<br/>
 Priority: 1
 </p>
 <p>
-Dependencies: (#) (???)
+Dependencies: N/A
 </p>
 
 ----
@@ -39,11 +39,11 @@ Type: Functional
 </p>
 <p>
 Description:<br/>
-&emsp; The extension will allow users to choose their preferred browser for the search bar. 
+&emsp; The extension's search bar will sync with their default browser. 
 </p>
 <p>
 Rationale:<br/>
-&emsp; Users may prefer a different search engine, and giving them the option to choose their preferred search bar will increase the extension's appeal. In addition, not providing this feature would be a direct downgrade from the default browser. 
+&emsp; There are Google extensions that allow for the use of a different search engine while within Google Chrome (i.e. Duckduckgo). Maintaining this user preference will increase the extension's appeal. Not providing this feature would be a downgrade in the minds of a significant number of users. 
 </p>
 <p>
 Fit Criterion:<br/>
@@ -53,7 +53,7 @@ Fit Criterion:<br/>
 Priority: 2
 </p>
 <p>
-Dependencies: 1 (???)
+Dependencies: 1
 </p>
 
 ----
@@ -80,7 +80,7 @@ Fit Criterion:<br/>
 Priority: 1
 </p>
 <p>
-Dependencies: 1 (???)
+Dependencies: 1
 </p>
 
 ----
@@ -107,7 +107,7 @@ Fit Criterion:<br/>
 Priority: 1
 </p>
 <p>
-Dependencies: 1 (???)
+Dependencies: 1 
 </p>
 
 ----
@@ -134,7 +134,7 @@ Fit Criterion:<br/>
 Priority: 1
 </p>
 <p>
-Dependencies: 2 (???)
+Dependencies: 2 
 </p>
 
 ----
@@ -161,7 +161,7 @@ Fit Criterion:<br/>
 Priority: 1
 </p>
 <p>
-Dependencies: 1  (???)
+Dependencies: 1  
 </p>
 
 ----
@@ -188,7 +188,7 @@ Fit Criterion:<br/>
 Priority: 3
 </p>
 <p>
-Dependencies: 1  (???)
+Dependencies: 1  
 </p>
 
 ----
@@ -215,7 +215,7 @@ Fit Criterion:<br/>
 Priority: 2
 </p>
 <p>
-Dependencies: 1  (???)
+Dependencies: 1  
 </p>
 
 ----
@@ -244,7 +244,7 @@ Fit Criterion:<br/>
 Priority: 1
 </p>
 <p>
-Dependencies: N/A (???)
+Dependencies: N/A 
 </p>
 
 ----
@@ -271,7 +271,7 @@ Fit Criterion:<br/>
 Priority: 5
 </p>
 <p>
-Dependencies: 1 (???)
+Dependencies: 1 
 </p>
 
 ----
@@ -292,13 +292,13 @@ Rationale:<br/>
 </p>
 <p>
 Fit Criterion:<br/>
-&emsp; The extension should load within 1 second of the user opening a new tab. (This is under the assumption that the user has selected an extremely high definition background.)
+&emsp; The extension should load within 100 milliseconds (1/10 of a second) of the user opening a new tab. (This is under the assumption that the user has selected an extremely high definition background.)
 </p>
 <p>
 Priority: 1
 </p>
 <p>
-Dependencies: 1 (???)
+Dependencies: 1 
 </p>
 
 ----
@@ -325,7 +325,7 @@ Fit Criterion:<br/>
 Priority: 2
 </p>
 <p>
-Dependencies: 1 (???)
+Dependencies: 1 
 </p>
 
 ----
@@ -346,13 +346,13 @@ Rationale:<br/>
 </p>
 <p>
 Fit Criterion:<br/>
-&emsp; : The extension should consume less than 50 MB of memory and less than 0.3% of the CPU resources when in use. (???)
+&emsp; : The extension should consume less than 50 MB of memory and less than 0.3% of the CPU resources when in use. 
 </p>
 <p>
 Priority: 2
 </p>
 <p>
-Dependencies: 1 (???)
+Dependencies: 1 
 </p>
 
 ----
@@ -379,7 +379,7 @@ Fit Criterion:<br/>
 Priority: 3
 </p>
 <p>
-Dependencies: 1 (???)
+Dependencies: 1 
 </p>
 
 ----
@@ -406,7 +406,7 @@ Fit Criterion:<br/>
 Priority: 5
 </p>
 <p>
-Dependencies: 1 (???)
+Dependencies: 1 
 </p>
 
 ----
@@ -433,7 +433,7 @@ Fit Criterion:<br/>
 Priority: 2
 </p>
 <p>
-Dependencies: 1 (???)
+Dependencies: 1 
 </p>
 
 ----
@@ -460,7 +460,7 @@ Fit Criterion:<br/>
 Priority: 2
 </p>
 <p>
-Dependencies: 1 (???)
+Dependencies: 1 
 </p>
 
 ----
@@ -487,7 +487,7 @@ Fit Criterion:<br/>
 Priority: 4
 </p>
 <p>
-Dependencies: 1 (???)
+Dependencies: 1 
 </p>
 
 ----
@@ -514,7 +514,7 @@ Fit Criterion:<br/>
 Priority: 4
 </p>
 <p>
-Dependencies: 1 (???)
+Dependencies: 1 
 </p>
 
 ----
@@ -541,7 +541,7 @@ Fit Criterion:<br/>
 Priority: 2
 </p>
 <p>
-Dependencies: 1 (???)
+Dependencies: 1 
 </p>
 
 ----
@@ -568,7 +568,7 @@ Fit Criterion:<br/>
 Priority: 3
 </p>
 <p>
-Dependencies: N/A (???)
+Dependencies: N/A 
 </p>
 
 ----
@@ -595,7 +595,7 @@ Fit Criterion:<br/>
 Priority: 1
 </p>
 <p>
-Dependencies: 1 (???)
+Dependencies: 1 
 </p>
 
 ----
@@ -622,7 +622,7 @@ Fit Criterion:<br/>
 Priority: 3
 </p>
 <p>
-Dependencies: 1 (???)
+Dependencies: 1 
 </p>
 
 ----
@@ -649,7 +649,7 @@ Fit Criterion:<br/>
 Priority: 2
 </p>
 <p>
-Dependencies: 1 (???)
+Dependencies: 1 
 </p>
 
 ----
@@ -676,7 +676,7 @@ Fit Criterion:<br/>
 Priority: 4
 </p>
 <p>
-Dependencies: 1 (???)
+Dependencies: 1 
 </p>
 
 ----
@@ -703,7 +703,7 @@ Fit Criterion:<br/>
 Priority: 2
 </p>
 <p>
-Dependencies: 1 (???)
+Dependencies: 1 
 </p>
 
 ----
@@ -730,7 +730,7 @@ Fit Criterion:<br/>
 Priority: 2
 </p>
 <p>
-Dependencies: 1 (???)
+Dependencies: 1 
 </p>
 
 ----
@@ -757,7 +757,7 @@ Fit Criterion:<br/>
 Priority: 1
 </p>
 <p>
-Dependencies: 1 (???)
+Dependencies: 1 
 </p>
 
 ----
