@@ -1,7 +1,6 @@
 ### Requirements Document ###
 
-(20-50+ requirements)
-Priority Scale - 1 is the highest, 3 is the lowest. (???)
+Priority Scale - 1 is the highest, 5 is the lowest.
 
 ----
 
