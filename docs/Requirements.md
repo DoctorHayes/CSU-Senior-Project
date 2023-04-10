@@ -497,22 +497,22 @@ Dependencies: 1 (???)
 ID Number: 19
 </p>
 <p>
-Type: f
+Type: Usability - Personalization and Internalization
 </p>
 <p>
 Description:<br/>
-&emsp; f
+&emsp; The extension will allow users to select the preferred language for the Bible version and the interface in order to accommodate non-English speakers.
 </p>
 <p>
 Rationale:<br/>
-&emsp; f
+&emsp; Allowing users that speak other languages than English to receive God’s Word is important. However, I will focus more on the functionality, customization, and usability of the extension.
 </p>
 <p>
 Fit Criterion:<br/>
-&emsp; f
+&emsp; The extension will have at least five different languages available, and the language change will be seamless and immediate.
 </p>
 <p>
-Priority: f
+Priority: 4
 </p>
 <p>
 Dependencies: 1 (???)
@@ -524,22 +524,238 @@ Dependencies: 1 (???)
 ID Number: 20
 </p>
 <p>
-Type: f
+Type: Usability - Learning
 </p>
 <p>
 Description:<br/>
-&emsp; f
+&emsp; The extension will have an intuitive interface that allows new users to easily understand the customization options available.
 </p>
 <p>
 Rationale:<br/>
-&emsp; f
+&emsp; Users should not need to trudge through instructions in order to use the extension's basic features. This especially the case for users that may not be technically literate.
 </p>
 <p>
 Fit Criterion:<br/>
-&emsp; f
+&emsp; At least 80% of first-time users will customize the background image and Bible version without external help.
 </p>
 <p>
-Priority: f
+Priority: 2
+</p>
+<p>
+Dependencies: 1 (???)
+</p>
+
+----
+
+<p>
+ID Number: 21
+</p>
+<p>
+Type: Usability - Convenience
+</p>
+<p>
+Description:<br/>
+&emsp; The extension will have a simple and fast installation process that does not require excessive user input.
+</p>
+<p>
+Rationale:<br/>
+&emsp; Allowing for a smoother user experience should always be a goal. However, it should not be a goal beyond the functionality of the extension itself.
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; The installation process will take no more than two minutes and will require no more than five clicks from the user.
+</p>
+<p>
+Priority: 3
+</p>
+<p>
+Dependencies: N/A (???)
+</p>
+
+----
+
+<p>
+ID Number: 22
+</p>
+<p>
+Type: Performance – Precision/Accuracy
+</p>
+<p>
+Description:<br/>
+&emsp; The extension will retrieve and display the selected Bible verses without errors or inaccuracies.
+</p>
+<p>
+Rationale:<br/>
+&emsp; This is a goal of the extension’s essential function. It must be fulfilled without exception.
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; All retrieved Bible verses will match the user's selected version and will be displayed without errors or typos.
+</p>
+<p>
+Priority: 1
+</p>
+<p>
+Dependencies: 1 (???)
+</p>
+
+----
+
+<p>
+ID Number: 23
+</p>
+<p>
+Type: Performance - Reliability and Availability
+</p>
+<p>
+Description:<br/>
+&emsp; The extension will be available and functional on all devices running the Google Chrome browser.
+</p>
+<p>
+Rationale:<br/>
+&emsp; Users will not all be running the same version of Google Chrome. It only makes sense to accommodate for a decent range of users.
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; The extension will be tested and function correctly on all Google Chrome versions from the last three years on desktop and mobile devices.
+</p>
+<p>
+Priority: 3
+</p>
+<p>
+Dependencies: 1 (???)
+</p>
+
+----
+
+<p>
+ID Number: 24
+</p>
+<p>
+Type: Performance - Capacity
+</p>
+<p>
+Description:<br/>
+&emsp; The extension will be able to handle a large number of user-customized settings and preferences without slowing down the browser.
+</p>
+<p>
+Rationale:<br/>
+&emsp; As this extension is created for the sake of greater customization in Bible verse displays, it should be expected that some users will customize far more heavily than others. 
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; The extension will be tested with up to 50 different users with varying customizations, and the loading speed of the new tab will not exceed three seconds.
+</p>
+<p>
+Priority: 2
+</p>
+<p>
+Dependencies: 1 (???)
+</p>
+
+----
+
+<p>
+ID Number: 25
+</p>
+<p>
+Type: Performance – Scalability/Extensibility
+</p>
+<p>
+Description:<br/>
+&emsp; The extension will be designed to accommodate future updates and new features.
+</p>
+<p>
+Rationale:<br/>
+&emsp; All modern applications should expect to be updated in the future. Therefore, it should be built to do so from the beginning to allow for easier and faster updates for users.
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; The extension code will be organized and structured in a modular way that allows for easy modification and addition of new features.
+</p>
+<p>
+Priority: 4
+</p>
+<p>
+Dependencies: 1 (???)
+</p>
+
+----
+
+<p>
+ID Number: 26
+</p>
+<p>
+Type:	Performance – Longevity
+</p>
+<p>
+Description:<br/>
+&emsp; The extension will continue to function correctly and receive updates for at least two years after the initial release.
+</p>
+<p>
+Rationale:<br/>
+&emsp; All modern applications should expect to be updated in the future. It should certainly be expected that this will be the case.
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; The extension will be tested with each new Google Chrome version and updated accordingly for at least two years after the initial release.
+</p>
+<p>
+Priority: 2
+</p>
+<p>
+Dependencies: 1 (???)
+</p>
+
+----
+
+<p>
+ID Number: 27
+</p>
+<p>
+Type: Performance – Maintainability and Support
+</p>
+<p>
+Description:<br/>
+&emsp; The extension will be documented and maintained to allow for quick and easy bug fixes and support.
+</p>
+<p>
+Rationale:<br/>
+&emsp; Documentation is an essential part of programming, and it allows for an easier time for everyone in almost every respect. 
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; The extension will have a clear and comprehensive documentation file.
+</p>
+<p>
+Priority: 2
+</p>
+<p>
+Dependencies: 1 (???)
+</p>
+
+----
+
+<p>
+ID Number: 28
+</p>
+<p>
+Type: Security – Access/Privacy
+</p>
+<p>
+Description:<br/>
+&emsp; The extension will not obtain any location data, nor will it obtain any data regarding webpage access or browsing.
+</p>
+<p>
+Rationale:<br/>
+&emsp; Too many applications and extensions obtain data unnecessary to its functions, often to sell information for data. Not only would doing so be unethical, it would be un-Christian.
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; The extension will have no portion of the code regarding location or the webpages visited by users.
+</p>
+<p>
+Priority: 1
 </p>
 <p>
 Dependencies: 1 (???)
