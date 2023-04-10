@@ -1,6 +1,6 @@
 ### Requirements Document ###
 
-Priority Scale - 1 is the highest, 5 is the lowest.
+(Priority Scale - 1 is the highest, 5 is the lowest.)
 
 ----
 
