@@ -281,7 +281,7 @@ Dependencies: 1 (???)
 ID Number: 11
 </p>
 <p>
-Type: Performance
+Type: Performance - Speed and Latency
 </p>
 <p>
 Description:<br/>
@@ -308,7 +308,7 @@ Dependencies: 1 (???)
 ID Number: 12
 </p>
 <p>
-Type: Usability
+Type: Usability - Ease of Use
 </p>
 <p>
 Description:<br/>
@@ -335,7 +335,7 @@ Dependencies: 1 (???)
 ID Number: 13
 </p>
 <p>
-Type: Performance
+Type: Performance - Reliability and Availability
 </p>
 <p>
 Description:<br/>
@@ -416,7 +416,7 @@ Dependencies: 1 (???)
 ID Number: 16
 </p>
 <p>
-Type: Performance
+Type: Performance - Robustness
 </p>
 <p>
 Description:<br/>
@@ -494,25 +494,52 @@ Dependencies: 1 (???)
 ----
 
 <p>
-ID Number: 10
+ID Number: 19
 </p>
 <p>
-Type: Functional
+Type: f
 </p>
 <p>
 Description:<br/>
-&emsp; The extension will allow users to easily share Bible verses via social media.
+&emsp; f
 </p>
 <p>
 Rationale:<br/>
-&emsp; Sharing Bible verses is a common practice among Christians, and social media is a popular platform for doing so.
+&emsp; f
 </p>
 <p>
 Fit Criterion:<br/>
-&emsp; The user should be able to share a Bible verse to their social media account with a few clicks.
+&emsp; f
 </p>
 <p>
-Priority: 5
+Priority: f
+</p>
+<p>
+Dependencies: 1 (???)
+</p>
+
+----
+
+<p>
+ID Number: 20
+</p>
+<p>
+Type: f
+</p>
+<p>
+Description:<br/>
+&emsp; f
+</p>
+<p>
+Rationale:<br/>
+&emsp; f
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; f
+</p>
+<p>
+Priority: f
 </p>
 <p>
 Dependencies: 1 (???)
