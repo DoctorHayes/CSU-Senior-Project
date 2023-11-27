@@ -1,0 +1,37 @@
+{
+    "manifest_version": 3,
+    "name": "BibleTab Sculptor",
+    "version": "1.0",
+    "description": "A highly customizable Bible verse reader that appears on and replaces the new tabs.",
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    },
+    "icons": {
+        "128": "assets/icon128.png",
+        "48": "assets/icon48.png",
+        "16": "assets/icon16.png"
+    },
+    "action": {
+        "default_icon": "assets/icon16.png",
+        "default_popup": "settings.html"
+    },
+    "host_permissions": [
+        "https://www.biblegateway.com/*",
+        "https://fonts.googleapis.com/*"
+    ],
+    "permissions": [
+        "storage",
+        "activeTab",
+        "tabs"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.biblegateway.com/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Bible Verse New Tab</title>
+</head>
+
+<body>
+    <div class="toggle-btn hide-left-300" id="toggle-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <form id="settings_form">
+        <div id="sidebar">
+            <!-- <div class="toggle-btn hide-left-300">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div> -->
+
+            <!-- <button id="closeSidebar">Close</button> -->
+
+            <h1>Settings</h1>
+
+            <h2>Basic</h2>
+            <div>
+                <h3>Bible Settings</h3>
+                <label for="bibleLang">Bible Language:</label>
+                <select id="bibleLang" name="bibleLanguage">
+                    <option value="">select an option</option>
+                    <option value="en">en</option>
+                    <option value="fr">fr</option>
+                    <option value="prt">prt</option>
+                </select>
+                <br />
+                <label for="bibleVersion">Bible Version:</label>
+                <select id="bibleVersion" name="bibleVersion">
+                    <option>select a version</option>
+                    <option value="niv">niv</option>
+                    <option value="kjv">kjv</option>
+                </select>
+            </div>
+            <div>
+                <h3>Visual</h3>
+                <label for="theme">Theme:</label>
+                <select id="theme" name="theme">
+                    <option value="light">Light Mode</option>
+                    <option value="dark">Dark Mode</option>
+                    <option value="book">Book Style (tbd)</option>
+                    <option value="user">User-chosen Settings (???)</option>
+                </select>
+                <label>(Themes override specific color choices)</label>
+            </div>
+
+            <br />
+            <!--ADD ALL BELOW INTO SETTINGS SYNC-->
+
+            <h2>Advanced</h2>
+            <div>
+                <label for="imgbg_img">Use image</label>
+                <input type="radio" name="usingImgBg" id="imgbg_img" value="using_img">
+                <label for="imgbg_color">Use color</label>
+                <input type="radio" name="usingImgBg" id="imgbg_color" value="using_color">
+                <h3>Main Background</h3>
+                <label for="backgroundColor">Color:</label>
+                <input type="color" name="backgroundColor" id="backgroundColor">
+                <br />
+
+                <label for="backgroundImage">Images:</label>
+                <select name="backgroundImage" id="backgroundImage">
+                    <option value="url(../assets/backgrounds/default1.jpg)">Default Option 1</option>
+                    <option value="url(../assets/backgrounds/default2.jpg)">Default Option 2</option>
+                    <option value="url(../assets/backgrounds/default3.jpg)">Default Option 3</option>
+                    <option value="custom">Custom Upload</option>
+                </select>
+
+
+                <label for="backgroundOptions">(image, gif, or video)</label>
+                <div id="backgroundPreview"></div> <!--NF, only appear when Custom Upload chosen - use JS-->
+                <input type="file" id="backgroundInput" style="display: none;" accept="image/*,video*" />
+                <label>(NF, only appear when Custom Upload chosen - use JS)</label>
+                <br /><br />
+                <label>(^^ color picker, image pick (among defaults?), image upload, gif upload?, mp4 upload?)</label>
+            </div>
+
+            <div>
+                <h3>Verse Window</h3>
+
+                <label for="window-position">Position:</label>
+                <select name="windowPosition" id="windowPosition">
+                    <option value="center">Center (default)</option>
+                    <option value="center-left">Center-Left</option>
+                    <option value="center-right">Center-Right</option>
+                    <option value="top-left">Top-Left</option>
+                    <option value="top-mid">Top-Middle</option>
+                    <option value="top-right">Top-Right</option>
+                    <option value="bottom-left">Bottom-Left</option>
+                    <option value="bottom-mid">Bottom-Middle</option>
+                    <option value="bottom-right">Bottom-Right</option>
+                </select>
+
+                <br />
+                <label for="window-size">Size: (NF???)</label>
+                <label>(implement user free-movement of window to position AND resize later???)</label>
+                <br /><br />
+                <label for="window-color">Color:</label>
+                <input type="color" name="window-color" id="window-color">
+                <br />
+                <label for="windowOptions">Images:</label>
+                <select>
+                    <option value="default1">Default Image 1</option>
+                    <option value="default2">Default Image 2</option>
+                    <option value="default3">Default Image 3</option>
+                    <option value="custom">Custom Upload</option>
+                </select>
+                <label for="windowOptions">(image, gif, or video)</label>
+                <div id="windowPreview"></div> <!--NF, only appear when Custom Upload chosen - use JS-->
+                <input type="file" id="windowInput" style="display: none;" accept="image/*,video*" />
+                <label>(NF, only appear when Custom Upload chosen - use JS)</label>
+
+                <br /><br />
+                <label for="window-opacity">Opacity: (NF??? slider)</label>
+                <br /><br />
+                <label for="window-shadow">Shadow: (NF???)</label>
+            </div>
+
+            <div>
+                <h3>Verse Window Border</h3>
+
+                <label for="border-size">Size/Thickness: (NF???)</label>
+                <br /><br />
+                <label for="border-color">Color:</label>
+                <input type="color" name="border-color" id="border-color">
+                <br /><br />
+                <label for="border-opacity">Opacity: (NF??? slider)</label>
+
+
+                <br /><br />
+                <label>(^^ positioning, size, background (color picker, image pick (among defaults?), image upload, gif
+                    upload?, mp4 upload?), opacity slider, border (appear/not, thickness, opacity slider, color picker,
+                    shadow) )</label>
+            </div>
+
+            <div>
+                <h3>Verse Header Text</h3>
+                <label for="header-font">Font: (NF???)</label>
+                <br /><br />
+                <label for="header-size">Size: (NF???)</label>
+                <br /><br />
+                <label for="header-color">Color:</label>
+                <input type="color" name="header-color" id="header-color">
+
+                <br /><br />
+                <label>(^^ appear/not???, font, size, color picker)</label>
+            </div>
+
+            <div>
+                <h3>Verse Text</h3>
+                <label for="verse-font">Font: (NF???)</label>
+                <br /><br />
+                <label for="verse-size">Size: (NF???)</label>
+                <br /><br />
+                <label for="verse-color">Color:</label>
+                <input type="color" name="verse-color" id="verse-color">
+
+                <br /><br />
+                <label>(^^font, size, color picker)</label>
+            </div>
+
+            <div>
+                <h3>(Settings Page settings???)</h3>
+                <label>(default- match theme, location on page?, need custom text settings here too? (font, size, color
+                    picker?) )</label>
+            </div>
+
+            <br /><br />
+
+            <div>
+                <button id="save">Save Settings</button>
+                <br />
+                <label for="load">Load Settings:</label>
+                <select id="load">
+                    (idea was to have user-saved presets here, is saving pointless now???)
+                    (how would we reset to defaults if default is changed when settings change???)
+                </select>
+                <label for="???">(idea was to have user-saved presets here, is saving pointless now???)
+                    (how would we reset to defaults if default is changed when settings change???)</label>
+            </div>
+
+            <br /><br />
+        </div>
+    </form>
+
+    <script src="newtab.js"></script>
+
+    <div class="container">
+        <h2>Verse of the Day</h2>
+        <div id="votdContainer">
+            <!--VOTD here-->
+            <script src="popup.js"></script>
+        </div>
+    </div>
+
+    <!--here for css testing purposes-->
+    <!-- <h2 id="greet">Hello World!</h2> -->
+</body>
+
+</html>
