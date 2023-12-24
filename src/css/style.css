@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: no-repeat center center fixed;
+    background-color: #f4f4f4; /* Optional background color */
+    /* background-image: url(../assets/backgrounds/default1.jpg) ;  Optional background image */
+    background-size: cover;
+}
+
+.using_color {
+    background-image: unset;
+    background-color: var(--bg-color,#ffff);
+}
+
+.using_img {
+    background-color:unset;
+    background-image: var(--bg-image, url(../assets/backgrounds/default1.jpg))
+}
+/**/
+.using_colorw > .container {
+    background-image: unset;
+    /* background-color: var(--win-color,#ffff); */
+    /* background-color: rgba(255, 0, 0, var(--win-opacity)); */
+    /* background-color: rgba(var(--win-color), var(--win-opacity)); */
+}
+
+.using_imgw > .container::before {
+    background-color:unset;
+    background-image: var(--win-image, url(../assets/backgrounds/default4.jpg));
+}
+
+/*--------------------------------------------------------------------*/
+
+.container {
+    text-align: center;
+    padding: 20px; /*expect this to stay the same*/
+    border: var(--b-size) solid;
+    border-color: var(--b-color-rgba); /*breakthrough - color now includes opacity settings*/
+    /* border-color: var(--b-color); */
+    border-radius: var(--b-radius);
+    /* border-radius: 10px; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /*location dependent on margins - 200 from all sides is around center*/
+    margin: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    overflow: hidden;
+
+    /* background-color: rgba(255, 0, 0, ); */
+    /* opacity: var(--win-opacity); */
+
+    /*CONSIDER ADDING ADDITIONAL COLOR SETTING - FOR LOWER OPACITIES???*/
+}
+
+.container::before {
+    content: '';
+    background: no-repeat center center fixed;
+    background-size:cover;
+    /* background-image: var(--win-image); */
+    position: absolute;
+    inset: 0;
+    /* border-radius: 10px; */
+    border-radius: calc(var(--b-size) - var(--b-radius));
+    opacity: var(--win-opacity);
+    background-color: var(--win-color);
+    z-index: -1;
+}
+
+
+
+
+.container h2 {
+    /* size: var();*/
+    color: var(--h-color);
+    margin-top: 0px;
+    border-bottom: 2px solid;
+    border-bottom-color: var(--hul-color-rgba);
+    /* border-bottom: 0px;*/
+    padding-bottom: 5px;
+    isolation: isolate;
+}
+/*MAJOR NF??? - toggle header to display or not*/
+/* #container.toggle-header #header {
+    display: none; 
+}
+.container #header {
+    /* size: var();
+    color: var(--h-color-rgba);
+    margin-top: 0px;
+    border-bottom: 2px solid;
+    border-bottom-color: var(--hul-color-rgba);
+    /* border-bottom: 0px;
+    padding-bottom: 5px;
+    isolation: isolate;
+} */
+
+
+/*text style within VOTD container (?)*/
+#votdContainer {
+    isolation: isolate;
+    /**/
+    color: var(--v-color);
+    /* text-shadow: 0 0 2px rgba(255, 255, 255, 0.8); */
+}
+
+#votdContainer a {
+    text-decoration: underline;
+}
+
+#votdContainer a, a:visited {
+    color: var(--v-color);
+}
+
+/*FIND A BETTER WAY (???)*/
+#votdContainer a:hover {
+    text-decoration: none;
+}
+
+/*--------------------------------------------------------------------*/
+
+/*#sidebar*/ .toggle-btn {
+    position: absolute;
+    top: 20px;
+    /* left: 320px; */
+    left: 20px;
+    background-color: #fff;
+    opacity: .5;
+    z-index: 1000;
+    transition: left 0.3s ease; /* Add smooth transition effect */
+}
+
+.toggle-btn span {
+    width: 30px;
+    height: 4px;
+    background-color: #000;
+    display: block;
+    margin-top: 4px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 4px;
+}
+
+.toggle-btn {
+    cursor: pointer;
+}
+
+/*----------------------------------*/
+
+.toggle-btn.show-left-300 {
+    left: 320px;
+}
+
+#sidebar.show-left-300 {
+    left: 0px;
+}
+
+/*----------------------------------*/
+
+/* #closeSidebar {
+    margin-bottom: -20px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+} */
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: -300px; /*Move the sidebar off-screen initially*/
+    /* left: 0px; */
+    height: 100vh;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: left 0.3s ease; /* Add smooth transition effect */
+    overflow-y: auto;
+}
+
+#sidebar {
+    margin-right: 5px;
+}
+
+#sidebar h1 {
+    border-bottom: 3px solid #ddd;
+    padding-bottom: 5px;
+}
+
+#sidebar h2 {
+    border-bottom: 2px solid #ddd; 
+    padding-bottom: 5px; 
+}
+
+#sidebar h1, h2 {
+    margin-left: 5px;
+}
+
+#sidebar h3, label, select {
+    margin-left: 10px;
+    display: block;
+}
+
+#sidebar h3 {
+    margin-bottom: 5px;
+}
+
+#sidebar button {
+    margin-left: 10px;
+}
+
+/*choices and their selectors side-by-side or separated? still trying to decide...*/
+#sidebar label, input {
+    display:inline-block;
+}

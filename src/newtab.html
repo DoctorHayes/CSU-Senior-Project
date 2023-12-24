@@ -68,7 +68,7 @@
                 <input type="radio" name="usingImgBg" id="imgbg_color" value="using_color">
                 <h3>Main Background</h3>
                 <label for="backgroundColor">Color:</label>
-                <input type="color" name="backgroundColor" id="backgroundColor">
+                <input type="color" name="backgroundColor" id="backgroundColor" value="#ffffff">
                 <br />
 
                 <label for="backgroundImage">Images:</label>
@@ -76,7 +76,7 @@
                     <option value="url(../assets/backgrounds/default1.jpg)">Default Option 1</option>
                     <option value="url(../assets/backgrounds/default2.jpg)">Default Option 2</option>
                     <option value="url(../assets/backgrounds/default3.jpg)">Default Option 3</option>
-                    <option value="custom">Custom Upload</option>
+                    <option value="url(../assets/backgrounds/default10.jpg)">Default Option 4</option>
                 </select>
 
 
@@ -91,7 +91,7 @@
             <div>
                 <h3>Verse Window</h3>
 
-                <label for="window-position">Position:</label>
+                <label for="windowPosition">Position:</label>
                 <select name="windowPosition" id="windowPosition">
                     <option value="center">Center (default)</option>
                     <option value="center-left">Center-Left</option>
@@ -108,23 +108,31 @@
                 <label for="window-size">Size: (NF???)</label>
                 <label>(implement user free-movement of window to position AND resize later???)</label>
                 <br /><br />
-                <label for="window-color">Color:</label>
-                <input type="color" name="window-color" id="window-color">
+
+                <label for="imgwin_img">Use image</label>
+                <input type="radio" name="usingImgWin" id="imgwin_img" value="using_imgw">
+                <label for="imgwin_color">Use color</label>
+                <input type="radio" name="usingImgWin" id="imgwin_color" value="using_colorw">
+                <br/><br/>
+                <label for="windowColor">Color:</label>
+                <input type="color" name="windowColor" id="windowColor" value="#ffffff">
                 <br />
-                <label for="windowOptions">Images:</label>
-                <select>
-                    <option value="default1">Default Image 1</option>
-                    <option value="default2">Default Image 2</option>
-                    <option value="default3">Default Image 3</option>
-                    <option value="custom">Custom Upload</option>
+                <label for="windowImage">Images:</label>
+                <select name="windowImage" id="windowImage"> <!--REPLACE WITH VIABLE-->
+                    <option value="url(../assets/backgrounds/default8.jpg)">Default Image 1</option>
+                    <option value="url(../assets/backgrounds/default4.jpg)">Default Image 2</option>
+                    <option value="url(../assets/backgrounds/default6.jpg)">Default Image 3</option>
                 </select>
+
+
                 <label for="windowOptions">(image, gif, or video)</label>
                 <div id="windowPreview"></div> <!--NF, only appear when Custom Upload chosen - use JS-->
                 <input type="file" id="windowInput" style="display: none;" accept="image/*,video*" />
                 <label>(NF, only appear when Custom Upload chosen - use JS)</label>
 
                 <br /><br />
-                <label for="window-opacity">Opacity: (NF??? slider)</label>
+                <label for="windowOpacity">Opacity:</label>
+                <input type="range" name="windowOpacity" id="windowOpacity" min="0" max="1" step=".01" value="win_opacity">
                 <br /><br />
                 <label for="window-shadow">Shadow: (NF???)</label>
             </div>
@@ -132,13 +140,14 @@
             <div>
                 <h3>Verse Window Border</h3>
 
-                <label for="border-size">Size/Thickness: (NF???)</label>
+                <label for="borderSize">Size/Thickness: (NF???)</label>
+                <input type="range" name="borderSize" id="borderSize" min="0" max="10" step=".1" value="b_size">
                 <br /><br />
-                <label for="border-color">Color:</label>
-                <input type="color" name="border-color" id="border-color">
+                <label for="borderColor">Color:</label>
+                <input type="color" name="borderColor" id="borderColor" value="#ffffff">
                 <br /><br />
-                <label for="border-opacity">Opacity: (NF??? slider)</label>
-
+                <label for="borderOpacity">Opacity:</label>
+                <input type="range" name="borderOpacity" id="borderOpacity" min="0" max="1" step=".01" value="b_opacity">
 
                 <br /><br />
                 <label>(^^ positioning, size, background (color picker, image pick (among defaults?), image upload, gif
@@ -147,16 +156,28 @@
             </div>
 
             <div>
+                <h3>Verse Header Underline</h3>
+                <label for="headUnderlineColor">Color:</label>
+                <input type="color" name="headUnderlineColor" id="headUnderlineColor" value="#ffffff">
+                <br/><br/>
+                <label for="headUnderlineOpacity">Opacity:</label>
+                <input type="range" name="headUnderlineOpacity" id="headUnderlineOpacity" min="0" max="1" step=".01" value="hul_opacity">
+            </div>
+
+            <div>
                 <h3>Verse Header Text</h3>
+                <label for="headerToggle">Show/Hide (MAJOR NF???)</label>
+                <input type="checkbox" name="headerToggle" id="headerToggle" value="1">
+                <br/><br/>
                 <label for="header-font">Font: (NF???)</label>
                 <br /><br />
                 <label for="header-size">Size: (NF???)</label>
                 <br /><br />
-                <label for="header-color">Color:</label>
-                <input type="color" name="header-color" id="header-color">
+                <label for="headerColor">Color:</label>
+                <input type="color" name="headerColor" id="headerColor" value="#ffffff">
 
                 <br /><br />
-                <label>(^^ appear/not???, font, size, color picker)</label>
+                <label>(^^ appear/not???, font, size, color picker, highlight/shadow???)</label>
             </div>
 
             <div>
@@ -165,11 +186,11 @@
                 <br /><br />
                 <label for="verse-size">Size: (NF???)</label>
                 <br /><br />
-                <label for="verse-color">Color:</label>
-                <input type="color" name="verse-color" id="verse-color">
+                <label for="verseColor">Color:</label>
+                <input type="color" name="verseColor" id="verseColor" value="#ffffff">
 
                 <br /><br />
-                <label>(^^font, size, color picker)</label>
+                <label>(^^font, size, color picker, highlight/shadow???)</label>
             </div>
 
             <div>
@@ -199,11 +220,14 @@
     <script src="newtab.js"></script>
 
     <div class="container">
-        <h2>Verse of the Day</h2>
+        <!-- <div class="w-op"></div> -->
+        <h2 id="header">Verse of the Day</h2>
+        <!-- <h4> -->
         <div id="votdContainer">
             <!--VOTD here-->
             <script src="popup.js"></script>
         </div>
+        <!-- </h4> -->
     </div>
 
     <!--here for css testing purposes-->

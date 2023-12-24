@@ -34,10 +34,28 @@ const DEFAULT_SETTINGS = {
     theme: 'light',
     bibleVersion: 'niv',
     bibleLanguage: 'en',
-    backgroundColor: 'gray',
+    backgroundColor: '#D1CCCC',
     backgroundImage: "url(../assets/backgrounds/default1.jpg)",
     windowPosition: 'center',
-    usingImgBg: 'using_img'
+    usingImgBg: 'using_img',
+    //
+    windowColor: '#FFFFFF',
+    windowImage: "url(../assets/backgrounds/default4.jpg)",
+    usingImgWin: 'using_colorw',
+    //
+    windowOpacity: '1',
+    borderColor: '#DDDDDD',
+    borderOpacity: '1',
+    //
+    headUnderlineColor: '#DDDDDD',
+    headUnderlineOpacity: '1',
+    //
+    // headerToggle: 'true', // checkboxes don't work this way (?)
+    //
+    headerColor: '#333333',
+    verseColor: '#001824',
+    //
+    borderSize: '2'
     // ADD THE REST HERE
 }
 
@@ -177,9 +195,76 @@ function initializeSettingsForm(/** @type {typeof DEFAULT_SETTINGS} */ settings,
     document.body.style.setProperty('--bg-image', settings.backgroundImage)
     document.body.style.setProperty('--bg-color', settings.backgroundColor)
     document.body.classList.add(settings.usingImgBg)
+    //
+    document.querySelector('#windowColor').value = settings.windowColor
+    document.querySelector('#windowImage').value = settings.windowImage 
+    document.querySelectorAll('input[name=usingImgWin]').forEach(inp => inp.removeAttribute('checked'))
+    document.querySelector(`input[name=usingImgWin][value=${settings.usingImgWin}]`).setAttribute('checked', '') 
+    document.body.classList.remove('using_imgw', 'using_colorw')
+    document.body.style.setProperty('--win-image', settings.windowImage)
+    document.body.style.setProperty('--win-color', settings.windowColor)
+    document.body.classList.add(settings.usingImgWin)  
+    //
+    document.querySelector('#windowOpacity').value = settings.windowOpacity
+    document.body.style.setProperty('--win-opacity', settings.windowOpacity)
+    document.body.classList.add(settings.windowOpacity)
+
+    document.querySelector('#borderColor').value = settings.borderColor
+    // document.body.style.setProperty('--b-color', settings.borderColor)
+    // document.body.classList.add(settings.borderColor)
+
+    document.querySelector('#borderOpacity').value = settings.borderOpacity
+    // document.body.style.setProperty('--b-opacity', settings.borderOpacity) // space saved
+    // document.body.classList.add(settings.borderOpacity)
+
+    /*TEST 2 - combine color and opacity*/ 
+    document.body.style.setProperty('--b-color-rgba', hexToRGB(settings.borderColor, settings.borderOpacity));
+    //
+    /*waste of space bc doesn't address image opacity - needs div to do so*/
+    // document.body.style.setProperty('--win-color-rgba', hexToRGB(settings.windowColor, settings.windowOpacity));
+    //
+
+    document.querySelector('#headUnderlineColor').value = settings.headUnderlineColor
+    document.querySelector('#headUnderlineOpacity').value = settings.headUnderlineOpacity  
+    document.body.style.setProperty('--hul-color-rgba', hexToRGB(settings.headUnderlineColor, settings.headUnderlineOpacity));   
+    //
+
+    /* MAJOR NF - NEED HELP TO FIGURE OUT*/
+    /*document.querySelector('#headerToggle').value = settings.headerToggle
+    document.querySelector('.container').classList.toggle('toggle-header', document.querySelector('#headerToggle').checked);
+
+    // // document.getElementById("headerToggle").innerHTML = "" // consider show/hide text change if better
+    console.log(document.querySelector('#headerToggle').checked);
+    // console.log(+ document.querySelector('#headerToggle').checked);
+    // console.log(settings.headerToggle);
+    console.log(document.querySelector('.container').classList.toggle('toggle-header', document.querySelector('#headerToggle').checked));
+    */
+
+
+    document.querySelector('#headerColor').value = settings.headerColor
+    document.body.style.setProperty('--h-color', settings.headerColor)
+    // document.body.style.setProperty('--h-color-rgba', hexToRGB(settings.headerColor, + document.querySelector('#headerToggle').checked))
+    document.querySelector('#verseColor').value = settings.verseColor
+    document.body.style.setProperty('--v-color', settings.verseColor)
+    // document.body.style.setProperty('--vlink-color', settings.verseColor)
+    //
+
+    document.querySelector('#borderSize').value = settings.borderSize
+    document.body.style.setProperty('--b-size', settings.borderSize + 'px')
+    console.log(settings.borderSize);
+    document.body.style.setProperty('--b-radius', settings.borderSize*2 + 'px')
+
 
     // ADD THE REST HERE
+}
 
+/*TEST HEX -> RGB*/
+function hexToRGB(hex, alpha) {
+    const bigint = parseInt(hex.slice(1), 16);
+    const r = (bigint >> 16) & 255;
+    const g = (bigint >> 8) & 255;
+    const b = bigint & 255;
+    return `rgba(${r}, ${g}, ${b}, ${alpha})`;
 }
 
 async function initializeApp() {
