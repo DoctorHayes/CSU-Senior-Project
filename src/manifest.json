@@ -12,8 +12,7 @@
         "16": "assets/icon16.png"
     },
     "action": {
-        "default_icon": "assets/icon16.png",
-        "default_popup": "settings.html"
+        "default_icon": "assets/icon16.png"
     },
     "host_permissions": [
         "https://www.biblegateway.com/*",
@@ -30,7 +29,7 @@
                 "https://www.biblegateway.com/*"
             ],
             "js": [
-                "content.js"
+                "newtab.js"
             ]
         }
     ]
