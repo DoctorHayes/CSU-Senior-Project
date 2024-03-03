@@ -9,7 +9,7 @@
 - Bible Version (and Language)
 - Light Mode, Dark Mode, or User Mode (free choice)
 - Background Image or Color
-- - (default images limited, user image uploading will be the next feature!)
+  - (default images limited, user image uploading will be the next feature!)
 - Verse Window Background Image or Color
 - Verse Window Background Opacity
 - Verse Window Position and Width
@@ -25,7 +25,6 @@
 - Return to Defaults
 
 ## How to Add to Chrome for Yourself
-<p>
   All you need to do in order to use this for yourself - independent from the Chrome Web Store - is to:
   1) On the right side above all the folders, press the green "<> Code" button.
   2) Go to the bottom of the drop-down and press "Download ZIP". This will download the entire contents of the folder as a ZIP archive to your computer.
@@ -35,7 +34,6 @@
   6) Around the middle of the drop-down, press "Extensions" and "Manage Extensions"
   7) At the top-right of this new page, click the "Developer Mode" button. This will allow you to use locally stored code to act as an extension and affect your Chrome browser.
   8) Finally, you click the "Load Unpacked" button, navigate to where you saved, and open it **within** the "src" folder. There you have it!
-</p>
 
 ## Feedback
 Of course, feel free to provide any feedback about the extension by opening an issue on GitHub (which can be done at the very top of the page, labelled "Issues"). This is extension's ultimate purpose is to help users choose their own experience that best helps them focus on Christ and His Word, so your input is appreciated! 
