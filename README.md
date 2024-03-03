@@ -9,7 +9,7 @@
 - Bible Version (and Language)
 - Light Mode, Dark Mode, or User Mode (free choice)
 - Background Image or Color
-  - (default images limited, user image uploading will be the next feature!)
+  - (default images limited, user image uploading will be the next major update!)
 - Verse Window Background Image or Color
 - Verse Window Background Opacity
 - Verse Window Position and Width
@@ -36,4 +36,4 @@
   8) Finally, you click the "Load Unpacked" button, navigate to where you saved, and open it **within** the "src" folder. There you have it!
 
 ## Feedback
-Of course, feel free to provide any feedback about the extension by opening an issue on GitHub (which can be done at the very top of the page, labelled "Issues"). This is extension's ultimate purpose is to help users choose their own experience that best helps them focus on Christ and His Word, so your input is appreciated! 
+Of course, feel free to provide any feedback about the extension by opening an issue on GitHub (which can be done at the very top of the page, labeled "Issues"). The ultimate purpose of this extension is to help users choose their own experience that best helps them focus on Christ and His Word, so your input is appreciated! 
