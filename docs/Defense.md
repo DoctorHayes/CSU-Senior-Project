@@ -1,8 +1,8 @@
 # Bible Verse Vista - Defense Documentation
+===============
 Bryce Furrow
 Computer Science and Cybersecurity
 Dr. Sean Hayes
-===============
 ## Table of Contents
 - [1 - Statement of Purpose](#section-1)
   - [1.1 - Problem Statement](#subsection-11)
