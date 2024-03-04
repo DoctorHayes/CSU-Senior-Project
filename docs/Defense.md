@@ -1,4 +1,4 @@
-# Bible Verse Vista - Defense Documentation
+Bible Verse Vista - Defense Documentation
 ===============
 Bryce Furrow
 Computer Science and Cybersecurity
