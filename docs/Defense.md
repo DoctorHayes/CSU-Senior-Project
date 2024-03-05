@@ -53,7 +53,7 @@ Bible Verse Vista - Defense Documentation
 (???)
 ### 1.1 - Problem Statement <!--{#section-11}-->
 Today, Christians have the opportunity to deliver the Word in a more effective, convenient, and personalized way with modern technologies, such as Google Chrome extensions. However, the majority of existing Bible verse extensions often fall short of expectations due to outdated browsers, generic backgrounds, lack of Biblical versions, and lack of customization options. This ultimately results in a clunky and unsatisfactory user experience. The key solution to this issue is to provide users with greater customizability in a variety of fields. Doing this will give Christians a more satisfying and immersive experience with Scripture, resulting in better engagement and understanding overall. This project seeks to create a superior Bible verse extension for Google Chrome, allowing fellow Christians to move forward with modern opportunities to spread the Word effectively.
-<br/>
+<br/><br/>
 
 ## 2 - Research and Background <!--{#section-2}-->
 (???)
@@ -834,7 +834,7 @@ Dependencies: 1
 </p>
 
 ----
-<br/><br/>
+<br/>
 
 ## 5 - Project Implementation <!--{#section-5}-->
 (???)
@@ -847,8 +847,17 @@ Dependencies: 1
 ## 6 - Test Plan <!--{#section-6}-->
 ### 6.1 - Introduction <!--{#section-61}-->
 #### 6.1.1 - Project Overview <!--{#section-611}-->
+This document outlines the testing strategy and approach for the development of this Google Chrome extension that creates highly customizable new tabs to display Bible verses. While a number of extensions exist that display verses on new tabs, many are extremely bland and static, lacking any customization options. This extension aims to create a more effective, convenient, and personalized way to deliver the Word to any user.
 #### 6.1.2 - Goals/Objectives <!--{#section-612}-->
+- Validate the functionality and customization options of the Bible verses and the New Tab for the extension
+- Ensure extension compatibility within the Chrome browser framework
+- Ensure that the extension and its customization is satisfying and easy-to-use, receiving feedback from a variety of users
+- Measure and minimize load for best performance – stability even with a large number of new tabs
 #### 6.1.3 - Constraints <!--{#section-613}-->
+-	There was a limited time to work before milestones and due dates, including the final submission.
+-	This was a one-man project – I am the only developer and test manager.
+-	I have had multiple ongoing courses with weekly projects of their own, which required split attention with this project.
+-	Due to critical issues regarding my usual workspace, I had to work within a limited environment on another laptop. This negatively affected the development and testing time. Thankfully, this would soon even out as the system become more aclimated to my workload.
 ### 6.2 - References <!--{#section-62}-->
 #### 6.2.1 - Project Proposal <!--{#section-621}-->
 (???)
@@ -856,20 +865,67 @@ Dependencies: 1
 (???)
 ### 6.3 - Testing Strategy <!--{#section-63}-->
 #### 6.3.1 - Test Items <!--{#section-631}-->
+- Bible Verse Vista v1.0.0.0
+- Google Chrome v122.0.6261.95 (latest version)
+- User questionnaire (UAT)
 #### 6.3.2 - Test Features <!--{#section-632}-->
+(???)
 #### 6.3.3 - Test Approach <!--{#section-633}-->
+-	My overall approach to testing was primarily manual testing. The presets, user settings, and the Bible Gateway sync were easy to test. The many other customization features were testing extremes, many of which were often be implemented on purpose and allowed for the sake of user customization. (Regardless of aesthetic appeal or “normal” sensibility – user choice is the priority.)
+  -	As the sole developer, all the extensive testing performed by myself was white box testing.
+  -	As for anyone else tested, they performed black box testing. This approximated how users would receive it from the Chrome Web Store, testing whether the extension itself was intuitive enough to use effectively.
+-	There was no plan for automatic testing.
+-	The types of tests that were performed are unit tests, integration tests, system tests, and user acceptance tests (UATs).
 ##### 6.3.3.1 - System Test <!--{#section-6331}-->
+-	This testing ensured that Bible Gateway was synced properly and that each customization setting within a new tab was properly implemented – default, other presets, and user-chosen – in an individual sense and all together.
+-	It also verified if the settings are maintained across many new tabs and tests whether settings save or not upon webpage refresh, extension on/off, browser on/off, post-shutdown, etc.
+-	Is it displaying each and all of the features as expected? 
+  -	[ Yes or no? -> Pass or fail ]
+	- (refer to Test Plan Section 3.2 above)
+	- (refer to Project Requirements, IDs 1-24)
 ##### 6.3.3.2 - User Acceptance Test <!--{#section-6332}-->
+o	This testing verifies whether the primary purpose of the extension has been met or not – user satisfaction. 
+o	Testing would be with a variety of users with different systems and different technical experience; therefore, it will be simultaneous testing with performance/load, compatibility, and usability as well.
+o	Testers would be given a test script, telling them the premise of having downloaded a Google Chrome extension that says it has Bible verses appear on new tabs, but that it’s also very customizable.
+	(In part, they would be introduced with the premise that would theoretically exist on the Web Store description.) 
+o	I would request that they comment on their thoughts and experiences throughout the test, which I would record for further insight as I watched what they did and how.
+o	If they are having trouble, note that, and give them slight pushes towards important features.
+o	
+o	Testers would be asked for their thoughts about various elements of the extension after given ample time.
+o	This would outline all the basic test features intended for this extension.
+	Includes in and out-of-menu settings (17, 20), the menus themselves, the appeal of various preset options (14, 15), the light and dark modes (9, 18), the background image (3), the Bible verse window and settings regarding it (1, 4, 22, 7, 8, 6, 5, 19, 10), and so on.
+	(Additional test features would also be added accordingly.)
+o	It would also assess generalities regarding performance, usability, and overall aesthetics.
+o	The questionnaire would request a number on a satisfaction scale from 1 to 5, with 5 as most pleasing, for each of these.
+	(The goal is to have a 4 on average.)
+	There would also be a blank on the side to put ones specific qualitative reasoning.
+o	Their final overall experience will be graded on the same scale.
+o	There will be a section at the end for specific recommendations and changes to take into consideration.
+
 ### 6.4 - Test Deliverables <!--{#section-64}-->
 #### 6.4.1 - Test Cases <!--{#section-641}-->
 #### 6.4.2 - Advised Changes <!--{#section-642}-->
 #### 6.4.3 - Test Reports <!--{#section-643}-->
 ### 6.5 - Test Environment <!--{#section-65}-->
+-	Developer Device
+  -	Hardware: Dell Latitude 3520, Windows 10 Pr
+  -	Software: Google Chrome v122.0.6261.95 (latest)
+  -	Network: multiple stable networks, vary often
 ### 6.6 - Testing Schedule <!--{#section-66}-->
+(update or not???)
 ### 6.7 - Assumptions and Dependencies <!--{#section-67}-->
 #### 6.7.1 - Assumptions <!--{#section-671}-->
+-	The developer was able to implement all intended features.
+-	The testing environments accurately represent the variety of devices and configurations by users.
+-	Users have a basic knowledge of operating a browser and browser extensions.
+-	Users have v122.0.6261.95132 or higher installation on Google Chrome for testing.
+-	Users have a stable and reliable Internet connection during test phase.
 #### 6.7.2 - Dependencies <!--{#section-672}-->
+-	Availability of the extension in the testing environment – OS versions, Google Chrome, Google Chrome versions, etc.
+-	The sole developer using a capable device with all necessary features for development and testing.
+-	The developer fixes any identified issues and changes features according to user feedback during test phase.
 ### 6.8 - Approvals <!--{#section-68}-->
+
 <br/><br/>
 
 ## 7 - Test Results <!--{#section-7}-->
@@ -883,3 +939,4 @@ Dependencies: 1
 <br/><br/>
 
 ## 10 - Defense Presentation Slides <!--{#section-10}-->
+
