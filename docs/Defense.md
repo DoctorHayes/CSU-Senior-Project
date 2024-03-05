@@ -7,6 +7,7 @@ Bible Verse Vista - Defense Documentation
 - **Majors**: Computer Science and Cybersecurity
 - **Advisor**: Dr. Sean Hayes
 
+/**
 ## Table of Contents
 - [1 - Statement of Purpose](#section-1)
   - [1.1 - Problem Statement](#section-11)
@@ -45,7 +46,7 @@ Bible Verse Vista - Defense Documentation
   - [7.? - MANY POSSIBILITIES](#section-7?)
 - [8 - Challenges Overcome](#section-8)
 - [9 - Future Enhancements](#section-9)
-- [10 - Defense Presentation Slides](#section-10)
+- [10 - Defense Presentation Slides](#section-10)*/
 
 
 ## 1 - Statement of Purpose {#section-1}
