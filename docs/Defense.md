@@ -904,7 +904,7 @@ o	There will be a section at the end for specific recommendations and changes to
 
 ### 6.4 - Test Deliverables <!--{#section-64}-->
 #### 6.4.1 - Test Cases <!--{#section-641}-->
-[Test Cases](./docs/Test_Cases.pdf)
+[Test Cases](Test_Cases.pdf)
 #### 6.4.2 - Advised Changes <!--{#section-642}-->
 #### 6.4.3 - Test Reports <!--{#section-643}-->
 ### 6.5 - Test Environment <!--{#section-65}-->
