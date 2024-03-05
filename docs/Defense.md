@@ -933,11 +933,12 @@ o	There will be a section at the end for specific recommendations and changes to
 | **Date**: 9/30/23                     |
 | **Signature**:                        |
 
-| Name:      |   |   |   |   |
-|------------|---|---|---|---|
-| Role:      |   |   |   |   |
-| Date:      |   |   |   |   |
-| Signature: |   |   |   |   |
+|                                       |
+|---------------------------------------|
+| **Name**: Dr. Sean Hayes              |
+| **Role**: Project Supervisor          |
+| **Date**: 9/30/23                     |
+| **Signature**:                        |
 <br/><br/>
 
 ## 7 - Test Results <!--{#section-7}-->
