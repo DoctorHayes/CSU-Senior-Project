@@ -49,7 +49,7 @@ Bible Verse Vista - Defense Documentation
 - [10 - Defense Presentation Slides](#section-10)
 -->
 
-## 1 - Statement of Purpose <!--{#section-1}-->
+# 1 - Statement of Purpose <!--{#section-1}-->
 (???)
 ### 1.1 - Problem Statement <!--{#section-11}-->
 Today, Christians have the opportunity to deliver the Word in a more effective, convenient, and personalized way with modern technologies, such as Google Chrome extensions. However, the majority of existing Bible verse extensions often fall short of expectations due to outdated browsers, generic backgrounds, lack of Biblical versions, and lack of customization options. This ultimately results in a clunky and unsatisfactory user experience. The key solution to this issue is to provide users with greater customizability in a variety of fields. Doing this will give Christians a more satisfying and immersive experience with Scripture, resulting in better engagement and understanding overall. This project seeks to create a superior Bible verse extension for Google Chrome, allowing fellow Christians to move forward with modern opportunities to spread the Word effectively.
