@@ -926,11 +926,18 @@ o	There will be a section at the end for specific recommendations and changes to
 -	The sole developer using a capable device with all necessary features for development and testing.
 -	The developer fixes any identified issues and changes features according to user feedback during test phase.
 ### 6.8 - Approvals <!--{#section-68}-->
+|                                       |
 |---------------------------------------|
 | **Name**: Bryce Furrow                |
 | **Role**: Lead Developer, Lead Tester |
 | **Date**: 9/30/23                     |
 | **Signature**:                        |
+
+| Name:      |   |   |   |   |
+|------------|---|---|---|---|
+| Role:      |   |   |   |   |
+| Date:      |   |   |   |   |
+| Signature: |   |   |   |   |
 <br/><br/>
 
 ## 7 - Test Results <!--{#section-7}-->
