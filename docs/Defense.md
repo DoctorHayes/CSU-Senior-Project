@@ -904,33 +904,6 @@ o	There will be a section at the end for specific recommendations and changes to
 
 ### 6.4 - Test Deliverables <!--{#section-64}-->
 #### 6.4.1 - Test Cases <!--{#section-641}-->
-|Case|Feature                                  |Action                                                                                           |Expected Result(s)                                                                                |Actual Results(s)                                                                                                                                        |Pass/Fail
-
-(Yes/No)|
-|----|-----------------------------------------|-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-|1   |Open settings menu                       |User clicks the menu button                                                                      |Opens the settings menu                                                                           |Settings menu (sidebar) opens                                                                                                                            |Yes                |
-|2   |Default light/dark mode (9, 18)          |Light mode on first use, click theme selection to change                                         |Defaults to light mode; changes according to user choice                                          |Light mode appears on first use, theme selection appears with light/dark modes and user mode – all work accordingly                                      |Yes                |
-|3   |User custom color schemes                |User clicks save button to save their settings, click load button to use those settings          |Appearance changes according to user-chosen color scheme                                          |Appearance saved, user settings stored, appearance loads back successfully                                                                               |Yes                |
-|4   |Default background image (3, 15)         |On first use… (automatic)                                                                        |Background image initialized as one of the default presets                                        |Background image is initialized on first use as default                                                                                                  |Yes                |
-|5   |Bible verse window                       |On first use… (automatic)                                                                        |Bible verse displayed in its Bible verse window                                                   |Bible verse displayed in its Bible verse window                                                                                                          |Yes                |
-|6   |Bible verse window opacity               |User clicks or pulls verse window opacity slider                                                 |Bible verse window opacity changes according to setting scale                                     |Bible verse window opacity changes according to setting scale                                                                                            |Yes                |
-|7   |Bible verse window coloration            |User clicks verse window color selector                                                          |Bible verse window coloration changes according to chosen color                                   |Bible verse window coloration changes according to chosen color                                                                                          |Yes                |
-|8   |Bible verse window sizing (width)        |User clicks or pulls verse window width slider                                                   |Bible verse window changes according to chosen size (width)                                       |Bible verse window changes according to chosen size (width)                                                                                              |Yes                |
-|9   |Bible verse window position (presets) (4)|User clicks verse window position selector                                                       |Bible verse window changes to preset positions accordingly                                        |Bible verse window changes to preset positions accordingly (along the center of the page)                                                                |Yes                |
-|10  |Text size options                        |User clicks or pulls verse text size slider                                                      |Verse text size changes according to chosen size                                                  |Verse text size changes according to chosen size scale                                                                                                   |Yes                |
-|11  |Text font options (preset)               |User clicks verse font selector                                                                  |Verse text font changes according to chosen preset                                                |Verse font changes according to chosen preset                                                                                                            |Yes                |
-|12  |Text coloration                          |User clicks verse text color selector                                                            |Verse text color changes according to chosen color                                                |Verse text color changes according to chosen color                                                                                                       |Yes                |
-|13  |Bible Gateway sync (22)                  |On every use…
-
-(automatic)                                                                       |Bible Gateway verse appears the same as it does on the official website                           |Bible Gateway verse appears the same as it does on the official website
-
-(\*except in cases where the verse doesn’t exist for the version/language)      |Yes                |
-|14  |Daily Bible verses (default, 6)          |On every use (if Automatic for Verse of the Day is selected)…
-
-(automatic)                       |Bible Gateway’s daily verse appears the same as it does on the official website                   |Bible Gateway daily verse appears the same as it does on the official website
-
-(\*except in cases where the verse doesn’t exist for the version/language)|Yes                |
-|15  |User selected Bible verses (8)           |User selects User Choice for Verse of the Day and types a valid Bible book, chapter, and verse(s)|Bible Gateway’s user selected verse appears (assuming validity) as it does on the official website|Bible Gateway’s user selected verse appears (being valid) as it does on the official website                                                             |Yes                |
 
 #### 6.4.2 - Advised Changes <!--{#section-642}-->
 #### 6.4.3 - Test Reports <!--{#section-643}-->
@@ -953,7 +926,11 @@ o	There will be a section at the end for specific recommendations and changes to
 -	The sole developer using a capable device with all necessary features for development and testing.
 -	The developer fixes any identified issues and changes features according to user feedback during test phase.
 ### 6.8 - Approvals <!--{#section-68}-->
-
+|---------------------------------------|
+| **Name**: Bryce Furrow                |
+| **Role**: Lead Developer, Lead Tester |
+| **Date**: 9/30/23                     |
+| **Signature**:                        |
 <br/><br/>
 
 ## 7 - Test Results <!--{#section-7}-->
