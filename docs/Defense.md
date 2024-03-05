@@ -59,7 +59,7 @@ Today, Christians have the opportunity to deliver the Word in a more effective, 
 (???)
 ### 2.1 - ??? <!--{#section-21}-->
 (???)
-<br/>
+<br/><br/>
 
 ## 3 - Project Languages, Software, and Hardware <!--{#section-3}-->
 Project Languages:
@@ -70,7 +70,7 @@ Project Languages:
 Software: Google Chrome v122.0.6261.95 (latest)
 <br/>
 Hardware: (any computer that can run Google Chrome at v122.0.6261.95???)
-<br/>
+<br/><br/>
 
 ## 4 - Project Requirements <!--{#section-4}-->
 (Priority Scale - 1 is the highest, 5 is the lowest.)
@@ -834,7 +834,7 @@ Dependencies: 1
 </p>
 
 ----
-<br/>
+<br/><br/>
 
 ## 5 - Project Implementation <!--{#section-5}-->
 (???)
@@ -842,7 +842,7 @@ Dependencies: 1
 (???)
 ### 5.1 - Implementation??? <!--{#section-52}-->
 (???)
-<br/>
+<br/><br/>
 
 ## 6 - Test Plan <!--{#section-6}-->
 ### 6.1 - Introduction <!--{#section-61}-->
@@ -870,16 +870,16 @@ Dependencies: 1
 #### 6.7.1 - Assumptions <!--{#section-671}-->
 #### 6.7.2 - Dependencies <!--{#section-672}-->
 ### 6.8 - Approvals <!--{#section-68}-->
-<br/>
+<br/><br/>
 
 ## 7 - Test Results <!--{#section-7}-->
 ### 7.1 - ??? <!--{#section-7?}-->
-<br/>
+<br/><br/>
 
 ## 8 - Challenges Overcome <!--{#section-8}-->
-<br/>
+<br/><br/>
 
 ## 9 - Future Enhancements <!--{#section-9}-->
-<br/>
+<br/><br/>
 
 ## 10 - Defense Presentation Slides <!--{#section-10}-->
