@@ -49,17 +49,17 @@ Bible Verse Vista - Defense Documentation
 - [10 - Defense Presentation Slides](#section-10)
 -->
 
-## 1 - Statement of Purpose {#section-1}
+## 1 - Statement of Purpose <!--{#section-1}-->
 (???)
-### 1.1 - Problem Statement {#section-11}
+### 1.1 - Problem Statement <!--{#section-11}-->
 Today, Christians have the opportunity to deliver the Word in a more effective, convenient, and personalized way with modern technologies, such as Google Chrome extensions. However, the majority of existing Bible verse extensions often fall short of expectations due to outdated browsers, generic backgrounds, lack of Biblical versions, and lack of customization options. This ultimately results in a clunky and unsatisfactory user experience. The key solution to this issue is to provide users with greater customizability in a variety of fields. Doing this will give Christians a more satisfying and immersive experience with Scripture, resulting in better engagement and understanding overall. This project seeks to create a superior Bible verse extension for Google Chrome, allowing fellow Christians to move forward with modern opportunities to spread the Word effectively.
 
-## 2 - Research and Background {#section-2}
+## 2 - Research and Background <!--{#section-2}-->
 (???)
-### 2.1 - ??? {#section-21}
+### 2.1 - ??? <!--{#section-21}-->
 (???)
 
-## 3 - Project Languages, Software, and Hardware {#section-3}
+## 3 - Project Languages, Software, and Hardware <!--{#section-3}-->
 Project Languages:
 - HTML
 - CSS
@@ -68,7 +68,7 @@ Project Languages:
 Software: Google Chrome v122.0.6261.95 (latest)
 Hardware: (any computer that can run Google Chrome at v122.0.6261.95???)
 
-## 4 - Project Requirements {#section-4}
+## 4 - Project Requirements <!--{#section-4}-->
 (Priority Scale - 1 is the highest, 5 is the lowest.)
 
 ----
@@ -831,45 +831,45 @@ Dependencies: 1
 
 ----
 
-## 5 - Project Implementation {#section-5}
+## 5 - Project Implementation <!--{#section-5}-->
 (???)
-### 5.1 - Description??? {#section-51}
+### 5.1 - Description??? <!--{#section-51}-->
 (???)
-### 5.1 - Implementation??? {#section-52}
+### 5.1 - Implementation??? <!--{#section-52}-->
 (???)
 
-## 6 - Test Plan {#section-6}
-### 6.1 - Introduction {#section-61}
-#### 6.1.1 - Project Overview {#section-611}
-#### 6.1.2 - Goals/Objectives {#section-612}
-#### 6.1.3 - Constraints {#section-613}
-### 6.2 - References {#section-62}
-#### 6.2.1 - Project Proposal {#section-621}
+## 6 - Test Plan <!--{#section-6}-->
+### 6.1 - Introduction <!--{#section-61}-->
+#### 6.1.1 - Project Overview <!--{#section-611}-->
+#### 6.1.2 - Goals/Objectives <!--{#section-612}-->
+#### 6.1.3 - Constraints <!--{#section-613}-->
+### 6.2 - References <!--{#section-62}-->
+#### 6.2.1 - Project Proposal <!--{#section-621}-->
 (???)
-#### 6.2.2 - Project Requirements {#section-622}
+#### 6.2.2 - Project Requirements <!--{#section-622}-->
 (???)
-### 6.3 - Testing Strategy {#section-63}
-#### 6.3.1 - Test Items {#section-631}
-#### 6.3.2 - Test Features {#section-632}
-#### 6.3.3 - Test Approach {#section-633}
-##### 6.3.3.1 - System Test {#section-6331}
-##### 6.3.3.2 - User Acceptance Test {#section-6332}
-### 6.4 - Test Deliverables {#section-64}
-#### 6.4.1 - Test Cases {#section-641}
-#### 6.4.2 - Advised Changes {#section-642}
-#### 6.4.3 - Test Reports {#section-643}
-### 6.5 - Test Environment {#section-65}
-### 6.6 - Testing Schedule {#section-66}
-### 6.7 - Assumptions and Dependencies {#section-67}
-#### 6.7.1 - Assumptions {#section-671}
-#### 6.7.2 - Dependencies {#section-672}
-### 6.8 - Approvals {#section-68}
+### 6.3 - Testing Strategy <!--{#section-63}-->
+#### 6.3.1 - Test Items <!--{#section-631}-->
+#### 6.3.2 - Test Features <!--{#section-632}-->
+#### 6.3.3 - Test Approach <!--{#section-633}-->
+##### 6.3.3.1 - System Test <!--{#section-6331}-->
+##### 6.3.3.2 - User Acceptance Test <!--{#section-6332}-->
+### 6.4 - Test Deliverables <!--{#section-64}-->
+#### 6.4.1 - Test Cases <!--{#section-641}-->
+#### 6.4.2 - Advised Changes <!--{#section-642}-->
+#### 6.4.3 - Test Reports <!--{#section-643}-->
+### 6.5 - Test Environment <!--{#section-65}-->
+### 6.6 - Testing Schedule <!--{#section-66}-->
+### 6.7 - Assumptions and Dependencies <!--{#section-67}-->
+#### 6.7.1 - Assumptions <!--{#section-671}-->
+#### 6.7.2 - Dependencies <!--{#section-672}-->
+### 6.8 - Approvals <!--{#section-68}-->
 
-## 7 - Test Results {#section-7}
-### 7.1 - ??? {#section-7?}
+## 7 - Test Results <!--{#section-7}-->
+### 7.1 - ??? <!--{#section-7?}-->
 
-## 8 - Challenges Overcome {#section-8}
+## 8 - Challenges Overcome <!--{#section-8}-->
 
-## 9 - Future Enhancements {#section-9}
+## 9 - Future Enhancements <!--{#section-9}-->
 
-## 10 - Defense Presentation Slides {#section-10}
+## 10 - Defense Presentation Slides <!--{#section-10}-->
