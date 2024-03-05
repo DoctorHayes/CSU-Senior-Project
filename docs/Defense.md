@@ -6,7 +6,7 @@ Bible Verse Vista - Defense Documentation
 - **Date**: 3/4/24
 - **Majors**: Computer Science and Cybersecurity
 - **Advisor**: Dr. Sean Hayes
-
+<br/>
 <!--
 ## Table of Contents
 - [1 - Statement of Purpose](#section-1)
@@ -49,15 +49,17 @@ Bible Verse Vista - Defense Documentation
 - [10 - Defense Presentation Slides](#section-10)
 -->
 
-# 1 - Statement of Purpose <!--{#section-1}-->
+## 1 - Statement of Purpose <!--{#section-1}-->
 (???)
 ### 1.1 - Problem Statement <!--{#section-11}-->
 Today, Christians have the opportunity to deliver the Word in a more effective, convenient, and personalized way with modern technologies, such as Google Chrome extensions. However, the majority of existing Bible verse extensions often fall short of expectations due to outdated browsers, generic backgrounds, lack of Biblical versions, and lack of customization options. This ultimately results in a clunky and unsatisfactory user experience. The key solution to this issue is to provide users with greater customizability in a variety of fields. Doing this will give Christians a more satisfying and immersive experience with Scripture, resulting in better engagement and understanding overall. This project seeks to create a superior Bible verse extension for Google Chrome, allowing fellow Christians to move forward with modern opportunities to spread the Word effectively.
+<br/>
 
 ## 2 - Research and Background <!--{#section-2}-->
 (???)
 ### 2.1 - ??? <!--{#section-21}-->
 (???)
+<br/>
 
 ## 3 - Project Languages, Software, and Hardware <!--{#section-3}-->
 Project Languages:
@@ -66,7 +68,9 @@ Project Languages:
 - JavaScript
 
 Software: Google Chrome v122.0.6261.95 (latest)
+<br/>
 Hardware: (any computer that can run Google Chrome at v122.0.6261.95???)
+<br/>
 
 ## 4 - Project Requirements <!--{#section-4}-->
 (Priority Scale - 1 is the highest, 5 is the lowest.)
@@ -830,6 +834,7 @@ Dependencies: 1
 </p>
 
 ----
+<br/>
 
 ## 5 - Project Implementation <!--{#section-5}-->
 (???)
@@ -837,6 +842,7 @@ Dependencies: 1
 (???)
 ### 5.1 - Implementation??? <!--{#section-52}-->
 (???)
+<br/>
 
 ## 6 - Test Plan <!--{#section-6}-->
 ### 6.1 - Introduction <!--{#section-61}-->
@@ -864,12 +870,16 @@ Dependencies: 1
 #### 6.7.1 - Assumptions <!--{#section-671}-->
 #### 6.7.2 - Dependencies <!--{#section-672}-->
 ### 6.8 - Approvals <!--{#section-68}-->
+<br/>
 
 ## 7 - Test Results <!--{#section-7}-->
 ### 7.1 - ??? <!--{#section-7?}-->
+<br/>
 
 ## 8 - Challenges Overcome <!--{#section-8}-->
+<br/>
 
 ## 9 - Future Enhancements <!--{#section-9}-->
+<br/>
 
 ## 10 - Defense Presentation Slides <!--{#section-10}-->
