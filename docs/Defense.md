@@ -884,23 +884,23 @@ This document outlines the testing strategy and approach for the development of 
 	- (refer to Test Plan Section 3.2 above)
 	- (refer to Project Requirements, IDs 1-24)
 ##### 6.3.3.2 - User Acceptance Test <!--{#section-6332}-->
-o	This testing verifies whether the primary purpose of the extension has been met or not – user satisfaction. 
-o	Testing would be with a variety of users with different systems and different technical experience; therefore, it will be simultaneous testing with performance/load, compatibility, and usability as well.
-o	Testers would be given a test script, telling them the premise of having downloaded a Google Chrome extension that says it has Bible verses appear on new tabs, but that it’s also very customizable.
-	(In part, they would be introduced with the premise that would theoretically exist on the Web Store description.) 
-o	I would request that they comment on their thoughts and experiences throughout the test, which I would record for further insight as I watched what they did and how.
-o	If they are having trouble, note that, and give them slight pushes towards important features.
-o	
-o	Testers would be asked for their thoughts about various elements of the extension after given ample time.
-o	This would outline all the basic test features intended for this extension.
-	Includes in and out-of-menu settings (17, 20), the menus themselves, the appeal of various preset options (14, 15), the light and dark modes (9, 18), the background image (3), the Bible verse window and settings regarding it (1, 4, 22, 7, 8, 6, 5, 19, 10), and so on.
-	(Additional test features would also be added accordingly.)
-o	It would also assess generalities regarding performance, usability, and overall aesthetics.
-o	The questionnaire would request a number on a satisfaction scale from 1 to 5, with 5 as most pleasing, for each of these.
-	(The goal is to have a 4 on average.)
-	There would also be a blank on the side to put ones specific qualitative reasoning.
-o	Their final overall experience will be graded on the same scale.
-o	There will be a section at the end for specific recommendations and changes to take into consideration.
+- This testing verifies whether the primary purpose of the extension has been met or not – user satisfaction. 
+- Testing would be with a variety of users with different systems and different technical experience; therefore, it will be simultaneous testing with performance/load, compatibility, and usability as well.
+- Testers would be given a test script, telling them the premise of having downloaded a Google Chrome extension that says it has Bible verses appear on new tabs, but that it’s also very customizable.
+  - (In part, they would be introduced with the premise that would theoretically exist on the Web Store description.) 
+- I would request that they comment on their thoughts and experiences throughout the test, which I would record for further insight as I watched what they did and how.
+- If they are having trouble, note that, and give them slight pushes towards important features.
+	
+- Testers would be asked for their thoughts about various elements of the extension after given ample time.
+- This would outline all the basic test features intended for this extension.
+  - Includes in and out-of-menu settings (17, 20), the menus themselves, the appeal of various preset options (14, 15), the light and dark modes (9, 18), the background image (3), the Bible verse window and settings regarding it (1, 4, 22, 7, 8, 6, 5, 19, 10), and so on.
+  - (Additional test features would also be added accordingly.)
+- It would also assess generalities regarding performance, usability, and overall aesthetics.
+- The questionnaire would request a number on a satisfaction scale from 1 to 5, with 5 as most pleasing, for each of these.
+  - (The goal is to have a 4 on average.)
+  - There would also be a blank on the side to put ones specific qualitative reasoning.
+- Their final overall experience will be graded on the same scale.
+- There will be a section at the end for specific recommendations and changes to take into consideration.
 
 ### 6.4 - Test Deliverables <!--{#section-64}-->
 #### 6.4.1 - Test Cases <!--{#section-641}-->
