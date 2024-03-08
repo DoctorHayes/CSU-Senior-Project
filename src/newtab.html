@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Bible Verse New Tab</title>
+    <title>Bible Verse Vista</title>
 </head>
 
 <body>
@@ -15,7 +15,7 @@
         <span></span>
     </div>
 
-    <form id="settings_form">
+    <div id="settings_form">
         <div id="sidebar">
 
             <h1>Settings</h1>
@@ -23,12 +23,31 @@
             <h2>Basic</h2>
             <div>
                 <h3>Bible Settings</h3>
+                <label>Verse of the Day:</label>
+                <br/>
+                <label for="automatic">Automatic</label>
+                <input type="radio" name="usingVerse" id="automatic" value="using_auto">
+                <label for="manual">User Choice</label>
+                <input type="radio" name="usingVerse" id="manual" value="using_manual">
+                <br />
+                <div id="inputBoxes" class="hidden">
+                    <input type="text" placeholder="(Book, 1 Samuel)" id="bibleBook" value="">
+                    <br/>
+                    <input type="text" placeholder="(Chapter, 5)" id="bibleChapter" value="">
+                    <input type="text" placeholder="(Verse, 1-2)" id="bibleVerse" value="">
+                    <br/>
+                    <button type="button" type="" id="manualVerse">Submit</button>
+                    <br/><br/>
+                    <label disabled>(Verse will be empty if you refresh the page.</label>
+                    <label disabled>Enter a valid verse here, or set it to Automatic.)</label>
+                </div>
+                <br />
 
                 <label for="bibleVersion">Bible Version:</label>
                 <select id="bibleVersion" name="bibleVersion">
-                    <option class="lang" disabled>---Amuzgo de Guerrero (AMU)---</option>
+                    <!-- <option class="lang" disabled>---Amuzgo de Guerrero (AMU)---</option>
                     <option value="AMU">Amuzgo de Guerrero (AMU)</option>
-                    <option class="spacer" disabled>&nbsp;</option>
+                    <option class="spacer" disabled>&nbsp;</option> -->
                     <option class="lang" disabled>---العربية (AR)---</option>
                     <option value="ERV-AR">Arabic Bible: Easy-to-Read Version (ERV-AR)</option>
                     <option value="NAV">Ketab El Hayat (NAV)</option>
@@ -39,29 +58,29 @@
                     <option class="lang" disabled>---Български (BG)---</option>
                     <option value="BG1940">1940 Bulgarian Bible (BG1940)</option>
                     <option value="BULG">Bulgarian Bible (BULG)</option>
-                    <option value="ERV-BG">Bulgarian New Testament: Easy-to-Read Version (ERV-BG)</option>
+                    <!-- <option value="ERV-BG">Bulgarian New Testament: Easy-to-Read Version (ERV-BG)</option> -->
                     <option value="CBT">Библия, нов превод от оригиналните езици (с неканоничните книги) (CBT)</option>
                     <option value="BOB">Библия, синодално издание (BOB)</option>
                     <option value="BPB">Библия, ревизирано издание (BPB)</option>
                     <option class="spacer" disabled>&nbsp;</option>
-                    <option class="lang" disabled>---Chinanteco de Comaltepec (CCO)---</option>
+                    <!-- <option class="lang" disabled>---Chinanteco de Comaltepec (CCO)---</option>
                     <option value="CCO">Chinanteco de Comaltepec (CCO)</option>
-                    <option class="spacer" disabled>&nbsp;</option>
-                    <option class="lang" disabled>---Cebuano (CEB)---</option>
+                    <option class="spacer" disabled>&nbsp;</option> -->
+                    <!-- <option class="lang" disabled>---Cebuano (CEB)---</option>
                     <option value="APSD-CEB">Ang Pulong Sa Dios (APSD-CEB)</option>
-                    <option class="spacer" disabled>&nbsp;</option>
-                    <option class="lang" disabled>---ᏣᎳᎩ ᎦᏬᏂᎯᏍ (CHR)---</option>
+                    <option class="spacer" disabled>&nbsp;</option> -->
+                    <!-- <option class="lang" disabled>---ᏣᎳᎩ ᎦᏬᏂᎯᏍ (CHR)---</option>
                     <option value="CHR">Cherokee New Testament (CHR)</option>
-                    <option class="spacer" disabled>&nbsp;</option>
+                    <option class="spacer" disabled>&nbsp;</option> -->
                     <option class="lang" disabled>---كوردی سۆرانی (CKB)---</option>
                     <option value="KSS">Kurdi Sorani Standard (KSS)</option>
                     <option class="spacer" disabled>&nbsp;</option>
-                    <option class="lang" disabled>---Cakchiquel Occidental (CKW)---</option>
+                    <!-- <option class="lang" disabled>---Cakchiquel Occidental (CKW)---</option>
                     <option value="CKW">Cakchiquel Occidental (CKW)</option>
-                    <option class="spacer" disabled>&nbsp;</option>
+                    <option class="spacer" disabled>&nbsp;</option> -->
                     <option class="lang" disabled>---Čeština (CS)---</option>
                     <option value="B21">Bible 21 (B21)</option>
-                    <option value="SNC">Slovo na cestu (SNC)</option>
+                    <!-- <option value="SNC">Slovo na cestu (SNC)</option> -->
                     <option class="spacer" disabled>&nbsp;</option>
                     <option class="lang" disabled>---Cymraeg (CY)---</option>
                     <option value="BWM">Beibl William Morgan (BWM)</option>
@@ -73,7 +92,7 @@
                     <option class="lang" disabled>---Deutsch (DE)---</option>
                     <option value="HOF">Hoffnung für Alle (HOF)</option>
                     <option value="LUTH1545">Luther Bibel 1545 (LUTH1545)</option>
-                    <option value="NGU-DE">Neue Genfer Übersetzung (NGU-DE)</option>
+                    <!-- <option value="NGU-DE">Neue Genfer Übersetzung (NGU-DE)</option> -->
                     <option value="SCH1951">Schlachter 1951 (SCH1951)</option>
                     <option value="SCH2000">Schlachter 2000 (SCH2000)</option>
                     <option class="spacer" disabled>&nbsp;</option>
@@ -88,7 +107,7 @@
                     <option value="CJB">Complete Jewish Bible (CJB)</option>
                     <option value="CEV">Contemporary English Version (CEV)</option>
                     <option value="DARBY">Darby Translation (DARBY)</option>
-                    <option value="DLNT">Disciples’ Literal New Testament (DLNT)</option>
+                    <!-- <option value="DLNT">Disciples’ Literal New Testament (DLNT)</option> -->
                     <option value="DRA">Douay-Rheims 1899 American Edition (DRA)</option>
                     <option value="ERV">Easy-to-Read Version (ERV)</option>
                     <option value="EASY">EasyEnglish Bible (EASY)</option>
@@ -102,7 +121,7 @@
                     <option value="HCSB">Holman Christian Standard Bible (HCSB)</option>
                     <option value="ICB">International Children’s Bible (ICB)</option>
                     <option value="ISV">International Standard Version (ISV)</option>
-                    <option value="PHILLIPS">J.B. Phillips New Testament (PHILLIPS)</option>
+                    <!-- <option value="PHILLIPS">J.B. Phillips New Testament (PHILLIPS)</option> -->
                     <option value="JUB">Jubilee Bible 2000 (JUB)</option>
                     <option value="KJV">King James Version (KJV)</option>
                     <option value="AKJV">Authorized (King James) Version (AKJV)</option>
@@ -111,7 +130,7 @@
                     <option value="TLB">Living Bible (TLB)</option>
                     <option value="MSG">The Message (MSG)</option>
                     <option value="MEV">Modern English Version (MEV)</option>
-                    <option value="MOUNCE">Mounce Reverse Interlinear New Testament (MOUNCE)</option>
+                    <!-- <option value="MOUNCE">Mounce Reverse Interlinear New Testament (MOUNCE)</option> -->
                     <option value="NOG">Names of God Bible (NOG)</option>
                     <option value="NABRE">New American Bible (Revised Edition) (NABRE)</option>
                     <option value="NASB">New American Standard Bible (NASB)</option>
@@ -125,20 +144,20 @@
                     <option value="NKJV">New King James Version (NKJV)</option>
                     <option value="NLV">New Life Version (NLV)</option>
                     <option value="NLT">New Living Translation (NLT)</option>
-                    <option value="NMB">New Matthew Bible (NMB)</option>
+                    <!-- <option value="NMB">New Matthew Bible (NMB)</option> -->
                     <option value="NRSVA">New Revised Standard Version, Anglicised (NRSVA)</option>
                     <option value="NRSVACE">New Revised Standard Version, Anglicised Catholic Edition (NRSVACE)</option>
                     <option value="NRSVCE">New Revised Standard Version Catholic Edition (NRSVCE)</option>
                     <option value="NRSVUE">New Revised Standard Version Updated Edition (NRSVUE)</option>
-                    <option value="NTFE">New Testament for Everyone (NTFE)</option>
+                    <!-- <option value="NTFE">New Testament for Everyone (NTFE)</option> -->
                     <option value="OJB">Orthodox Jewish Bible (OJB)</option>
-                    <option value="RGT">Revised Geneva Translation (RGT)</option>
+                    <!-- <option value="RGT">Revised Geneva Translation (RGT)</option> -->
                     <option value="RSV">Revised Standard Version (RSV)</option>
                     <option value="RSVCE">Revised Standard Version Catholic Edition (RSVCE)</option>
                     <option value="TLV">Tree of Life Version (TLV)</option>
                     <option value="VOICE">The Voice (VOICE)</option>
                     <option value="WEB">World English Bible (WEB)</option>
-                    <option value="WE">Worldwide English (New Testament) (WE)</option>
+                    <!-- <option value="WE">Worldwide English (New Testament) (WE)</option> -->
                     <option value="WYC">Wycliffe Bible (WYC)</option>
                     <option value="YLT">Young&#039;s Literal Translation (YLT)</option>
                     <option class="spacer" disabled>&nbsp;</option>
@@ -172,52 +191,52 @@
                     <option value="NEG1979">Nouvelle Edition de Genève – NEG1979 (NEG1979)</option>
                     <option value="SG21">Segond 21 (SG21)</option>
                     <option class="spacer" disabled>&nbsp;</option>
-                    <option class="lang" disabled>---Κοινη (GRC)---</option>
+                    <!-- <option class="lang" disabled>---Κοινη (GRC)---</option>
                     <option value="TR1550">1550 Stephanus New Testament (TR1550)</option>
                     <option value="WHNU">1881 Westcott-Hort New Testament (WHNU)</option>
                     <option value="TR1894">1894 Scrivener New Testament (TR1894)</option>
                     <option value="SBLGNT">SBL Greek New Testament (SBLGNT)</option>
                     <option value="THGNT">Tyndale House Greek New Testament (THGNT)</option>
-                    <option class="spacer" disabled>&nbsp;</option>
+                    <option class="spacer" disabled>&nbsp;</option> -->
                     <option class="lang" disabled>---ગુજરાતી (GU)---</option>
                     <option value="GERV">Gujarati: પવિત્ર બાઈબલ (GERV)</option>
                     <option class="spacer" disabled>&nbsp;</option>
                     <option class="lang" disabled>---עברית (HE)---</option>
-                    <option value="HHH">Habrit Hakhadasha/Haderekh (HHH)</option>
+                    <!-- <option value="HHH">Habrit Hakhadasha/Haderekh (HHH)</option> -->
                     <option value="WLC">The Westminster Leningrad Codex (WLC)</option>
                     <option class="spacer" disabled>&nbsp;</option>
                     <option class="lang" disabled>---हिन्दी (HI)---</option>
                     <option value="ERV-HI">Hindi Bible: Easy-to-Read Version (ERV-HI)</option>
-                    <option value="SHB">Saral Hindi Bible (SHB)</option>
+                    <!-- <option value="SHB">Saral Hindi Bible (SHB)</option> -->
                     <option class="spacer" disabled>&nbsp;</option>
                     <option class="lang" disabled>---Ilonggo (HIL)---</option>
                     <option value="HLGN">Ang Pulong Sang Dios (HLGN)</option>
                     <option class="spacer" disabled>&nbsp;</option>
-                    <option class="lang" disabled>---Chhattisgarhi (HNE)---</option>
+                    <!-- <option class="lang" disabled>---Chhattisgarhi (HNE)---</option>
                     <option value="NCA">New Chhattisgarhi Translation (नवां नियम छत्तीसगढ़ी) (NCA)</option>
-                    <option class="spacer" disabled>&nbsp;</option>
+                    <option class="spacer" disabled>&nbsp;</option> -->
                     <option class="lang" disabled>---Hrvatski (HR)---</option>
                     <option value="SHP">Biblija: suvremeni hrvatski prijevod (SHP)</option>
-                    <option value="HNZ-RI">Hrvatski Novi Zavjet – Rijeka 2001 (HNZ-RI)</option>
-                    <option value="CRO">Knijga O Kristu (CRO)</option>
+                    <!-- <option value="HNZ-RI">Hrvatski Novi Zavjet – Rijeka 2001 (HNZ-RI)</option>
+                    <option value="CRO">Knijga O Kristu (CRO)</option> -->
                     <option class="spacer" disabled>&nbsp;</option>
                     <option class="lang" disabled>---Kreyòl ayisyen (HT)---</option>
                     <option value="HCV">Haitian Creole Version (HCV)</option>
-                    <option value="VKF">Nouvo Testaman: Vèsyon Kreyòl Fasil (VKF)</option>
+                    <!-- <option value="VKF">Nouvo Testaman: Vèsyon Kreyòl Fasil (VKF)</option> -->
                     <option class="spacer" disabled>&nbsp;</option>
                     <option class="lang" disabled>---Magyar (HU)---</option>
                     <option value="KAR">Hungarian Károli (KAR)</option>
                     <option value="ERV-HU">Hungarian Bible: Easy-to-Read Version (ERV-HU)</option>
                     <option value="NT-HU">Hungarian New Translation (NT-HU)</option>
                     <option class="spacer" disabled>&nbsp;</option>
-                    <option class="lang" disabled>---Hawai‘i Pidgin (HWC)---</option>
+                    <!-- <option class="lang" disabled>---Hawai‘i Pidgin (HWC)---</option>
                     <option value="HWP">Hawai‘i Pidgin (HWP)</option>
-                    <option class="spacer" disabled>&nbsp;</option>
+                    <option class="spacer" disabled>&nbsp;</option> -->
                     <option class="lang" disabled>---Íslenska (IS)---</option>
                     <option value="ICELAND">Icelandic Bible (ICELAND)</option>
                     <option class="spacer" disabled>&nbsp;</option>
                     <option class="lang" disabled>---Italiano (IT)---</option>
-                    <option value="BDG">La Bibbia della Gioia (BDG)</option>
+                    <!-- <option value="BDG">La Bibbia della Gioia (BDG)</option> -->
                     <option value="CEI">Conferenza Episcopale Italiana (CEI)</option>
                     <option value="LND">La Nuova Diodati (LND)</option>
                     <option value="NR1994">Nuova Riveduta 1994 (NR1994)</option>
@@ -226,12 +245,12 @@
                     <option class="lang" disabled>---日本語 (JA)---</option>
                     <option value="JLB">Japanese Living Bible (JLB)</option>
                     <option class="spacer" disabled>&nbsp;</option>
-                    <option class="lang" disabled>---Jacalteco, Oriental (JAC)---</option>
+                    <!-- <option class="lang" disabled>---Jacalteco, Oriental (JAC)---</option>
                     <option value="JAC">Jacalteco, Oriental (JAC)</option>
                     <option class="spacer" disabled>&nbsp;</option>
                     <option class="lang" disabled>---Kekchi (KEK)---</option>
                     <option value="KEK">Kekchi (KEK)</option>
-                    <option class="spacer" disabled>&nbsp;</option>
+                    <option class="spacer" disabled>&nbsp;</option> -->
                     <option class="lang" disabled>---한국어 (KO)---</option>
                     <option value="KLB">Korean Living Bible (KLB)</option>
                     <option class="spacer" disabled>&nbsp;</option>
@@ -244,34 +263,34 @@
                     <option class="lang" disabled>---Māori (MI)---</option>
                     <option value="MAORI">Maori Bible (MAORI)</option>
                     <option class="spacer" disabled>&nbsp;</option>
-                    <option class="lang" disabled>---Македонски (MK)---</option>
+                    <!-- <option class="lang" disabled>---Македонски (MK)---</option>
                     <option value="MNT">Macedonian New Testament (MNT)</option>
-                    <option class="spacer" disabled>&nbsp;</option>
+                    <option class="spacer" disabled>&nbsp;</option> -->
                     <option class="lang" disabled>---मराठी (MR)---</option>
                     <option value="ERV-MR">Marathi Bible: Easy-to-Read Version (ERV-MR)</option>
                     <option class="spacer" disabled>&nbsp;</option>
-                    <option class="lang" disabled>---Mam, Central (MVC)---</option>
+                    <!-- <option class="lang" disabled>---Mam, Central (MVC)---</option>
                     <option value="MVC">Mam, Central (MVC)</option>
                     <option class="spacer" disabled>&nbsp;</option>
                     <option class="lang" disabled>---Mam, Todos Santos (MVJ)---</option>
                     <option value="MVJ">Mam de Todos Santos Chuchumatán (MVJ)</option>
-                    <option class="spacer" disabled>&nbsp;</option>
-                    <option class="lang" disabled>---Plautdietsch (NDS)---</option>
+                    <option class="spacer" disabled>&nbsp;</option> -->
+                    <!-- <option class="lang" disabled>---Plautdietsch (NDS)---</option>
                     <option value="REIMER">Reimer 2001 (REIMER)</option>
-                    <option class="spacer" disabled>&nbsp;</option>
+                    <option class="spacer" disabled>&nbsp;</option> -->
                     <option class="lang" disabled>---नेपाली (NE)---</option>
                     <option value="ERV-NE">Nepali Bible: Easy-to-Read Version (ERV-NE)</option>
                     <option class="spacer" disabled>&nbsp;</option>
-                    <option class="lang" disabled>---Náhuatl de Guerrero (NGU)---</option>
+                    <!-- <option class="lang" disabled>---Náhuatl de Guerrero (NGU)---</option>
                     <option value="NGU">Náhuatl de Guerrero (NGU)</option>
-                    <option class="spacer" disabled>&nbsp;</option>
+                    <option class="spacer" disabled>&nbsp;</option> -->
                     <option class="lang" disabled>---Nederlands (NL)---</option>
                     <option value="BB">BasisBijbel (BB)</option>
                     <option value="HTB">Het Boek (HTB)</option>
                     <option class="spacer" disabled>&nbsp;</option>
                     <option class="lang" disabled>---Norsk (NO)---</option>
                     <option value="DNB1930">Det Norsk Bibelselskap 1930 (DNB1930)</option>
-                    <option value="LB">En Levende Bok (LB)</option>
+                    <!-- <option value="LB">En Levende Bok (LB)</option> -->
                     <option class="spacer" disabled>&nbsp;</option>
                     <option class="lang" disabled>---Chichewa (NY)---</option>
                     <option value="CCL">Mawu a Mulungu mu Chichewa Chalero (CCL)</option>
@@ -283,13 +302,13 @@
                     <option value="ERV-PA">Punjabi Bible: Easy-to-Read Version (ERV-PA)</option>
                     <option class="spacer" disabled>&nbsp;</option>
                     <option class="lang" disabled>---Polski (PL)---</option>
-                    <option value="NP">Nowe Przymierze (NP)</option>
-                    <option value="SZ-PL">Słowo Życia (SZ-PL)</option>
-                    <option value="UBG">Updated Gdańsk Bible (UBG)</option>
-                    <option class="spacer" disabled>&nbsp;</option>
-                    <option class="lang" disabled>---Nawat (PPL)---</option>
+                    <!-- <option value="NP">Nowe Przymierze (NP)</option>
+                    <option value="SZ-PL">Słowo Życia (SZ-PL)</option> -->
+                    <!-- <option value="UBG">Updated Gdańsk Bible (UBG)</option>
+                    <option class="spacer" disabled>&nbsp;</option> -->
+                    <!-- <option class="lang" disabled>---Nawat (PPL)---</option>
                     <option value="NBTN">Ne Bibliaj Tik Nawat (NBTN)</option>
-                    <option class="spacer" disabled>&nbsp;</option>
+                    <option class="spacer" disabled>&nbsp;</option> -->
                     <option class="lang" disabled>---Português (PT)---</option>
                     <option value="ARC">Almeida Revista e Corrigida 2009 (ARC)</option>
                     <option value="VFL">Portuguese New Testament: Easy-to-Read Version (VFL)</option>
@@ -298,12 +317,12 @@
                     <option value="NVI-PT">Nova Versão Internacional (NVI-PT)</option>
                     <option value="OL">O Livro (OL)</option>
                     <option class="spacer" disabled>&nbsp;</option>
-                    <option class="lang" disabled>---Quichua (QU)---</option>
+                    <!-- <option class="lang" disabled>---Quichua (QU)---</option>
                     <option value="MTDS">Mushuj Testamento Diospaj Shimi (MTDS)</option>
                     <option class="spacer" disabled>&nbsp;</option>
                     <option class="lang" disabled>---Quiché, Centro Occidenta (QUT)---</option>
                     <option value="QUT">Quiché, Centro Occidental (QUT)</option>
-                    <option class="spacer" disabled>&nbsp;</option>
+                    <option class="spacer" disabled>&nbsp;</option> -->
                     <option class="lang" disabled>---Română (RO)---</option>
                     <option value="RMNN">Cornilescu 1924 - Revised 2010, 2014 (RMNN)</option>
                     <option value="NTLR">Nouă Traducere În Limba Română (NTLR)</option>
@@ -311,14 +330,15 @@
                     <option class="lang" disabled>---Русский (RU)---</option>
                     <option value="NRT">New Russian Translation (NRT)</option>
                     <option value="CARS">Священное Писание (Восточный Перевод) (CARS)</option>
-                    <option value="CARST">Священное Писание (Восточный перевод), версия для Таджикистана (CARST)</option>
+                    <option value="CARST">Священное Писание (Восточный перевод), версия для Таджикистана (CARST)
+                    </option>
                     <option value="CARSA">Священное Писание (Восточный перевод), версия с «Аллахом» (CARSA)</option>
                     <option value="ERV-RU">Russian New Testament: Easy-to-Read Version (ERV-RU)</option>
                     <option value="RUSV">Russian Synodal Version (RUSV)</option>
                     <option class="spacer" disabled>&nbsp;</option>
-                    <option class="lang" disabled>---Slovenčina (SK)---</option>
+                    <!-- <option class="lang" disabled>---Slovenčina (SK)---</option>
                     <option value="NPK">Nádej pre kazdého (NPK)</option>
-                    <option class="spacer" disabled>&nbsp;</option>
+                    <option class="spacer" disabled>&nbsp;</option> -->
                     <option class="lang" disabled>---Somali (SO)---</option>
                     <option value="SOM">Somali Bible (SOM)</option>
                     <option class="spacer" disabled>&nbsp;</option>
@@ -336,10 +356,10 @@
                     <option value="SFB15">Svenska Folkbibeln 2015 (SFB15)</option>
                     <option value="SVL">Swedish New Living Bible (Nya Levande Bibeln) (SVL)</option>
                     <option class="spacer" disabled>&nbsp;</option>
-                    <option class="lang" disabled>---Kiswahili (SW)---</option>
+                    <!-- <option class="lang" disabled>---Kiswahili (SW)---</option>
                     <option value="TKU">Agano Jipya: Tafsiri ya Kusoma-Kwa-Urahisi (TKU)</option>
                     <option value="SNT">Neno: Bibilia Takatifu (SNT)</option>
-                    <option class="spacer" disabled>&nbsp;</option>
+                    <option class="spacer" disabled>&nbsp;</option> -->
                     <option class="lang" disabled>---தமிழ் (TA)---</option>
                     <option value="ERV-TA">Tamil Bible: Easy-to-Read Version (ERV-TA)</option>
                     <option class="spacer" disabled>&nbsp;</option>
@@ -349,18 +369,19 @@
                     <option value="TNCV">Thai New Contemporary Bible (TNCV)</option>
                     <option class="spacer" disabled>&nbsp;</option>
                     <option class="lang" disabled>---Tagalog (TL)---</option>
-                    <option value="FSV">Ang Bagong Tipan: Filipino Standard Version (FSV)</option>
+                    <!-- <option value="FSV">Ang Bagong Tipan: Filipino Standard Version (FSV)</option> -->
                     <option value="ABTAG1978">Ang Biblia (1978) (ABTAG1978)</option>
                     <option value="ABTAG2001">Ang Biblia, 2001 (ABTAG2001)</option>
                     <option value="ADB1905">Ang Dating Biblia (1905) (ADB1905)</option>
-                    <option value="SND">Ang Salita ng Diyos (SND)</option>
+                    <!-- <option value="SND">Ang Salita ng Diyos (SND)</option> -->
+                    <!--HOW DID THIS ONE GO BLANK???-->
                     <option value="ASND">Ang Salita ng Dios (Tagalog Contemporary Bible) (ASND)</option>
                     <option value="MBBTAG">Magandang Balita Biblia (MBBTAG)</option>
                     <option value="MBBTAG-DC">Magandang Balita Biblia (with Deuterocanon) (MBBTAG-DC)</option>
                     <option class="spacer" disabled>&nbsp;</option>
-                    <option class="lang" disabled>---Twi (TWI)---</option>
+                    <!-- <option class="lang" disabled>---Twi (TWI)---</option>
                     <option value="NA-TWI">Nkwa Asem (NA-TWI)</option>
-                    <option class="spacer" disabled>&nbsp;</option>
+                    <option class="spacer" disabled>&nbsp;</option> -->
                     <option class="lang" disabled>---Українська (UK)---</option>
                     <option value="UKR">Ukrainian Bible (UKR)</option>
                     <option value="ERV-UK">Ukrainian New Testament: Easy-to-Read Version (ERV-UK)</option>
@@ -368,9 +389,9 @@
                     <option class="lang" disabled>---اردو (UR)---</option>
                     <option value="ERV-UR">Urdu Bible: Easy-to-Read Version (ERV-UR)</option>
                     <option class="spacer" disabled>&nbsp;</option>
-                    <option class="lang" disabled>---Uspanteco (USP)---</option>
+                    <!-- <option class="lang" disabled>---Uspanteco (USP)---</option>
                     <option value="USP">Uspanteco (USP)</option>
-                    <option class="spacer" disabled>&nbsp;</option>
+                    <option class="spacer" disabled>&nbsp;</option> -->
                     <option class="lang" disabled>---Tiêng Viêt (VI)---</option>
                     <option value="BD2011">Bản Dịch 2011 (BD2011)</option>
                     <option value="NVB">New Vietnamese Bible (NVB)</option>
@@ -382,17 +403,19 @@
                     <option class="lang" disabled>---汉语 (ZH)---</option>
                     <option value="CCB">Chinese Contemporary Bible (Simplified) (CCB)</option>
                     <option value="CCBT">Chinese Contemporary Bible (Traditional) (CCBT)</option>
-                    <option value="ERV-ZH">Chinese New Testament: Easy-to-Read Version (ERV-ZH)</option>
+                    <!-- <option value="ERV-ZH">Chinese New Testament: Easy-to-Read Version (ERV-ZH)</option> -->
                     <option value="CNVS">Chinese New Version (Simplified) (CNVS)</option>
                     <option value="CNVT">Chinese New Version (Traditional) (CNVT)</option>
-                    <option value="CSBS">Chinese Standard Bible (Simplified) (CSBS)</option>
-                    <option value="CSBT">Chinese Standard Bible (Traditional) (CSBT)</option>
+                    <!-- <option value="CSBS">Chinese Standard Bible (Simplified) (CSBS)</option>
+                    <option value="CSBT">Chinese Standard Bible (Traditional) (CSBT)</option> -->
                     <option value="CUVS">Chinese Union Version (Simplified) (CUVS)</option>
                     <option value="CUV">Chinese Union Version (Traditional) (CUV)</option>
                     <option value="CUVMPS">Chinese Union Version Modern Punctuation (Simplified) (CUVMPS)</option>
                     <option value="CUVMPT">Chinese Union Version Modern Punctuation (Traditional) (CUVMPT)</option>
-                    <option value="RCU17SS">Revised Chinese Union Version (Simplified Script) Shen Edition (RCU17SS)</option>
-                    <option value="RCU17TS">Revised Chinese Union Version (Traditional Script) Shen Edition (RCU17TS)</option>
+                    <option value="RCU17SS">Revised Chinese Union Version (Simplified Script) Shen Edition (RCU17SS)
+                    </option>
+                    <option value="RCU17TS">Revised Chinese Union Version (Traditional Script) Shen Edition (RCU17TS)
+                    </option>
                 </select>
             </div>
             <div>
@@ -415,32 +438,41 @@
                 <label for="imgbg_color">Use color</label>
                 <input type="radio" name="usingImgBg" id="imgbg_color" value="using_color">
                 <br /><br />
-                <label for="backgroundColor">Color:</label>
-                <input type="color" name="backgroundColor" id="backgroundColor" value="#ffffff">
+                <label for="backgroundColor" class="user-option-l">Color:</label>
+                <input type="color" name="backgroundColor" id="backgroundColor" value="#ffffff" class="user-option">
                 <br />
 
                 <label for="backgroundImage">Images:</label>
                 <select name="backgroundImage" id="backgroundImage">
-                    <option value="url(../assets/backgrounds/default1.jpg)">Default Option 1</option>
-                    <option value="url(../assets/backgrounds/default2.jpg)">Default Option 2</option>
-                    <option value="url(../assets/backgrounds/default3.jpg)">Default Option 3</option>
-                    <option value="url(../assets/backgrounds/default10.jpg)">Default Option 4</option>
-                    <option value="customImg">Custom Option</option>
+                    <option value="url(../assets/backgrounds/default1.png)">Reflection on the Cross</option>
+                    <option value="url(../assets/backgrounds/default2.png)">Church in the Meadow</option>
+                    <option value="url(../assets/backgrounds/default3.png)">Holy Ascension Church</option>
+                    <option value="url(../assets/backgrounds/default10.png)">Upon on the Waters</option>
+                    <option value="url(../assets/backgrounds/default4.png)">Inky Haze</option>
+                    <option value="url(../assets/backgrounds/default6.png)">Wild Wheatgrass</option>
+                    <option value="url(../assets/backgrounds/default7.png)">Wintery Mountaintops</option>
+                    <option value="url(../assets/backgrounds/default9.png)">Red Sun over Paradise</option>
+                    <option value="url(../assets/backgrounds/default11.png)">Orthodox Glory</option>
+                    <option value="url(../assets/backgrounds/default21.png)">Hallowed Halls</option>
+                    <option value="url(../assets/backgrounds/default22.png)">Sanctuary in the Snow</option>
+                    <option value="url(../assets/backgrounds/default12.png)">Radiant Forest</option>
+                    <option value="url(../assets/backgrounds/default13.png)">Serenity within Shade</option>
+                    <option value="url(../assets/backgrounds/default14.png)">Autumnal Path</option>
+                    <option value="url(../assets/backgrounds/default15.png)">Lakeside Retreat</option>
+                    <option value="url(../assets/backgrounds/default17.png)">Sunset Coast</option>
+                    <option value="url(../assets/backgrounds/default18.png)">The Guiding Star</option>
+                    <option value="url(../assets/backgrounds/default23.png)">Watercolor 1</option>
+                    <option value="url(../assets/backgrounds/default24.png)">Watercolor 2</option>
+                    <option value="url(../assets/backgrounds/default5.png)">Created Cosmos 1</option>
+                    <option value="url(../assets/backgrounds/default16.png)">Created Cosmos 2</option>
+                    <option value="url(../assets/backgrounds/default19.png)">Created Cosmos 3</option>
+                    <option value="url(../assets/backgrounds/default20.png)">Created Cosmos 4</option>
+                    <option value="" disabled>(Custom image upload coming soon...)</option>
+                    <!-- <option value="" id="customChoice">Custom Option</option> -->
                 </select>
 
                 <br />
-
-                <label for="imgbg_img">use custom image</label>
-                <input type="file" name="customImg" id="customImg" value="customImg"
-                    accept="image/png,image/jpeg,image/jpg">
-                    <!--also include gifs and video files-->
-
-                <label for="backgroundOptions">(image, gif, or video)</label>
-                <div id="backgroundPreview"></div> <!--NF, only appear when Custom Upload chosen - use JS-->
-                <input type="file" id="backgroundInput" style="display: none;" accept="image/*,video*" />
-                <label>(NF, only appear when Custom Upload chosen - use JS)</label>
-                <br /><br />
-                <label>(^^ NF - image upload, gif upload?, mp4 upload?)</label>
+                <!--custom backgrounds code stuff tbd-->
             </div>
 
             <div>
@@ -465,33 +497,40 @@
                 <label for="imgwin_color">Use color</label>
                 <input type="radio" name="usingImgWin" id="imgwin_color" value="using_colorw">
                 <br /><br />
-                <label for="windowColor">Color:</label>
-                <input type="color" name="windowColor" id="windowColor" value="#ffffff">
+                <label for="windowColor" class="user-option-l">Color:</label>
+                <input type="color" name="windowColor" id="windowColor" value="#ffffff" class="user-option">
                 <br />
                 <label for="windowImage">Images:</label>
-                <select name="windowImage" id="windowImage"> <!--REPLACE WITH VIABLE-->
-                    <option value="url(../assets/backgrounds/default8.jpg)">Default Image 1</option>
-                    <option value="url(../assets/backgrounds/default4.jpg)">Default Image 2</option>
-                    <option value="url(../assets/backgrounds/default6.jpg)">Default Image 3</option>
+                <select name="windowImage" id="windowImage">
+                    <option value="url(../assets/backgrounds/default8.png)">Parchment</option>
+                    <option value="url(../assets/backgrounds/default4.png)">Inky Haze</option>
+                    <option value="url(../assets/backgrounds/default6.png)">Wild Wheatgrass</option>
+                    <option value="url(../assets/backgrounds/default21.png)">Hallowed Halls</option>
+                    <option value="url(../assets/backgrounds/default22.png)">Sanctuary in the Snow</option>
+                    <option value="url(../assets/backgrounds/default12.png)">Radiant Forest</option>
+                    <option value="url(../assets/backgrounds/default13.png)">Serenity within Shade</option>
+                    <option value="url(../assets/backgrounds/default14.png)">Autumnal Path</option>
+                    <option value="url(../assets/backgrounds/default17.png)">Sunset Coast</option>
+                    <option value="url(../assets/backgrounds/default18.png)">The Guiding Star</option>
+                    <option value="url(../assets/backgrounds/default23.png)">Watercolor 1</option>
+                    <option value="url(../assets/backgrounds/default24.png)">Watercolor 2</option>
+                    <option value="url(../assets/backgrounds/default5.png)">Created Cosmos 1</option>
+                    <option value="url(../assets/backgrounds/default16.png)">Created Cosmos 2</option>
+                    <option value="url(../assets/backgrounds/default19.png)">Created Cosmos 3</option>
+                    <option value="url(../assets/backgrounds/default20.png)">Created Cosmos 4</option>
+                    <option value="" disabled>(Custom image upload coming soon...)</option>
                 </select>
 
-                <label for="windowOptions">(NF - image, gif, or video)</label>
-                <div id="windowPreview"></div> <!--NF, only appear when Custom Upload chosen - use JS-->
-                <input type="file" id="windowInput" style="display: none;" accept="image/*,video*" />
-                <label>(NF, only appear when Custom Upload chosen - use JS)</label>
-
-                <br /><br />
+                <!--custom window background code stuff tbd-->
+                <br />
                 <label for="windowOpacity">Opacity:</label>
                 <input type="range" name="windowOpacity" id="windowOpacity" min="0" max="1" step=".01"
                     value="win_opacity">
                 <br /><br />
-
-                <label>(^^ image pick (among defaults?), image upload, gif, mp4???)</label>
             </div>
 
             <div>
                 <h3>Verse Window Border</h3>
-
                 <label for="borderColor">Color:</label>
                 <input type="color" name="borderColor" id="borderColor" value="#ffffff">
                 <br /><br />
@@ -516,16 +555,12 @@
 
             <div>
                 <h3>Verse Header Text</h3>
-                <!-- <label for="headerToggle">Show/Hide (MAJOR NF???)</label>
-                <input type="checkbox" name="headerToggle" id="headerToggle" value="1"> -->
-                <!-- <label for="headerDisplay"></label> -->
                 <label for="headerDisplay">Show/Hide
                     <input type="checkbox" name="headerDisplay" id="headerDisplay">
                 </label>
                 <br /><br />
-                <label for="headerColor">Color:</label>
-                <input type="color" name="headerColor" id="headerColor" value="#ffffff">
-
+                <label for="headerColor" class="user-option-l">Color:</label>
+                <input type="color" name="headerColor" id="headerColor" value="#ffffff" class="user-option">
                 <br /><br />
                 <label for="headerFont">Font:</label>
                 <select id="headerFont" name="headerFont">
@@ -542,7 +577,7 @@
                     <option value="Times New Roman, serif">Times New Roman</option>
                     <option value="Trebuchet MS, sans-serif">Trebuchet MS</option>
                     <option value="Verdana, sans-serif">Verdana</option>
-                    <!--GOOGLE FONTS-->
+                    <!--Google fonts-->
                     <option value="" disabled></option>
                     <option value="Abhaya Libre">Abhaya Libre</option>
                     <option value="Alegreya">Alegreya</option>
@@ -566,19 +601,19 @@
                     <option value="Raleway">Raleway</option>
                     <option value="Roboto">Roboto</option>
                     <option value="Rokkitt">Rokkitt</option>
-                    <!--ANY MORE???-->
+                    <!--future fonts here-->
                 </select>
                 <br />
                 <label for="headerSize">Font Size:</label>
                 <input type="range" name="headerSize" id="headerSize" min="0" max="100" step="1" value="header_size">
                 <br /><br />
-                
+
             </div>
 
             <div>
                 <h3>Verse Text</h3>
-                <label for="verseColor">Color:</label>
-                <input type="color" name="verseColor" id="verseColor" value="#ffffff">
+                <label for="verseColor" class="user-option-l">Color:</label>
+                <input type="color" name="verseColor" id="verseColor" value="#ffffff" class="user-option">
                 <br /><br />
                 <label for="verseFont">Font:</label>
                 <select name="verseFont" id="verseFont">
@@ -595,7 +630,7 @@
                     <option value="Times New Roman, serif">Times New Roman</option>
                     <option value="Trebuchet MS, sans-serif">Trebuchet MS</option>
                     <option value="Verdana, sans-serif">Verdana</option>
-                    <!--GOOGLE FONTS-->
+                    <!--Google fonts-->
                     <option value="" disabled></option>
                     <option value="Abhaya Libre">Abhaya Libre</option>
                     <option value="Alegreya">Alegreya</option>
@@ -619,29 +654,28 @@
                     <option value="Raleway">Raleway</option>
                     <option value="Roboto">Roboto</option>
                     <option value="Rokkitt">Rokkitt</option>
-                    <!--ANY MORE???-->
+                    <!--future fonts here-->
                 </select>
                 <br />
                 <label for="verseSize">Font Size:</label>
                 <input type="range" name="verseSize" id="verseSize" min="1" max="100" step="1" value="verse_size">
                 <br /><br />
 
-                <!-- <label>(^^highlight/shadow???)</label> -->
             </div>
             <br />
             <div>
                 <h2>Settings Page</h2>
 
-                <label for="settingsColor">Color:</label>
-                <input type="color" name="settingsColor" id="settingsColor">
+                <label for="settingsColor" class="user-option-l">Color:</label>
+                <input type="color" name="settingsColor" id="settingsColor" class="user-option">
                 <br /><br />
                 <label for="settingsOpacity">Opacity:</label>
-                <input type="range" name="settingsOpacity" id="settingsOpacity" min="0" max="1" step=".01"
+                <input type="range" name="settingsOpacity" id="settingsOpacity" min=".3" max="1" step=".01"
                     value="s_opacity">
 
                 <h3>Settings Header Text</h3>
-                <label for="sHeadColor">Color:</label>
-                <input type="color" name="sHeadColor" id="sHeadColor" value="#ffffff">
+                <label for="sHeadColor" class="user-option-l">Color:</label>
+                <input type="color" name="sHeadColor" id="sHeadColor" value="#ffffff" class="user-option">
                 <br /><br />
 
                 <label for="sHeadFont">Font:</label>
@@ -659,7 +693,7 @@
                     <option value="Times New Roman, serif">Times New Roman</option>
                     <option value="Trebuchet MS, sans-serif">Trebuchet MS</option>
                     <option value="Verdana, sans-serif">Verdana</option>
-                    <!--GOOGLE FONTS-->
+                    <!--Google fonts-->
                     <option value="" disabled></option>
                     <option value="Abhaya Libre">Abhaya Libre</option>
                     <option value="Alegreya">Alegreya</option>
@@ -683,17 +717,18 @@
                     <option value="Raleway">Raleway</option>
                     <option value="Roboto">Roboto</option>
                     <option value="Rokkitt">Rokkitt</option>
-                    <!--ANY MORE???-->
+                    <!--future fonts here-->
                 </select>
                 <br />
                 <label for="sHeadSize">Font Size:</label>
                 <input type="range" name="sHeadSize" id="sHeadSize" min="1" max="50" step="1" value="s_head_size">
                 <br />
+
                 <h3>Settings Label Text</h3>
-                <label for="sTextColor">Color:</label>
-                <input type="color" name="sTextColor" id="sTextColor" value="#ffffff">
+                <label for="sTextColor" class="user-option-l">Color:</label>
+                <input type="color" name="sTextColor" id="sTextColor" value="#ffffff" class="user-option">
                 <br /><br />
-                <label for="sTextFont">Font Size:</label>
+                <label for="sTextFont">Font:</label>
                 <select name="sTextFont" id="sTextFont">
                     <option value="Arial, sans-serif">Arial</option>
                     <option value="Arial Black, sans-serif">Arial Black</option>
@@ -708,7 +743,7 @@
                     <option value="Times New Roman, serif">Times New Roman</option>
                     <option value="Trebuchet MS, sans-serif">Trebuchet MS</option>
                     <option value="Verdana, sans-serif">Verdana</option>
-                    <!--GOOGLE FONTS-->
+                    <!--Google fonts-->
                     <option value="" disabled></option>
                     <option value="Abhaya Libre">Abhaya Libre</option>
                     <option value="Alegreya">Alegreya</option>
@@ -732,42 +767,44 @@
                     <option value="Raleway">Raleway</option>
                     <option value="Roboto">Roboto</option>
                     <option value="Rokkitt">Rokkitt</option>
-                    <!--ANY MORE???-->
+                    <!--future fonts here-->
                 </select>
                 <br />
                 <label for="sTextSize">Font Size:</label>
                 <input type="range" name="sTextSize" id="sTextSize" min="1" max="50" step="1" value="s_verse_size">
-
-                <label>(header vs labels???) color, font, font size???, opacity???</label>
             </div>
 
-            <br /><br />
+            <br />
+            <hr>
+            <br />
 
             <div>
-                <button id="save">Save Settings</button>
+                <button name="default" id="default">Return to Defaults</button>
+                <br /><br/>
+                <button name="save" id="save" type="submit">Save User Settings</button>
                 <br />
-                <label for="load">Load Settings:</label>
-                <select id="load">
-                    (idea was to have user-saved presets here, is saving pointless now???)
-                    (how would we reset to defaults if default is changed when settings change???)
-                </select>
-                <label for="???">(idea was to have user-saved presets here, is saving pointless now???)
-                    (how would we reset to defaults if default is changed when settings change???)</label>
+                <button name="load" id="load">Load User Settings</button>
+                <br/> <br/>
+            </div>
+
+            <hr>
+
+            <div>
+                <h3><a href="https://github.com/BFurrow-Collab/CSU-Senior-Project" target="_blank">View on GitHub</a></h3>
             </div>
 
             <br /><br />
         </div>
-    </form>
+    </div>
 
     <script src="newtab.js"></script>
 
     <div class="container">
         <h2 id="header">Verse of the Day</h2>
         <div id="votdContainer">
-            <!--VOTD here-->
+            <!--votd here-->
         </div>
     </div>
 
 </body>
-
 </html>

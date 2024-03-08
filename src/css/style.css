@@ -1,81 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Alegreya&family=Aleo&family=Arapey&family=Asap&family=Assistant&family=Barlow&family=Bitter&family=Brawler&family=Caladea&family=Lato&family=Merriweather&family=Montserrat&family=Mulish&family=Noto+Sans&family=Nunito&family=Open+Sans&family=Oswald&family=Poppins&family=Raleway&family=Roboto&family=Rokkitt&display=swap');
 
 /*LIGHT MODE*/
-
-/* .light-mode * {
-    background-color: white;
-    color: black;
-}
-
-.light-mode #sidebar {
-    background-color: lightgray;
-} */
-/**/
-
 .light-mode * {
     color: black;
 }
-
-/* .light-mode * :not(.container::before) { 
-    background-color: white;
-    color: black;
-} */
 
 .light-mode #sidebar, .light-mode #sidebar *, .light-mode .container::before  {
     background-color: white;
 }
 
-/* .light-mode .using_imgw>.container::before  {
-    background-color: unset;
-} */
-
-.light-mode #header, .light-mode #votdContainer a,
-a:visited {
+.light-mode #header, .light-mode #sidebar label, .light-mode #sidebar h1, .light-mode #votdContainer, .light-mode #votdContainer a,
+a:visited, .light-mode #sidebar a{
     color: black;
 }
 
-
 /*DARK MODE*/
-
 .dark-mode * {
     color: white;
 }
-
-/* .dark-mode * :not(.container::before) { 
-    background-color: #1c1b20;
-    color: white;
-} */
 
 .dark-mode #sidebar, .dark-mode #sidebar *, .dark-mode .container::before  {
     background-color: #1c1b20;
 }
 
-/* .dark-mode .using_imgw>.container::before  {
-    background-color: unset;
-} */
-
-.dark-mode #header, .dark-mode #votdContainer a,
-a:visited {
+.dark-mode #header, .dark-mode #sidebar label, .dark-mode #sidebar h1, .dark-mode #votdContainer, .dark-mode #votdContainer a,
+a:visited, .dark-mode #sidebar a{
     color: white;
 }
-
 
 /**/
 
 body {
     margin: 0;
     display: flex;
-    /* justify-content: center; */
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
     background: no-repeat center center fixed;
-    /* background-color: #f4f4f4; */
-    /* background-color: var(--bg-color); */
-    /* Optional background color */
-    /* background-image: url(../assets/backgrounds/default1.jpg) ;  Optional background image */
     background-size: cover;
-    /* overflow: auto; */
 }
 
 .using_color {
@@ -85,20 +47,17 @@ body {
 
 .using_img {
     background-color: unset;
-    background-image: var(--bg-image, url(../assets/backgrounds/default1.jpg))
+    background-image: var(--bg-image, url(../assets/backgrounds/default1.png))
 }
 
 /**/
 .using_colorw>.container {
     background-image: unset;
-    /* background-color: var(--win-color,#ffff); */
-    /* background-color: rgba(255, 0, 0, var(--win-opacity)); */
-    /* background-color: rgba(var(--win-color), var(--win-opacity)); */
 }
 
 .using_imgw>.container::before {
     background-color: unset;
-    background-image: var(--win-image, url(../assets/backgrounds/default4.jpg));
+    background-image: var(--win-image, url(../assets/backgrounds/default4.png));
 }
 
 /*--------------------------------------------------------------------*/
@@ -106,52 +65,34 @@ body {
 .container {
     text-align: center;
     padding: 20px;
-    /*expect this to stay the same*/
     border: var(--b-size) solid;
     border-color: var(--b-color-rgba);
-    /*breakthrough - color now includes opacity settings*/
-    /* border-color: var(--b-color); */
     border-radius: var(--b-radius);
-    /* border-radius: 10px; */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /*location dependent on margins - 200 from all sides is around center*/
     margin: auto;
     margin-top: var(--window-m-top, auto);
     margin-bottom: var(--window-m-bottom, auto);
     width: var(--window-width, 80%);
     position: relative;
     overflow: hidden;
-
-    /* background-color: rgba(255, 0, 0, ); */
-    /* opacity: var(--win-opacity); */
-
-    /*CONSIDER ADDING ADDITIONAL COLOR SETTING - FOR LOWER OPACITIES???*/
-
-    /* resize: both;
-    cursor: move; */
 }
 
 .container::before {
     content: '';
     background: no-repeat center center fixed;
     background-size: cover;
-    /* background-image: var(--win-image); */
     position: absolute;
     inset: 0;
-    /* border-radius: 10px; */
     border-radius: calc(var(--b-size) - var(--b-radius));
     opacity: var(--win-opacity);
     background-color: var(--win-color);
-    /* z-index: -1; */
 }
 
 .container h2 {
-    /* size: var();*/
     color: var(--h-color);
     margin-top: 0px;
     border-bottom: 2px solid;
     border-bottom-color: var(--hul-color-rgba);
-    /* border-bottom: 0px;*/
     padding-bottom: 5px;
     isolation: isolate;
     font-size: var(--h-size);
@@ -159,33 +100,16 @@ body {
     display: var(--headerDisplay, block);
 }
 
-/*MAJOR NF??? - toggle header to display or not*/
-/* #container.toggle-header #header {
-    display: none; 
-}
-.container #header {
-    /* size: var();
-    color: var(--h-color-rgba);
-    margin-top: 0px;
-    border-bottom: 2px solid;
-    border-bottom-color: var(--hul-color-rgba);
-    /* border-bottom: 0px;
-    padding-bottom: 5px;
-    isolation: isolate;
-} */
-
-
 /*text style within VOTD container (?)*/
 #votdContainer {
     isolation: isolate;
-    /**/
     color: var(--v-color);
     font-size: var(--v-size);
     font-family: var(--v-font);
     /* text-shadow: 0 0 2px rgba(255, 255, 255, 0.8); */
 }
 
-#votdContainer a {
+#votdContainer a, #sidebar a {
     text-decoration: underline;
 }
 
@@ -194,9 +118,14 @@ a:visited {
     color: var(--v-color);
 }
 
-/*FIND A BETTER WAY (???)*/
-#votdContainer a:hover {
+#votdContainer a:hover, #sidebar a:hover {
     text-decoration: none;
+}
+
+#sidebar a,
+a:visited {
+    color: var(--s-head-color);
+    font-family: var(--s-head-font);
 }
 
 /*--------------------------------------------------------------------*/
@@ -205,13 +134,11 @@ a:visited {
 .toggle-btn {
     position: absolute;
     top: 20px;
-    /* left: 320px; */
     left: 20px;
     background-color: lightgray;
     opacity: .5;
     z-index: 1000;
     transition: left 0.3s ease;
-    /* Add smooth transition effect */
 }
 
 .toggle-btn span {
@@ -237,30 +164,19 @@ a:visited {
 
 #sidebar.show-left-300 {
     left: 0px;
-    /* background-color: purple; */
 }
 
 /*----------------------------------*/
-
-/* #closeSidebar {
-    margin-bottom: -20px;
-    background-color: #ff6347;
-    color: #fff;
-    border: none;
-    padding: 5px;
-    border-radius: 3px;
-    cursor: pointer;
-} */
 
 #sidebar {
     position: fixed;
     top: 0;
     left: -300px;
     /*Move the sidebar off-screen initially*/
-    /* left: 0px; */
     height: 100vh;
     width: 300px;
-    background-color: white;
+    background-color: var(--s-color);
+    opacity: var(--s-opacity);
     box-shadow: 5px 0 10px rgba(0, 0, 0, 0.1);
     z-index: 1000;
     transition: left 0.3s ease;
@@ -285,7 +201,6 @@ h2 {
 }
 
 #sidebar h3,
-label,
 select {
     margin-left: 10px;
     display: block;
@@ -295,13 +210,39 @@ select {
     margin-bottom: 5px;
 }
 
+#sidebar h1, h2, h3 {
+    color: var(--s-head-color);
+    font-family: var(--s-head-font);
+}
+
+#sidebar h2 {
+    font-size: var(--s-med-size);
+}
+
+#sidebar h3 {
+    font-size: var(--s-head-size);
+}
+
+#sidebar h1 {
+    font-size: var(--s-top-size);
+}
+
+#sidebar label {
+    color: var(--s-text-color);
+    font-family: var(--s-text-font);
+    font-size: var(--s-text-size);
+    margin-left: 10px;
+}
+
 #sidebar button {
     margin-left: 10px;
 }
 
-/*choices and their selectors side-by-side or separated? still trying to decide...*/
-#sidebar label,
-input {
+/*choices and their selectors side-by-side*/
+#sidebar input :not(.user-option) {
+    display: inline-block;
+}
+#sidebar label :not(#user-option) {
     display: inline-block;
 }
 
@@ -311,18 +252,40 @@ input {
     max-width: 90%;
 }
 
-/****LIGHT/DARK MODES*****/
-
-/* .light-mode * {
-    --bg-color: white;
-    color: black;
+.hidden {
+    display: none;
 }
 
-.dark-mode * {
-    --bg-color: gray;
-    color: white;
-} */
+input:not(#bibleVerse) {
+    margin-left: 10px;
+}
 
-/* .dark-mode .toggle-btn.show-left-300 {
-    background-color: gray;
-} */
+#bibleChapter, #bibleVerse {
+    max-width: 30%;
+}
+
+#bibleChapter {
+    margin-right: 0;
+}
+
+#bibleBook {
+    min-width: 63.7%;
+}
+
+#backgroundImage, #windowImage {
+    max-width: 50%;
+}
+
+hr {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+/**/
+
+.user-option {
+    display: var(--user-display);
+}
+.user-option-l {
+    pointer-events: none;
+}
