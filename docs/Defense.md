@@ -936,7 +936,7 @@ This document outlines the testing strategy and approach for the development of 
   -	Network: multiple stable networks, vary often
 ### 6.6 - Testing Schedule <!--{#section-66}-->
 - 	Dry Testing, Week 10
-  - 	(single user, revise test procedure)
+  - (single user, revise test procedure
 -	Full Testing, Week 10-11
 -	Test Analysis and Revisions, Week 11-12
 ### 6.7 - Assumptions and Dependencies <!--{#section-67}-->
