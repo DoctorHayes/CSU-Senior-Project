@@ -3,10 +3,12 @@
 Bible Verse Vista - Defense Documentation
 ===============
 - **Name**: Bryce Furrow
-- **Date**: 3/4/24
+- **Graduation Date**: 5/4/24
 - **Majors**: Computer Science and Cybersecurity
 - **Advisor**: Dr. Sean Hayes
 <br/>
+
+(input Table of Contents here???)
 <!--
 ## Table of Contents
 - [1 - Statement of Purpose](#section-1)
@@ -49,15 +51,20 @@ Bible Verse Vista - Defense Documentation
 - [10 - Defense Presentation Slides](#section-10)
 -->
 
-## 1 - Statement of Purpose <!--{#section-1}-->
-(???)
-### 1.1 - Problem Statement <!--{#section-11}-->
+## 1 - Statement of Purpose/Problem Statement <!--{#section-1}-->
 Today, Christians have the opportunity to deliver the Word in a more effective, convenient, and personalized way with modern technologies, such as Google Chrome extensions. However, the majority of existing Bible verse extensions often fall short of expectations due to outdated browsers, generic backgrounds, lack of Biblical versions, and lack of customization options. This ultimately results in a clunky and unsatisfactory user experience. The key solution to this issue is to provide users with greater customizability in a variety of fields. Doing this will give Christians a more satisfying and immersive experience with Scripture, resulting in better engagement and understanding overall. This project seeks to create a superior Bible verse extension for Google Chrome, allowing fellow Christians to move forward with modern opportunities to spread the Word effectively.
 <br/><br/>
 
 ## 2 - Research and Background <!--{#section-2}-->
-(???)
-### 2.1 - ??? <!--{#section-21}-->
+(NF???)
+(all the things I needed to figure out – describing what I had to learn / what would you need to learn PRIOR to understanding how project works or how to make project)
+<br/>
+(just do my best to recall)
+<br/>
+(varied length could be 1 page, could be 3-4 pages)
+<br/>
+
+### 2.1 - (any subsections needed???) <!--{#section-21}-->
 (???)
 <br/><br/>
 
@@ -67,9 +74,9 @@ Project Languages:
 - CSS
 - JavaScript
 
-Software: Google Chrome v122.0.6261.95 (latest)
+Software: Google Chrome v122.0.6261.129 (latest)
 <br/>
-Hardware: (any computer that can run Google Chrome at v122.0.6261.95???)
+Hardware: runs on any computer that can run the latest version of Google Chrome
 <br/><br/>
 
 ## 4 - Project Requirements <!--{#section-4}-->
@@ -837,10 +844,19 @@ Dependencies: 1
 <br/>
 
 ## 5 - Project Implementation <!--{#section-5}-->
-(???)
+(NF???)
+(describe how the design and features were implemented into the code)
+<br/>
+(can say/describe(?) design and features, explain how you wrote it (high-level, little detail(?)), how submitted to Chrome Web Store (deployment) ) 
+<br/>
+(screenshots of the EXTENSION ITSELF, NOT THE CODE)
+(ss of the feature examples when described)
+<br/>
+(put screenshots btwn sentences/paragraphs - like in senior portfolio?)
+
 ### 5.1 - Description??? <!--{#section-51}-->
 (???)
-### 5.1 - Implementation??? <!--{#section-52}-->
+### 5.2 - Implementation??? <!--{#section-52}-->
 (???)
 <br/><br/>
 
@@ -860,13 +876,17 @@ This document outlines the testing strategy and approach for the development of 
 -	Due to critical issues regarding my usual workspace, I had to work within a limited environment on another laptop. This negatively affected the development and testing time. Thankfully, this would soon even out as the system become more aclimated to my workload.
 ### 6.2 - References <!--{#section-62}-->
 #### 6.2.1 - Project Proposal <!--{#section-621}-->
-(???)
+(NF???)
+<br/>
+(LINK to Project Proposal section)
 #### 6.2.2 - Project Requirements <!--{#section-622}-->
-(???)
+(NF???)
+<br/>
+(LINK to Project Requirements section)
 ### 6.3 - Testing Strategy <!--{#section-63}-->
 #### 6.3.1 - Test Items <!--{#section-631}-->
 - Bible Verse Vista v1.0.0.0
-- Google Chrome v122.0.6261.95 (latest version)
+- Google Chrome v122.0.6261.129 (latest version)
 - User questionnaire (UAT)
 #### 6.3.2 - Test Features <!--{#section-632}-->
 (???)
@@ -905,21 +925,26 @@ This document outlines the testing strategy and approach for the development of 
 ### 6.4 - Test Deliverables <!--{#section-64}-->
 #### 6.4.1 - Test Cases <!--{#section-641}-->
 - [Test Cases](Test_Cases.pdf)
-#### 6.4.2 - Advised Changes <!--{#section-642}-->
-#### 6.4.3 - Test Reports <!--{#section-643}-->
+#### 6.4.2 - Test Results <!--{#section-642}-->
+(NF???)
+<br/>
+(LINK to Test Results section BELOW)
 ### 6.5 - Test Environment <!--{#section-65}-->
 -	Developer Device
-  -	Hardware: Dell Latitude 3520, Windows 10 Pr
-  -	Software: Google Chrome v122.0.6261.95 (latest)
+  -	Hardware: Dell Latitude 3520, Windows 10 Pro
+  -	Software: Google Chrome v122.0.6261.129 (latest)
   -	Network: multiple stable networks, vary often
 ### 6.6 - Testing Schedule <!--{#section-66}-->
-(update or not???)
+-	Dry Testing, Week 10
+  -	(single user, revise test procedure)
+-	Full Testing, Week 10-11
+-	Test Analysis and Revisions, Week 11-12
 ### 6.7 - Assumptions and Dependencies <!--{#section-67}-->
 #### 6.7.1 - Assumptions <!--{#section-671}-->
 -	The developer was able to implement all intended features.
 -	The testing environments accurately represent the variety of devices and configurations by users.
 -	Users have a basic knowledge of operating a browser and browser extensions.
--	Users have v122.0.6261.95132 or higher installation on Google Chrome for testing.
+-	Users have v122.0.6261.95 or higher installation on Google Chrome for testing.
 -	Users have a stable and reliable Internet connection during test phase.
 #### 6.7.2 - Dependencies <!--{#section-672}-->
 -	Availability of the extension in the testing environment – OS versions, Google Chrome, Google Chrome versions, etc.
@@ -943,14 +968,34 @@ This document outlines the testing strategy and approach for the development of 
 <br/><br/>
 
 ## 7 - Test Results <!--{#section-7}-->
-### 7.1 - ??? <!--{#section-7?}-->
+(NF???)
+<br/>
+(Test plan is "how I did it", Test Results are "here's what I found")
+### 7.1 - Advised Changes <!--{#section-71}-->
+(NF???) (stuff told to change)
+### 7.2 - Test Reports <!--{#section-67}-->
+(NF???) (stats of all, overall opinion and satisfaction, how successful was I?)
 <br/><br/>
 
 ## 8 - Challenges Overcome <!--{#section-8}-->
+(NF???)
+<br/>
+(looking for it NOT being super easy, had to work hard, learned stuff in the process, show significant progress - not necessarily need a lot of detail, go through problems and how I had to stretch myself)
+<br/>
+(can itemize or write paragraphs with subheadings, maybe like each problem with a mini-paragraph?)
 <br/><br/>
 
 ## 9 - Future Enhancements <!--{#section-9}-->
+(NF???)
+<br/>
+(have an intro paragraph for a header, likely reflecting on test results (advised changes and test reports) )
+<br/>
+(can be bulleted or have brief explanations - personally prefer brief explanations for why something is important or not, priorization, ease of implementation, etc.)
 <br/><br/>
 
 ## 10 - Defense Presentation Slides <!--{#section-10}-->
-
+(NF???)
+<br/>
+(DO NOT WORK ON UNTIL OTHER STUFF DONE)
+<br/>
+(Bobby project?, Rico had TOO MUCH detail, NF???)
