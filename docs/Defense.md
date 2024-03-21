@@ -889,7 +889,9 @@ This document outlines the testing strategy and approach for the development of 
 - Google Chrome v122.0.6261.129 (latest version)
 - User questionnaire (UAT)
 #### 6.3.2 - Test Features <!--{#section-632}-->
-(???)
+(NF???)
+<br/>
+(Update and insert to those ACTUALLY present and being tested)
 #### 6.3.3 - Test Approach <!--{#section-633}-->
 -	My overall approach to testing was primarily manual testing. The presets, user settings, and the Bible Gateway sync were easy to test. The many other customization features were testing extremes, many of which were often be implemented on purpose and allowed for the sake of user customization. (Regardless of aesthetic appeal or “normal” sensibility – user choice is the priority.)
   -	As the sole developer, all the extensive testing performed by myself was white box testing.
