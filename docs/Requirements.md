@@ -31,6 +31,9 @@ Dependencies: N/A
 
 ----
 
+> Requirement 2: Future Implementation <br/>
+> The search bar feature was deemed unnecessary at-launch with the URL search still available. However, the feature is open for future implementation, especially with enough user feedback.
+<s>
 <p>
 ID Number: 2
 </p>
@@ -55,6 +58,7 @@ Priority: 2
 <p>
 Dependencies: 1
 </p>
+</s>
 
 ----
 
@@ -165,7 +169,9 @@ Dependencies: 1
 </p>
 
 ----
-
+> Requirement 7: Future Implementation <br/>
+> Implementing Bible Gateway's Verse of the Day was determined as viable enough for a "random" verse. Furthermore, with the addition of user-selected verses, one may independently randomize their Bible verse. However, there *was* some user interest in implementing this feature. Thus, I plan to do so in the future.
+<s>
 <p>
 ID Number: 7
 </p>
@@ -190,6 +196,7 @@ Priority: 3
 <p>
 Dependencies: 1  
 </p>
+</s>
 
 ----
 
@@ -233,8 +240,6 @@ Description:<br/>
 <p>
 Rationale:<br/>
 &emsp; A minimalistic background will provide a clean and unobtrusive look for the extension, while the light/dark option will accentuate that look depending on which a user prefers. In addition, allowing users to choose between the two will allow for a simple binary choice and a clean canvas for those seeking more customization.
-  
-   if they rate the presentation on scale of 1 to 5, with 5 as most pleasing, it is 4 or above
 </p>
 <p>
 Fit Criterion:<br/>
@@ -249,6 +254,9 @@ Dependencies: N/A
 
 ----
 
+> Requirement 10: Future Implementation <br/>
+> As a low priority, this feature was passed over for more important features to include. This idea was reinforced from lack of mention in user feedback. However, this does not prevent its inclusion in the future if new user interest arises.
+<s>
 <p>
 ID Number: 10
 </p>
@@ -273,6 +281,7 @@ Priority: 5
 <p>
 Dependencies: 1 
 </p>
+</s>
 
 ----
 
@@ -311,11 +320,11 @@ Type: Usability - Ease of Use
 </p>
 <p>
 Description:<br/>
-&emsp; The extension will have clear and easy-to-understand instructions for use.
+&emsp; The extension will be clear and easy-to-understand to use.
 </p>
 <p>
 Rationale:<br/>
-&emsp; Users need clear instructions to make the most of the extension's features. This especially the case for users that may not be technically literate.
+&emsp; Users need to be able to understand what is available and how to use them with clarity to make the most of the extension's features. This is especially the case for users that may not be technically literate.
 </p>
 <p>
 Fit Criterion:<br/>
@@ -437,7 +446,9 @@ Dependencies: 1
 </p>
 
 ----
-
+> Requirement 17: Null <br/>
+> Having the settings page on the new tab was found to be easier for all users and was easier to implement.
+<s>
 <p>
 ID Number: 17
 </p>
@@ -462,6 +473,7 @@ Priority: 2
 <p>
 Dependencies: 1 
 </p>
+</s>
 
 ----
 
@@ -500,11 +512,11 @@ Type: Usability - Personalization and Internalization
 </p>
 <p>
 Description:<br/>
-&emsp; The extension will allow users to select the preferred language for the Bible version and the interface in order to accommodate non-English speakers.
+&emsp; The extension will allow users to select the preferred language for the Bible version in order to accommodate non-English speakers.
 </p>
 <p>
 Rationale:<br/>
-&emsp; Allowing users that speak other languages than English to receive God’s Word is important. However, I will focus more on the functionality, customization, and usability of the extension.
+&emsp; Allowing users that speak other languages than English to receive God’s Word is important. However, I do not plan to alter the language of the interface. I will be focusing more on the functionality, customization, and usability of the extension.
 </p>
 <p>
 Fit Criterion:<br/>
@@ -608,7 +620,7 @@ Type: Performance - Reliability and Availability
 </p>
 <p>
 Description:<br/>
-&emsp; The extension will be available and functional on all devices running the Google Chrome browser.
+&emsp; The extension will be available and functional on all computers running the Google Chrome browser.
 </p>
 <p>
 Rationale:<br/>
