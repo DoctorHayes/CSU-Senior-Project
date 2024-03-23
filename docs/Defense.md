@@ -8,54 +8,98 @@ Bible Verse Vista - Defense Documentation
 - **Advisor**: Dr. Sean Hayes
 <br/>
 
-(input Table of Contents here???)
-<!--
-## Table of Contents
-- [1 - Statement of Purpose](#section-1)
-  - [1.1 - Problem Statement](#section-11)
-- [2 - Research and Background](#section-2)
-  - [2.1 - ???](#section-21)
-- [3 - Project Languages, Software, and Hardware](#section-3)
-- [4 - Project Requirements](#section-4)
-- [5 - Project Implementation](#section-5)
-  - [5.1 - Description???](#section-51)
-  - [5.1 - Explanation???](#section-52)
-- [6 - Test Plan](#section-6)
-  - [6.1 - Introduction](#section-61)
-    - [6.1.1 - Project Overview](#section-611)
-    - [6.1.2 - Goals/Objectives](#section-612)
-    - [6.1.3 - Constraints](#section-613)
-  - [6.2 - References](#section-62)
-    - [6.2.1 - Project Proposal](#section-621)
-    - [6.2.2 - Project Requirements](#section-622)
-  - [6.3 - Testing Strategy](#section-63)
-    - [6.3.1 - Test Items](#section-631)
-    - [6.3.2 - Test Features](#section-632)
-    - [6.3.3 - Test Approach](#section-633)
-      - [6.3.3.1 - System Test](#section-6331)
-      - [6.3.3.2 - User Acceptance Test (UAT)](#section-6332)
-  - [6.4 - Test Deliverables](#section-64)
-    - [6.4.1 - Test Cases](#section-641)
-    - [6.4.2 - Advised Changes](#section-642)
-    - [6.4.3 - Test Reports](#section-643)
-  - [6.5 - Test Environment](#section-65)
-  - [6.6 - Testing Schedule](#section-66)
-  - [6.7 - Assumptions and Dependencies](#section-67)
-    - [6.2.1 - Assumptions](#section-621)
-    - [6.2.2 - Dependencies](#section-622)
-  - [6.8 - Approvals](#section-68)
-- [7 - Test Results](#section-7)
-  - [7.? - MANY POSSIBILITIES](#section-7?)
-- [8 - Challenges Overcome](#section-8)
-- [9 - Future Enhancements](#section-9)
-- [10 - Defense Presentation Slides](#section-10)
--->
+<table>
+	<thead>
+		<tr>
+			<th align="left">
+				Table of Contents:
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				1. <a href="#section1">Statement of Purpose/Problem Statement</a><br/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				2. <a href="#section2">Research and Background</a><br/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				3. <a href="#section3">Project Languages, Software, and Hardware</a><br/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				4. <a href="#section4">Project Requirements</a><br/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				5. <a href="#section5">Project Implementation</a><br/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				6. <a href="#section6">Test Plan</a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;6.1 <a href="#section6-1">Introduction</a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.1 <a href="#section6-1-1">Project Overview</a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.2 <a href="#section6-1-2">Goals/Objectives</a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1.3 <a href="#section6-1-3">Constraints</a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;6.2 <a href="#section6-2">References</a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.2.1 <a href="#section6-2-1">Project Proposal</a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.2.2 <a href="#section6-2-2">Project Requirements</a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;6.3 <a href="#section6-3">Testing Strategy</a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.3.1 <a href="#section6-3-1">Test Items</a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.3.2 <a href="#section6-3-2">Test Features</a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.3.3 <a href="#section6-3-3">Test Approach</a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.3.3.1 <a href="#section6-3-3-1">System Test</a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.3.3.2 <a href="#section6-3-3-2">User Acceptance Test</a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;6.4 <a href="#section6-4">Test Deliverables</a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.4.1 <a href="#section6-4-1">Test Cases</a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.4.2 <a href="#section6-4-2">Test Results</a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;6.5 <a href="#section6-5">Test Environments</a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;6.6 <a href="#section6-6">Testing Schedule</a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;6.7 <a href="#section6-7">Assumptions and Dependencies</a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.7.1 <a href="#section6-7-1">Assumptions</a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.7.2 <a href="#section6-7-2">Dependencies</a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;6.8 <a href="#section6-8">Approvals</a><br/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				7. <a href="#section7">Test Results</a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;7.1 <a href="#section7-1">Advised Changes</a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;7.2 <a href="#section7-2">Test Reports</a><br/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				8. <a href="#section8">Challenges Overcome</a><br/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				9. <a href="#section9">Future Enhancements</a><br/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				10. <a href="#section10">Defense Presentation Slides</a><br/>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<br/>
 
-## 1 - Statement of Purpose/Problem Statement <!--{#section-1}-->
+## 1 - Statement of Purpose/Problem Statement <a id="section1"></a>
 Today, Christians have the opportunity to deliver the Word in a more effective, convenient, and personalized way with modern technologies, such as Google Chrome extensions. However, the majority of existing Bible verse extensions often fall short of expectations due to outdated browsers, generic backgrounds, lack of Biblical versions, and lack of customization options. This ultimately results in a clunky and unsatisfactory user experience. The key solution to this issue is to provide users with greater customizability in a variety of fields. Doing this will give Christians a more satisfying and immersive experience with Scripture, resulting in better engagement and understanding overall. This project seeks to create a superior Bible verse extension for Google Chrome, allowing fellow Christians to move forward with modern opportunities to spread the Word effectively.
 <br/><br/>
 
-## 2 - Research and Background <!--{#section-2}-->
+## 2 - Research and Background <a id="section2"></a>
 (NF???)
 (all the things I needed to figure out – describing what I had to learn / what would you need to learn PRIOR to understanding how project works or how to make project)
 <br/>
@@ -64,11 +108,11 @@ Today, Christians have the opportunity to deliver the Word in a more effective, 
 (varied length could be 1 page, could be 3-4 pages)
 <br/>
 
-### 2.1 - (any subsections needed???) <!--{#section-21}-->
+### 2.1 - (any subsections needed???) <a id="section2-1"></a>
 (???)
 <br/><br/>
 
-## 3 - Project Languages, Software, and Hardware <!--{#section-3}-->
+## 3 - Project Languages, Software, and Hardware <a id="section3"></a>
 Project Languages:
 - HTML
 - CSS
@@ -79,7 +123,7 @@ Software: Google Chrome v122.0.6261.129 (latest)
 Hardware: runs on any computer that can run the latest version of Google Chrome
 <br/><br/>
 
-## 4 - Project Requirements <!--{#section-4}-->
+## 4 - Project Requirements <a id="section4"></a>
 (Priority Scale - 1 is the highest, 5 is the lowest.)
 
 ----
@@ -843,7 +887,7 @@ Dependencies: 1
 ----
 <br/>
 
-## 5 - Project Implementation <!--{#section-5}-->
+## 5 - Project Implementation <a id="section5"></a>
 (NF???)
 (describe how the design and features were implemented into the code)
 <br/>
@@ -854,58 +898,58 @@ Dependencies: 1
 <br/>
 (put screenshots btwn sentences/paragraphs - like in senior portfolio?)
 
-### 5.1 - Description??? <!--{#section-51}-->
+### 5.1 - Description??? <a id="section5-1"></a>
 (???)
-### 5.2 - Implementation??? <!--{#section-52}-->
+### 5.2 - Implementation??? <a id="section5-2"></a>
 (???)
 <br/><br/>
 
-## 6 - Test Plan <!--{#section-6}-->
-### 6.1 - Introduction <!--{#section-61}-->
-#### 6.1.1 - Project Overview <!--{#section-611}-->
+## 6 - Test Plan <a id="section6"></a>
+### 6.1 - Introduction <a id="section6-1"></a>
+#### 6.1.1 - Project Overview <a id="section6-1-1"></a>
 This document outlines the testing strategy and approach for the development of this Google Chrome extension that creates highly customizable new tabs to display Bible verses. While a number of extensions exist that display verses on new tabs, many are extremely bland and static, lacking any customization options. This extension aims to create a more effective, convenient, and personalized way to deliver the Word to any user.
-#### 6.1.2 - Goals/Objectives <!--{#section-612}-->
+#### 6.1.2 - Goals/Objectives <a id="section6-1-2"></a>
 - Validate the functionality and customization options of the Bible verses and the New Tab for the extension
 - Ensure extension compatibility within the Chrome browser framework
 - Ensure that the extension and its customization is satisfying and easy-to-use, receiving feedback from a variety of users
 - Measure and minimize load for best performance – stability even with a large number of new tabs
-#### 6.1.3 - Constraints <!--{#section-613}-->
+#### 6.1.3 - Constraints <a id="section6-1-3"></a>
 -	There was a limited time to work before milestones and due dates, including the final submission.
 -	This was a one-man project – I am the only developer and test manager.
 -	I have had multiple ongoing courses with weekly projects of their own, which required split attention with this project.
 -	Due to critical issues regarding my usual workspace, I had to work within a limited environment on another laptop. This negatively affected the development and testing time. Thankfully, this would soon even out as the system become more aclimated to my workload.
-### 6.2 - References <!--{#section-62}-->
-#### 6.2.1 - Project Proposal <!--{#section-621}-->
+### 6.2 - References <a id="section6-2"></a>
+#### 6.2.1 - Project Proposal <a id="section6-2-1"></a>
 (NF???)
 <br/>
 (LINK to Project Proposal section)
-#### 6.2.2 - Project Requirements <!--{#section-622}-->
+#### 6.2.2 - Project Requirements <a id="section6-2-2"></a>
 (NF???)
 <br/>
 (LINK to Project Requirements section)
-### 6.3 - Testing Strategy <!--{#section-63}-->
-#### 6.3.1 - Test Items <!--{#section-631}-->
+### 6.3 - Testing Strategy <a id="section6-3"></a>
+#### 6.3.1 - Test Items <a id="section6-3-1"></a>
 - Bible Verse Vista v1.0.0.0
 - Google Chrome v122.0.6261.129 (latest version)
 - User questionnaire (UAT)
-#### 6.3.2 - Test Features <!--{#section-632}-->
+#### 6.3.2 - Test Features <a id="section6-3-2"></a>
 (NF???)
 <br/>
 (Update and insert to those ACTUALLY present and being tested)
-#### 6.3.3 - Test Approach <!--{#section-633}-->
+#### 6.3.3 - Test Approach <a id="section6-3-3"></a>
 -	My overall approach to testing was primarily manual testing. The presets, user settings, and the Bible Gateway sync were easy to test. The many other customization features were testing extremes, many of which were often be implemented on purpose and allowed for the sake of user customization. (Regardless of aesthetic appeal or “normal” sensibility – user choice is the priority.)
   -	As the sole developer, all the extensive testing performed by myself was white box testing.
   -	As for anyone else tested, they performed black box testing. This approximated how users would receive it from the Chrome Web Store, testing whether the extension itself was intuitive enough to use effectively.
 -	There was no plan for automatic testing.
 -	The types of tests that were performed are unit tests, integration tests, system tests, and user acceptance tests (UATs).
-##### 6.3.3.1 - System Test <!--{#section-6331}-->
+##### 6.3.3.1 - System Test <a id="section6-3-3-1"></a>
 -	This testing ensured that Bible Gateway was synced properly and that each customization setting within a new tab was properly implemented – default, other presets, and user-chosen – in an individual sense and all together.
 -	It also verified if the settings are maintained across many new tabs and tests whether settings save or not upon webpage refresh, extension on/off, browser on/off, post-shutdown, etc.
 -	Is it displaying each and all of the features as expected? 
   -	[ Yes or no? -> Pass or fail ]
 	- (refer to Test Plan Section 3.2 above)
 	- (refer to Project Requirements, IDs 1-24)
-##### 6.3.3.2 - User Acceptance Test <!--{#section-6332}-->
+##### 6.3.3.2 - User Acceptance Test <a id="section6-3-3-2"></a>
 - This testing verifies whether the primary purpose of the extension has been met or not – user satisfaction. 
 - Testing would be with a variety of users with different systems and different technical experience; therefore, it will be simultaneous testing with performance/load, compatibility, and usability as well.
 - Testers would be given a test script, telling them the premise of having downloaded a Google Chrome extension that says it has Bible verses appear on new tabs, but that it’s also very customizable.
@@ -924,35 +968,35 @@ This document outlines the testing strategy and approach for the development of 
 - Their final overall experience will be graded on the same scale.
 - There will be a section at the end for specific recommendations and changes to take into consideration.
 
-### 6.4 - Test Deliverables <!--{#section-64}-->
-#### 6.4.1 - Test Cases <!--{#section-641}-->
+### 6.4 - Test Deliverables <a id="section6-4"></a>
+#### 6.4.1 - Test Cases <a id="section6-4-1"></a>
 - [Test Cases](Test_Cases.pdf)
-#### 6.4.2 - Test Results <!--{#section-642}-->
+#### 6.4.2 - Test Results <a id="section6-4-2"></a>
 (NF???)
 <br/>
 (LINK to Test Results section BELOW)
-### 6.5 - Test Environment <!--{#section-65}-->
+### 6.5 - Test Environment <a id="section6-5"></a>
 -	Developer Device
   -	Hardware: Dell Latitude 3520, Windows 10 Pro
   -	Software: Google Chrome v122.0.6261.129 (latest)
   -	Network: multiple stable networks, vary often
-### 6.6 - Testing Schedule <!--{#section-66}-->
+### 6.6 - Testing Schedule <a id="section6-6"></a>
 - 	Dry Testing, Week 10
  	- (single user, revise test procedure)
 -	Full Testing, Week 10-11
 -	Test Analysis and Revisions, Week 11-12
-### 6.7 - Assumptions and Dependencies <!--{#section-67}-->
-#### 6.7.1 - Assumptions <!--{#section-671}-->
+### 6.7 - Assumptions and Dependencies <a id="section6-7"></a>
+#### 6.7.1 - Assumptions <a id="section6-7-1"></a>
 -	The developer was able to implement all intended features.
 -	The testing environments accurately represent the variety of devices and configurations by users.
 -	Users have a basic knowledge of operating a browser and browser extensions.
 -	Users have v122.0.6261.95 or higher installation on Google Chrome for testing.
 -	Users have a stable and reliable Internet connection during test phase.
-#### 6.7.2 - Dependencies <!--{#section-672}-->
+#### 6.7.2 - Dependencies <a id="section6-7-2"></a>
 -	Availability of the extension in the testing environment – OS versions, Google Chrome, Google Chrome versions, etc.
 -	The sole developer using a capable device with all necessary features for development and testing.
 -	The developer fixes any identified issues and changes features according to user feedback during test phase.
-### 6.8 - Approvals <!--{#section-68}-->
+### 6.8 - Approvals <a id="section6-8"></a>
 |                                       |
 |---------------------------------------|
 | **Name**: Bryce Furrow                |
@@ -969,17 +1013,17 @@ This document outlines the testing strategy and approach for the development of 
 
 <br/><br/>
 
-## 7 - Test Results <!--{#section-7}-->
+## 7 - Test Results <a id="section7"></a>
 (NF???)
 <br/>
 (Test plan is "how I did it", Test Results are "here's what I found")
-### 7.1 - Advised Changes <!--{#section-71}-->
+### 7.1 - Advised Changes <a id="section7-1"></a>
 (NF???) (stuff told to change)
-### 7.2 - Test Reports <!--{#section-67}-->
+### 7.2 - Test Reports <a id="section7-2"></a>
 (NF???) (stats of all, overall opinion and satisfaction, how successful was I?)
 <br/><br/>
 
-## 8 - Challenges Overcome <!--{#section-8}-->
+## 8 - Challenges Overcome <a id="section8"></a>
 (NF???)
 <br/>
 (looking for it NOT being super easy, had to work hard, learned stuff in the process, show significant progress - not necessarily need a lot of detail, go through problems and how I had to stretch myself)
@@ -987,7 +1031,7 @@ This document outlines the testing strategy and approach for the development of 
 (can itemize or write paragraphs with subheadings, maybe like each problem with a mini-paragraph?)
 <br/><br/>
 
-## 9 - Future Enhancements <!--{#section-9}-->
+## 9 - Future Enhancements <a id="section9"></a>
 (NF???)
 <br/>
 (have an intro paragraph for a header, likely reflecting on test results (advised changes and test reports) )
@@ -995,7 +1039,7 @@ This document outlines the testing strategy and approach for the development of 
 (can be bulleted or have brief explanations - personally prefer brief explanations for why something is important or not, priorization, ease of implementation, etc.)
 <br/><br/>
 
-## 10 - Defense Presentation Slides <!--{#section-10}-->
+## 10 - Defense Presentation Slides <a id="section10"></a>
 (NF???)
 <br/>
 (DO NOT WORK ON UNTIL OTHER STUFF DONE)
