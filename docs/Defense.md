@@ -920,13 +920,10 @@ This document outlines the testing strategy and approach for the development of 
 -	Due to critical issues regarding my usual workspace, I had to work within a limited environment on another laptop. This negatively affected the development and testing time. Thankfully, this would soon even out as the system become more aclimated to my workload.
 ### 6.2 - References <a id="section6-2"></a>
 #### 6.2.1 - Project Proposal <a id="section6-2-1"></a>
-(NF???)
-<br/>
-(LINK to Project Proposal section)
+- <a href="https://github.com/BFurrow-Collab/Bible-Verse-Vista/blob/master/docs/Proposal.md">Project Proposal</a><br/> 
 #### 6.2.2 - Project Requirements <a id="section6-2-2"></a>
-(NF???)
-<br/>
-(LINK to Project Requirements section)
+- <a href="#section4">Project Requirements</a>
+
 ### 6.3 - Testing Strategy <a id="section6-3"></a>
 #### 6.3.1 - Test Items <a id="section6-3-1"></a>
 - Bible Verse Vista v1.0.0.0
@@ -947,8 +944,9 @@ This document outlines the testing strategy and approach for the development of 
 -	It also verified if the settings are maintained across many new tabs and tests whether settings save or not upon webpage refresh, extension on/off, browser on/off, post-shutdown, etc.
 -	Is it displaying each and all of the features as expected? 
   -	[ Yes or no? -> Pass or fail ]
-	- (refer to Test Plan Section 3.2 above)
-	- (refer to Project Requirements, IDs 1-24)
+  -	(NF???)
+	- (refer to Section 6.3.2 - <a href="#section6-3-2">Test Features</a> just above)
+	- (refer to Section 4 - <a href="#section4">Project Requirements</a>, IDs 1-24)
 ##### 6.3.3.2 - User Acceptance Test <a id="section6-3-3-2"></a>
 - This testing verifies whether the primary purpose of the extension has been met or not – user satisfaction. 
 - Testing would be with a variety of users with different systems and different technical experience; therefore, it will be simultaneous testing with performance/load, compatibility, and usability as well.
@@ -972,9 +970,8 @@ This document outlines the testing strategy and approach for the development of 
 #### 6.4.1 - Test Cases <a id="section6-4-1"></a>
 - [Test Cases](Test_Cases.pdf)
 #### 6.4.2 - Test Results <a id="section6-4-2"></a>
-(NF???)
-<br/>
-(LINK to Test Results section BELOW)
+- <a href="#section7">Test Results</a>
+
 ### 6.5 - Test Environment <a id="section6-5"></a>
 -	Developer Device
   -	Hardware: Dell Latitude 3520, Windows 10 Pro
