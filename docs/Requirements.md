@@ -485,15 +485,15 @@ Type: Look and Feel - Appearance
 </p>
 <p>
 Description:<br/>
-&emsp; The extension will support light and dark mode for the verse window. 
+&emsp; The extension will support light and dark mode for the new tab. 
 </p>
 <p>
 Rationale:<br/>
-&emsp; Allowing differing light or dark mode settings may seem strange. However, allowing the option to have it be different allows for those who may want it an improved user experience. It may help a user focus in on the verse with the contrast in color.
+&emsp; Allowing the option to have easy presets for light and dark mode will greatly improve the user experience for those who don't want to manually choose their custom color schemes. In addition, the contrast in color found in light and dark modes can aid user focus.
 </p>
 <p>
 Fit Criterion:<br/>
-&emsp; The user can set one or both the background and verse window to be light or dark mode.
+&emsp; The user can set the new tab to be in light or dark mode.
 </p>
 <p>
 Priority: 4
@@ -530,7 +530,9 @@ Dependencies: 1
 </p>
 
 ----
-
+> Requirement 20: Null <br/>
+> After surveying a variety of potential users, including the project supervisor, it was determined that the extension was easy to use without any instructions. This was further reinforced after official testing came to the same conclusion.
+<s>
 <p>
 ID Number: 20
 </p>
@@ -539,11 +541,11 @@ Type: Usability - Learning
 </p>
 <p>
 Description:<br/>
-&emsp; The extension will have an intuitive interface that allows new users to easily understand the customization options available.
+&emsp; The extension will have clear and easy-to-understand instructions for use.
 </p>
 <p>
 Rationale:<br/>
-&emsp; Users should not need to trudge through instructions in order to use the extension's basic features. This especially the case for users that may not be technically literate.
+&emsp; Users need clear instructions to make the most of the extension's features. This especially the case for users that may not be technically literate.
 </p>
 <p>
 Fit Criterion:<br/>
@@ -555,6 +557,7 @@ Priority: 2
 <p>
 Dependencies: 1 
 </p>
+</s>
 
 ----
 
@@ -767,6 +770,87 @@ Fit Criterion:<br/>
 </p>
 <p>
 Priority: 1
+</p>
+<p>
+Dependencies: 1 
+</p>
+
+----
+
+<p>
+ID Number: 29
+</p>
+<p>
+Type: Functional
+</p>
+<p>
+Description:<br/>
+&emsp; The extension will include the ability to return to the default settings.
+</p>
+<p>
+Rationale:<br/>
+&emsp; This extension will include a wide variety of settings users are able to change, and it is reasonable to anticipate users wanting to return to the original "blank slate" of the extension.
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; The extension will have a "Return to Defaults" button that restores the original default settings of the extension.
+</p>
+<p>
+Priority: 3
+</p>
+<p>
+Dependencies: 1 
+</p>
+
+----
+
+<p>
+ID Number: 30
+</p>
+<p>
+Type: Functional
+</p>
+<p>
+Description:<br/>
+&emsp; The extension will include the ability to save the current state of the user settings, as well as the ability to reload those settings later.
+</p>
+<p>
+Rationale:<br/>
+&emsp; To complement the "Return to Defaults", giving the ability for a user to save their favorite settings is important with how many settings are available to change. It also helps to prevent frustration if the default button were pressed on accident.
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; The extension will have a "Save Settings" and "Load Settings" buttons that save the current settings state of the extension and can restore those settings at a later time.
+</p>
+<p>
+Priority: 3
+</p>
+<p>
+Dependencies: 1
+</p>
+
+----
+
+<p>
+ID Number: 31
+</p>
+<p>
+Type: Look and Feel - Appearance
+</p>
+<p>
+Description:<br/>
+&emsp; The settings page will also be suitably customizable with features similar to, if not the same as, those implemented on the face of the new tab page
+</p>
+<p>
+Rationale:<br/>
+&emsp; However the settings page is implemented in this extension, it too should be able to appeal to users aesthetic preferences. This is especially the case for if it appears on the new tab page itself rather than a separate menu page since it could otherwise clash with the new tab's customized aesthetics.
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; The extension will have a series of settings to alter the aesthetics of the settings page itself.
+</p>
+<p>
+Priority: 3
 </p>
 <p>
 Dependencies: 1 
