@@ -1023,7 +1023,7 @@ This document outlines the testing strategy and approach for the development of 
 
 ### 6.3 - Testing Strategy <a id="section6-3"></a>
 #### 6.3.1 - Test Items <a id="section6-3-1"></a>
-- Bible Verse Vista v1.0.0.0
+- Bible Verse Vista v1.0.0
 - Google Chrome v122.0.6261.129 (latest version)
 - User questionnaire (UAT)
 #### 6.3.2 - Test Features <a id="section6-3-2"></a>
