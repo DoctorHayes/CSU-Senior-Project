@@ -609,15 +609,15 @@ Type: Look and Feel - Appearance
 </p>
 <p>
 Description:<br/>
-&emsp; The extension will support light and dark mode for the verse window. 
+&emsp; The extension will support light and dark mode for the new tab. 
 </p>
 <p>
 Rationale:<br/>
-&emsp; Allowing differing light or dark mode settings may seem strange. However, allowing the option to have it be different allows for those who may want it an improved user experience. It may help a user focus in on the verse with the contrast in color.
+&emsp; Allowing the option to have easy presets for light and dark mode will greatly improve the user experience for those who don't want to manually choose their custom color schemes. In addition, the contrast in color found in light and dark modes can aid user focus.
 </p>
 <p>
 Fit Criterion:<br/>
-&emsp; The user can set one or both the background and verse window to be light or dark mode.
+&emsp; The user can set the new tab to be in light or dark mode.
 </p>
 <p>
 Priority: 4
@@ -654,7 +654,9 @@ Dependencies: 1
 </p>
 
 ----
-
+> Requirement 20: Null <br/>
+> After surveying a variety of potential users, including the project supervisor, it was determined that the extension was easy to use without any instructions. This was further reinforced after official testing came to the same conclusion.
+<s>
 <p>
 ID Number: 20
 </p>
@@ -663,11 +665,11 @@ Type: Usability - Learning
 </p>
 <p>
 Description:<br/>
-&emsp; The extension will have an intuitive interface that allows new users to easily understand the customization options available.
+&emsp; The extension will have clear and easy-to-understand instructions for use.
 </p>
 <p>
 Rationale:<br/>
-&emsp; Users should not need to trudge through instructions in order to use the extension's basic features. This especially the case for users that may not be technically literate.
+&emsp; Users need clear instructions to make the most of the extension's features. This especially the case for users that may not be technically literate.
 </p>
 <p>
 Fit Criterion:<br/>
@@ -679,6 +681,7 @@ Priority: 2
 <p>
 Dependencies: 1 
 </p>
+</s>
 
 ----
 
@@ -897,6 +900,88 @@ Dependencies: 1
 </p>
 
 ----
+
+<p>
+ID Number: 29
+</p>
+<p>
+Type: Functional
+</p>
+<p>
+Description:<br/>
+&emsp; The extension will include the ability to return to the default settings.
+</p>
+<p>
+Rationale:<br/>
+&emsp; This extension will include a wide variety of settings users are able to change, and it is reasonable to anticipate users wanting to return to the original "blank slate" of the extension.
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; The extension will have a "Return to Defaults" button that restores the original default settings of the extension.
+</p>
+<p>
+Priority: 3
+</p>
+<p>
+Dependencies: 1 
+</p>
+
+----
+
+<p>
+ID Number: 30
+</p>
+<p>
+Type: Functional
+</p>
+<p>
+Description:<br/>
+&emsp; The extension will include the ability to save the current state of the user settings, as well as the ability to reload those settings later.
+</p>
+<p>
+Rationale:<br/>
+&emsp; To complement the "Return to Defaults", giving the ability for a user to save their favorite settings is important with how many settings are available to change. It also helps to prevent frustration if the default button were pressed on accident.
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; The extension will have a "Save Settings" and "Load Settings" buttons that save the current settings state of the extension and can restore those settings at a later time.
+</p>
+<p>
+Priority: 3
+</p>
+<p>
+Dependencies: 1
+</p>
+
+----
+
+<p>
+ID Number: 31
+</p>
+<p>
+Type: Look and Feel - Appearance
+</p>
+<p>
+Description:<br/>
+&emsp; The settings page will also be suitably customizable with features similar to, if not the same as, those implemented on the face of the new tab page
+</p>
+<p>
+Rationale:<br/>
+&emsp; However the settings page is implemented in this extension, it too should be able to appeal to users aesthetic preferences. This is especially the case for if it appears on the new tab page itself rather than a separate menu page since it could otherwise clash with the new tab's customized aesthetics.
+</p>
+<p>
+Fit Criterion:<br/>
+&emsp; The extension will have a series of settings to alter the aesthetics of the settings page itself.
+</p>
+<p>
+Priority: 3
+</p>
+<p>
+Dependencies: 1 
+</p>
+
+----
+
 <br/>
 
 ## 5 - Project Implementation <a id="section5"></a>
@@ -942,9 +1027,67 @@ This document outlines the testing strategy and approach for the development of 
 - Google Chrome v122.0.6261.129 (latest version)
 - User questionnaire (UAT)
 #### 6.3.2 - Test Features <a id="section6-3-2"></a>
-(NF???)
+- <a href="#section4">Project Requirements</a>
+	- (The number next to each feature relates to the corresponding ID Number in the Requirements Document.)
 <br/>
-(Update and insert to those ACTUALLY present and being tested)
+
+- Settings
+	- Basic menu stores all settings featured below
+ 	- User-intuitive ways to change settings (12)
+  	- Default settings for all - not a blank state, but a serviceable basis (14)
+  	- Ability to reset to default settings (29)
+  	- Preset default options (14)
+  	- User custom choice for options
+  	- Save and store present user settings - reloadable (30)
+- Settings Sidebar (31)
+	- Color
+ 	- Opacity
+  	- Header display options
+  		- Size
+  	 	- Font
+  	  	- Color
+  	- Text display options
+  		- Size
+  	 	- Font
+  	  	- Color
+- Theme selection
+	- Basic light and dark modes (9, 18)
+ 		- Default to light mode
+- Background (3)
+	- Background image
+ 		- Default image(s) (15)
+   	- Background color
+- Bible verse window (1)
+	- Window background
+ 		- Background image
+   		- Background color
+	- Window border
+ 		- Color
+   		- Size/thickness
+     		- Opacity
+	- Window opacity
+	- Window color
+	- Window width
+	- Window positioning (4)
+		- Default is center-screen
+		- Presets for quadrants along center vertical line (4)
+	- Text display options
+		- Size
+		- Font
+		- Color
+		- Alignment
+- Bible Gateway connection (22)
+	- Verse via user choice (8)
+	- Verse of the Day (default) (6)
+	- Bible version options (5)
+	- Bible language options (19)
+- Natural Ease-of-Use (12)
+	- Designed with clarity and intuitive settings for the sake of users inexperienced with my extensions, with using extensions, or with using technology, in general. (12)
+		- (For any messages, ensure that the tone is representative of Christ)
+		- (Make sure that users are not pressured by all the options - make it clear that there are easy presets and wider choice beyond that is up to them)
+- Errors
+	- Avoid errors, obviously (16, 22)
+	- Display errors to users - informative, but not too informative
 #### 6.3.3 - Test Approach <a id="section6-3-3"></a>
 -	My overall approach to testing was primarily manual testing. The presets, user settings, and the Bible Gateway sync were easy to test. The many other customization features were testing extremes, many of which were often be implemented on purpose and allowed for the sake of user customization. (Regardless of aesthetic appeal or “normal” sensibility – user choice is the priority.)
   -	As the sole developer, all the extensive testing performed by myself was white box testing.
@@ -956,9 +1099,8 @@ This document outlines the testing strategy and approach for the development of 
 -	It also verified if the settings are maintained across many new tabs and tests whether settings save or not upon webpage refresh, extension on/off, browser on/off, post-shutdown, etc.
 -	Is it displaying each and all of the features as expected? 
   -	[ Yes or no? -> Pass or fail ]
-  -	(NF???)
 	- (refer to Section 6.3.2 - <a href="#section6-3-2">Test Features</a> just above)
-	- (refer to Section 4 - <a href="#section4">Project Requirements</a>, IDs 1-24)
+	- (refer to Section 4 - <a href="#section4">Project Requirements</a>)
 ##### 6.3.3.2 - User Acceptance Test <a id="section6-3-3-2"></a>
 - This testing verifies whether the primary purpose of the extension has been met or not – user satisfaction. 
 - Testing would be with a variety of users with different systems and different technical experience; therefore, it will be simultaneous testing with performance/load, compatibility, and usability as well.
