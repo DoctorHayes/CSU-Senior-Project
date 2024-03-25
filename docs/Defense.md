@@ -1165,10 +1165,26 @@ This document outlines the testing strategy and approach for the development of 
 <br/><br/>
 
 ## 7 - Test Results <a id="section7"></a>
-(NF???)
+Testing was performed according to the general guidelines laid out in the 6.3 - <a href="#section6-3">Testing Strategy</a> with 10 formal testers. (There was also an informal tester, but I only included their advised changes within the section below.) 
 <br/>
-(Test plan is "how I did it", Test Results are "here's what I found")
-<br/><br/>
+### 7.1 - Advised Changes <a id="section7-1"></a>
+(More details regarding these features and my plans for each can be found in 9 - <a href="#section9">Future Enhancements</a>.)<br/>
+- Add more background images
+- Ability to upload custom user background images
+- Restore Google widgets and frequently used websites (that appear on normal new tabs)
+- Ability to randomize Bible verse
+- Add cursive and "feminine" fonts
+- Categorize background images
+- Font change preview (akin to MS Word)
+- Ability to apply the Bible Verse *only* to the first tab opened
+- Ability to randomly the background image with each tab opened
+- Ability to open and have multiple verses for comparison
+- Change 3-line menu button (make more obvious as a button to use, change it into an X to close)
+- Ability to change verse header underline size/thickness
+- Disable ability to select images when colors are active
+### 7.2 - Test Reports <a id="section7-2"></a>
+(NF???) (stats of all, overall opinion and satisfaction, how successful was I?)
+<br/>
 Overall usability scored 4.7/5.<br/>
 Ease of navigation scored 4.8/5.<br/>
 Performance scored 5/5.<br/>
@@ -1187,26 +1203,8 @@ When asked about what they liked most about the extension, 8/10 appreciated the 
 10/10 users plan to keep using the extension.<br/>
 9/10 users said they would suggest the extension to others.<br/>
 10/10 gave positive feedback when asked to share their additional thoughts.<br/>
-### 7.1 - Advised Changes <a id="section7-1"></a>
-- Add more background images
-- Ability to upload custom user background images
-- Restore Google widgets and frequently used websites (that appear on normal new tabs)
-- Ability to randomize Bible verse
-- Add cursive and "feminine" fonts
-- Categorize background images
-- Font change preview (akin to MS Word)
-- Ability to apply the Bible Verse *only* to the first tab opened
-- Ability to randomly the background image with each tab opened
-- Ability to open and have multiple verses for comparison
-- Change 3-line menu button (make more obvious as a button to use, change it into an X to close)
-- Ability to change verse header underline size/thickness
-- Disable ability to select images when colors are active
-### 7.2 - Test Reports <a id="section7-2"></a>
-(NF???) (stats of all, overall opinion and satisfaction, how successful was I?)
 <br/>
-(ASK HAYES - SHOULD THIS SECTION BE HERE, OR DOWN IN FUTURE ENHANCEMENTS??? BOTH ASK FOR OVERALL RESULTS AND STUFF)
-<br/>
-Overall, it is clear that (well over 80% of) users were greatly satisfied with Bible Verse Vista v1.0.0 in its release state. The ratings on the Chrome Web Store reflect this with 4.8/5 stars. I could not have asked for a better response to my first-time “real” and public creation in regard to programming. The positive response I’ve received and the potential for growth into a wider group of Christian believers inspires me to continue developing this extension, even years after I graduate. 
+Overall, it is clear that (well over 80% of) users were greatly satisfied with Bible Verse Vista v1.0.0 in its release state. The ratings on the Chrome Web Store reflect this with 4.8/5 stars (from 4 reviews). I could not have asked for a better response to my first-time “real” and public creation in regard to programming. The positive response I’ve received and the potential for growth into a wider group of Christian believers inspires me to continue developing this extension, even years after I graduate. 
 <br/><br/>
 
 ## 8 - Challenges Overcome <a id="section8"></a>
