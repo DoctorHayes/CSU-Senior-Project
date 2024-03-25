@@ -1192,7 +1192,7 @@ Customizability scored 4.7/5.<br/>
 Expected functionality scored 4.8/5.<br/>
 Readability and aesthetics scored 4.8/5.<br/>
 **Overall rating: 4.8/5**
-<br/><br/><br/>
+<br/><br/>
 
 ![](Quantitative_Graph.png)
 <br/>
