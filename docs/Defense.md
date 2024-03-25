@@ -1183,8 +1183,6 @@ Testing was performed according to the general guidelines laid out in the 6.3 - 
 - Ability to change verse header underline size/thickness
 - Disable ability to select images when colors are active
 ### 7.2 - Test Reports <a id="section7-2"></a>
-<br/>
-
 ![](Quantitative_Graph.png)
 <br/>
 Overall usability scored 4.7/5.<br/>
