@@ -1183,7 +1183,8 @@ Testing was performed according to the general guidelines laid out in the 6.3 - 
 - Ability to change verse header underline size/thickness
 - Disable ability to select images when colors are active
 ### 7.2 - Test Reports <a id="section7-2"></a>
-(NF???) (stats of all, overall opinion and satisfaction, how successful was I?)
+<br/>
+
 ![](Quantitative_Graph.png)
 <br/>
 Overall usability scored 4.7/5.<br/>
@@ -1194,6 +1195,7 @@ Expected functionality scored 4.8/5.<br/>
 Readability and aesthetics scored 4.8/5.<br/>
 **Overall rating: 4.8/5**
 <br/><br/><br/>
+
 ![](Quantitative_Graph.png)
 <br/>
 When asked about what they liked most about the extension, 8/10 appreciated the options.<br/>
@@ -1206,6 +1208,8 @@ When asked about what they liked most about the extension, 8/10 appreciated the 
 10/10 users plan to keep using the extension.<br/>
 9/10 users said they would suggest the extension to others.<br/>
 10/10 gave positive feedback when asked to share their additional thoughts.<br/>
+<br/><br/>
+(NF???) (stats of all, overall opinion and satisfaction, how successful was I?)
 <br/>
 Overall, it is clear that (well over 80% of) users were greatly satisfied with Bible Verse Vista v1.0.0 in its release state. The ratings on the Chrome Web Store reflect this with 4.8/5 stars (from 4 reviews). I could not have asked for a better response to my first-time “real” and public creation in regard to programming. The positive response I’ve received and the potential for growth into a wider group of Christian believers inspires me to continue developing this extension, even years after I graduate. 
 <br/><br/>
