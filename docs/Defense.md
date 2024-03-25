@@ -1184,6 +1184,7 @@ Testing was performed according to the general guidelines laid out in the 6.3 - 
 - Disable ability to select images when colors are active
 ### 7.2 - Test Reports <a id="section7-2"></a>
 (NF???) (stats of all, overall opinion and satisfaction, how successful was I?)
+![](Quantitative_Graph.png)
 <br/>
 Overall usability scored 4.7/5.<br/>
 Ease of navigation scored 4.8/5.<br/>
@@ -1192,7 +1193,9 @@ Customizability scored 4.7/5.<br/>
 Expected functionality scored 4.8/5.<br/>
 Readability and aesthetics scored 4.8/5.<br/>
 **Overall rating: 4.8/5**
-<br/><br/>
+<br/><br/><br/>
+![](Quantitative_Graph.png)
+<br/>
 When asked about what they liked most about the extension, 8/10 appreciated the options.<br/>
 8/10 did not find any difficulty in using the extension. 2/10 were unfamiliar with Google Extensions.<br/>
 10/10 liked the background images, with 3/10 including additional suggestions.<br/>
