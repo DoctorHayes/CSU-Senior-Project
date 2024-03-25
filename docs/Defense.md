@@ -1168,10 +1168,45 @@ This document outlines the testing strategy and approach for the development of 
 (NF???)
 <br/>
 (Test plan is "how I did it", Test Results are "here's what I found")
+<br/><br/>
+Overall usability scored 4.7/5.<br/>
+Ease of navigation scored 4.8/5.<br/>
+Performance scored 5/5.<br/>
+Customizability scored 4.7/5.<br/>
+Expected functionality scored 4.8/5.<br/>
+Readability and aesthetics scored 4.8/5.<br/>
+**Overall rating: 4.8/5**
+<br/><br/>
+When asked about what they liked most about the extension, 8/10 appreciated the options.<br/>
+8/10 did not find any difficulty in using the extension. 2/10 were unfamiliar with Google Extensions.<br/>
+10/10 liked the background images, with 3/10 including additional suggestions.<br/>
+9/10 were satisfied by the font options. 1/10 wanted more feminine and/or cursive fonts (totally fair).<br/>
+10/10 encountered no errors when using the extension.<br/>
+5/10 gave feedback for additional functions to improve the extension. 5/10 said that there were no improvements needed.<br/>
+9/10 users were able to customize the page to their liking.<br/>
+10/10 users plan to keep using the extension.<br/>
+9/10 users said they would suggest the extension to others.<br/>
+10/10 gave positive feedback when asked to share their additional thoughts.<br/>
 ### 7.1 - Advised Changes <a id="section7-1"></a>
-(NF???) (stuff told to change)
+- Add more background images
+- Ability to upload custom user background images
+- Restore Google widgets and frequently used websites (that appear on normal new tabs)
+- Ability to randomize Bible verse
+- Add cursive and "feminine" fonts
+- Categorize background images
+- Font change preview (akin to MS Word)
+- Ability to apply the Bible Verse *only* to the first tab opened
+- Ability to randomly the background image with each tab opened
+- Ability to open and have multiple verses for comparison
+- Change 3-line menu button (make more obvious as a button to use, change it into an X to close)
+- Ability to change verse header underline size/thickness
+- Disable ability to select images when colors are active
 ### 7.2 - Test Reports <a id="section7-2"></a>
 (NF???) (stats of all, overall opinion and satisfaction, how successful was I?)
+<br/>
+(ASK HAYES - SHOULD THIS SECTION BE HERE, OR DOWN IN FUTURE ENHANCEMENTS??? BOTH ASK FOR OVERALL RESULTS AND STUFF)
+<br/>
+Overall, it is clear that (well over 80% of) users were greatly satisfied with Bible Verse Vista v1.0.0 in its release state. The ratings on the Chrome Web Store reflect this with 4.8/5 stars. I could not have asked for a better response to my first-time “real” and public creation in regard to programming. The positive response I’ve received and the potential for growth into a wider group of Christian believers inspires me to continue developing this extension, even years after I graduate. 
 <br/><br/>
 
 ## 8 - Challenges Overcome <a id="section8"></a>
@@ -1186,8 +1221,43 @@ This document outlines the testing strategy and approach for the development of 
 (NF???)
 <br/>
 (have an intro paragraph for a header, likely reflecting on test results (advised changes and test reports) )
-<br/>
-(can be bulleted or have brief explanations - personally prefer brief explanations for why something is important or not, priorization, ease of implementation, etc.)
+(WHAT TO INCLUDE DIFFERENT FROM THE RESULTS THEMSELVES???)
+<br/><br/>
+**Custom user background images**:<br/>
+&emsp;While it would be very easy to upload more background images, I believe that giving users the ability to upload their own images to use would more than satisfy their wishes. Simply adding more images would increase the size and impact the performance of my extension. Also, it's a feature that I wanted to include from the beginning of this project that was lost in the busy development schedule. It will be one of the next features that I will include in my next major update.
+<br/><br/>
+**Restore Google widgets and frequented websites**:<br/>
+&emsp;Unfortunately, this was a feature that I had entirely overlooked. For many years, I've used the DuckDuckGo browser extension, which removes all those things from my new tabs. However, testing showed that is one of the most significant missing features of my extension - to the point where the users missing them were willing to deactivate the extension to access them. Even though this was mentioned as a limited-time affair, I don't want to give any reason for my intended users to deactivate the extension. Thus, I also intend for this feature to be part of the next major update - if including those on my new tab is actually possible, that is.
+ <br/><br/>
+**Randomize Bible verse**:<br/>
+&emsp;This was another feature that I had intended in my original design for this extension. However, due to time constraints and difficult implementation within that time, I prioritized allowing the user to choose their own verse(s). Theoretically, a user could use an rng on their own and manually input whatever verse they get. However, I understand the desire for it as an official feature. This will not be a major priority though, as only one user in testing asked for it, and it's implementation is not expected to be easy.
+ <br/><br/>
+**Add cursive and "feminine" fonts**:<br/>
+&emsp;This request is entirely fair and is not difficult to add. I will put this either in some minor update before the next major update, or rolled into that major update.
+<br/><br/>
+**Categorize background images**:<br/>
+&emsp;This request is also fair, but I am unsure that there are enough backgrounds to justify categorization. There are just over 20 choices, and most of their titles are evocative and descriptive enough to tell what they are going to feature. In addition, I like the idea of allowing the user to browse and discover what they like the best based on those titles and their personal curiousity. I may not actually implement this feature at all, but I will consider it based on my own testing and/or if more user feedback for it arises.
+ <br/><br/>
+**Font change preview (akin to MS Word)**:<br/>
+&emsp;This sounds like a nice and convenient feature that I would like myself. However, there are some possible issues that may prevent its inclusion. It would likely take considerable reworking of the program to implment it, so it has a lower priority.
+<br/><br/>
+**Apply Bible Verse *only* to the first tab opened**:<br/>
+&emsp;This feature sounds very strange to me, but it's important to note that this was suggested by the same person whose Google widgets were not included on my new tab page. If I can reinclude those widgets, then I don't believe that this odd feature would be a priority for them. Only if there is actually no way to do so, then I would consider adding this as an option.
+<br/><br/>
+**Randomize background image with each tab opened**:<br/>
+&emsp;This feature makes more sense to add, and I don't believe it would be too hard to implement either. This could be added in a minor update, but it doesn't have too high of a priority.
+<br/><br/>
+**Ability to open and have multiple verses for comparison**:<br/>
+&emsp;While this feature could be neat, verse comparison is not the primary purpose of my extension. I believe that there would be better websites and extensions out there primarily for that purpose. However, I could consider adding this in the further future. Of course, with more support, I would implement it sooner.
+<br/><br/>
+**Change 3-line menu button**:<br/>
+&emsp;This was an interesting request. A couple users were unfamiliar with the 3-line button (I hate "hamburger button" with a vengeance) as a way to open and close menus. Early in my extensions design, having this be the menu button was an intentional choice so that I could avoid putting words on the screen like "Menu" or "Open Menu". Doing so would have made it obvious, but it also goes against the entire point of focusing in on the words of the verse(s). I also made the button light grey and on lowered opacity such that it would blend with any background but still be visible. I could only see myself slightly raising its opacity. In addition, I could also include an "X" button as an additional way to close the menu.
+<br/><br/>
+**Ability to change verse header underline size/thickness**:<br/>
+&emsp;This addition would be very easy to implement in my extension, and I can certainly have it within the next minor or major update.
+<br/><br/>
+**Disable ability to select images when colors are active**:<br/>
+&emsp;This was requested as a way to make what is able and what is *not* able to be done more obvious to users. While it is a common-sense thing to implement, I have had difficulty in programming similar features to it in my extension. In addition, no other users during testing pointed it out as an issue for them. Also, personally, I like to be able to change the image, even when I'm not able to see it yet. Unless users point this out as an issue in the future, I may not implement this in my extension.
 <br/><br/>
 
 ## 10 - Defense Presentation Slides <a id="section10"></a>
