@@ -1194,7 +1194,7 @@ Readability and aesthetics scored 4.8/5.<br/>
 **Overall rating: 4.8/5**
 <br/><br/>
 
-![](Quantitative_Graph.png)
+![](Qualitative_Graph.png)
 <br/>
 When asked about what they liked most about the extension, 8/10 appreciated the options.<br/>
 8/10 did not find any difficulty in using the extension. 2/10 were unfamiliar with Google Extensions.<br/>
