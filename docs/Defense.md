@@ -982,20 +982,61 @@ Dependencies: 1
 
 ## 5 - Project Implementation <a id="section5"></a>
 (NF???)
-(describe how the design and features were implemented into the code)
-<br/>
 (can say/describe(?) design and features, explain how you wrote it (high-level, little detail(?)), how submitted to Chrome Web Store (deployment) ) 
 <br/>
-(screenshots of the EXTENSION ITSELF, NOT THE CODE)
-(ss of the feature examples when described)
-<br/>
-(put screenshots btwn sentences/paragraphs - like in senior portfolio?)
-
-### 5.1 - Description??? <a id="section5-1"></a>
-(???)
-### 5.2 - Implementation??? <a id="section5-2"></a>
-(???)
 <br/><br/>
+The Bible Verse Vista extension aims to replace the normal new tab with a page that displays Bible verses, but I wanted to distinguish it from other similar extensions that are often extremely limited or bland with how they execute it. However, I also know that not everybody is meticulous or extreme in their desire to customize. As such, my extension was specifically designed with the idea of pairing simplicity with high customizability - to cater to all followers of Christ so they may imbue more of God's Word in their daily online activities in a way that suits them personally.<br/>
+<br/>
+Key features include the ability to choose between automatic or manual selection of daily verses, select from a variety of Bible versions available on Bible Gateway, and customize the background image or color of new tabs. Users can also customize the appearance of the verse window, including the font, color, and size of the text. Additionally, the extension offers light and dark mode options to suit different preferences.<br/>
+<br/>
+I did this by utilizing three languages - HTML, CSS, and JavaScript - the basics for building webpages. HTML creates the structure of the webpage and all its elements, CSS deals with the visuals of all those elements, and JavaScript deals with the interactive features on the webpage, connections to Bible Gateway, and how all the settings are saved and synced.<br/>
+<br/>
+One way to start showing the implementation is to show how I like to have my own new tab customized. Here is also what my settings sidebar looks like - just very basic HTML and CSS used to show and hide it from the screen.<br/>
+[SS my page]() [SS settings sidebar]()
+<br/><br/>
+I will go through how I got to this level of customization, but first, I want to show an important feature. Here in the settings page, I have implemented buttons for "Save User Settings", "Return to Defaults", and "Load User Settings". After pressing the save button, I can return to these settings at any time by pressing load. Also saved are the default settings, which can be returned to at any time.<br/>
+[SS Default/Save/Load buttons]() [SS default page]()
+<br/><br/>
+This is the page I'll be starting from to demonstrate the present key features of Bible Verse Vista. However, I can reload my saved settings from before, as I stated previously. All of this was possible thanks to JavaScripts saving features that can store the many values for the default page and a user-preferred page (and return to either at any time).<br/>
+[SS reloaded page]()
+<br/><br/>
+Anyways, back to the rest of the main features, we can see that the default page is very basic. Not quite a blank slate, but very close, and that was my intent. This allows users to let their creativity find what they best prefer. From the basics, we see the Verse of the Day, the Bible Version, and the Theme.<br/>
+There are three themes: Light Mode, Dark Mode, and User Mode. User Mode basically starts in Light Mode, and I wanted to separate the User Mode from it so that Light Mode could be easily set and returned to at any time. Not all users want to go through each element they are able to color, including myself. For my own sake, I simply set mine to dark mode. However, to show the full breadth of the features, I will keep it in User Mode.<br/>
+[SS default settings]()
+<br/><br/>
+Pulling from Bible Gateway's website via Javascript allows me to use their Automatic Verse of the Day code, but I also manually coded a way to access any verse(s) from their website. This gives the users their own choice of verse at any time so long as they type the book, chapter, and verse(s). Notice how it now isn't the same as the automatic verse from before.
+[SS User Choice VotD]()
+<br/><br/>
+The same can be done with the Bible Version, which also categorizes it by language, which I access from Bible Gateway by storing each url section in JavaScript.
+[SS new Bible version, differ language?]()
+<br/><br/>
+Now, let's pick up the pace and look at the wide variety of features available. You can customize the main background - choices of images or any color you like, the verse window, the window's border, the header, the text of the verse itself, and event the elements of the settings sidebar itself!
+[SS settings page pics]()
+<br/><br/>
+Here, I'll demonstrate some possibilities to customize and explain what I changed.<br/>
+...
+[SS promo ?]()
+<br/>
+...
+[SS promo ?]()
+<br/>
+...
+[SS promo ?]()
+<br/>
+...
+[SS new]()
+<br/>
+...
+[SS new]()
+<br/>
+...
+[SS new]()
+<br/><br/>
+And to top it all off, even after all the changes I've made, I can return back to how I best like my Bible Verse Vista page!<br/>
+[SS back to normal]()
+<br/><br/>
+For my last step of my implementation, I had to prepare and upload my extension to the Chrome Web Store for their approval. This involved a number of things, including (NF???).<br/>
+[SS Chrome Web Store Dev Profile stuff???]()
 
 ## 6 - Test Plan <a id="section6"></a>
 ### 6.1 - Introduction <a id="section6-1"></a>
