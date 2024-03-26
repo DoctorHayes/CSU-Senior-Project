@@ -106,10 +106,6 @@ Today, Christians have the opportunity to deliver the Word in a more effective, 
 (just do my best to recall)
 <br/>
 (varied length could be 1 page, could be 3-4 pages)
-<br/>
-
-### 2.1 - (any subsections needed???) <a id="section2-1"></a>
-(???)
 <br/><br/>
 
 ## 3 - Project Languages, Software, and Hardware <a id="section3"></a>
@@ -1190,7 +1186,8 @@ Ease of navigation scored 4.8/5.<br/>
 Performance scored 5/5.<br/>
 Customizability scored 4.7/5.<br/>
 Expected functionality scored 4.8/5.<br/>
-Readability and aesthetics scored 4.8/5.<br/>
+Readability and aesthetics scored 4.8/5.<br/><br/>
+Every category was rated with 4's or 5's, save for a single outlier (3) in Expected Functionality. This indicates that, despite having different computers, Chrome versions, experience with Chrome extensions, and experience with technology in general, all testers found the extension easy to navigate, perform well, readable, aesthetically pleasing, and very useable.<br/>The outlier (3) in functionality is because the user reported to not really have expectations of functionality, which is interesting since the premise of my testing survey explained what my extension's purpose was. Since no other users found issue with this survey question, I will consider this a mistake on how I asked the question rather than an issue on the part of my extension. In other words, I will consider the expectations of functionality for my extension well met.<br/><br/>
 **Overall rating: 4.8/5**
 <br/><br/>
 
@@ -1205,11 +1202,10 @@ When asked about what they liked most about the extension, 8/10 appreciated the 
 9/10 users were able to customize the page to their liking.<br/>
 10/10 users plan to keep using the extension.<br/>
 9/10 users said they would suggest the extension to others.<br/>
-10/10 gave positive feedback when asked to share their additional thoughts.<br/>
+10/10 gave positive feedback when asked to share their additional thoughts.<br/><br/>
+From this, I know that I have largely satisfied the target audience for my extension with fully positive feedback. Although there were, of course, suggestions for additional functions to improve the extension, the fact that 5/10 testers were wholly satisfied and saw no need for major change - already able to customize the page to their liking - is an impressive feat for Bible Verse Vista in its initial release state. Furthermore, the fact that all of them are planning to continue using it is honestly gratifying and proves the success of my efforts. Also, the reason that 1/10 users did not say they would suggest the extension to others is because they simply didn't state whether they would or not (as opposed to them saying they wouldn't suggest it to others).<br/>
 <br/>
-(NF???) (stats of all, overall opinion and satisfaction, how successful was I?)
-<br/>
-Overall, it is clear that (well over 80% of) users were greatly satisfied with Bible Verse Vista v1.0.0 in its release state. The ratings on the Chrome Web Store reflect this with 4.8/5 stars (from 4 reviews). I could not have asked for a better response to my first-time “real” and public creation in regard to programming. The positive response I’ve received and the potential for growth into a wider group of Christian believers inspires me to continue developing this extension, even years after I graduate. 
+**Overall, it is clear that well over 80% of users were greatly satisfied with Bible Verse Vista v1.0.0 in its release state. The ratings on the Chrome Web Store reflect this with 4.8/5 stars (from 4 reviews). I could not have asked for a better response to my first-time “real” and public creation in regard to programming. The positive response I’ve received and the potential for growth into a wider group of Christian believers inspires me to continue developing this extension, even years after I graduate.**
 <br/><br/>
 
 ## 8 - Challenges Overcome <a id="section8"></a>
@@ -1221,45 +1217,42 @@ Overall, it is clear that (well over 80% of) users were greatly satisfied with B
 <br/><br/>
 
 ## 9 - Future Enhancements <a id="section9"></a>
-(NF???)
-<br/>
-(have an intro paragraph for a header, likely reflecting on test results (advised changes and test reports) )
-(WHAT TO INCLUDE DIFFERENT FROM THE RESULTS THEMSELVES???)
+Looking at the overall <a href="#section7">Test Results</a>, it was clear that the testers were very satisfied with Bible Verse Vista in its current state. Having asked for explanations on both my quantitative and qualitative questions, I compiled all suggestions made from them into the <a href="#section7-1">Advised Changes</a> section from earlier. While the list may seem long, only a couple of these features made any serious impact on the overall user perception of my extension. As such, my plans and reasoning for each suggested feature will be included here as part of this extension's future enhancements.
 <br/><br/>
-**Custom user background images**:<br/>
+**Custom user background images**: (**mid priority, hard difficulty**)<br/>
 &emsp;While it would be very easy to upload more background images, I believe that giving users the ability to upload their own images to use would more than satisfy their wishes. Simply adding more images would increase the size and impact the performance of my extension. Also, it's a feature that I wanted to include from the beginning of this project that was lost in the busy development schedule. It will be one of the next features that I will include in my next major update.
 <br/><br/>
-**Restore Google widgets and frequented websites**:<br/>
+**Restore Google widgets and frequented websites**: (**high priority, unknown difficulty**)<br/>
 &emsp;Unfortunately, this was a feature that I had entirely overlooked. For many years, I've used the DuckDuckGo browser extension, which removes all those things from my new tabs. However, testing showed that is one of the most significant missing features of my extension - to the point where the users missing them were willing to deactivate the extension to access them. Even though this was mentioned as a limited-time affair, I don't want to give any reason for my intended users to deactivate the extension. Thus, I also intend for this feature to be part of the next major update - if including those on my new tab is actually possible, that is.
  <br/><br/>
-**Randomize Bible verse**:<br/>
+**Randomize Bible verse**: (**mid priority, mid difficulty**)<br/>
 &emsp;This was another feature that I had intended in my original design for this extension. However, due to time constraints and difficult implementation within that time, I prioritized allowing the user to choose their own verse(s). Theoretically, a user could use an rng on their own and manually input whatever verse they get. However, I understand the desire for it as an official feature. This will not be a major priority though, as only one user in testing asked for it, and it's implementation is not expected to be easy.
  <br/><br/>
-**Add cursive and "feminine" fonts**:<br/>
+**Add cursive and "feminine" fonts**: (**low priority, easy difficulty**)<br/>
 &emsp;This request is entirely fair and is not difficult to add. I will put this either in some minor update before the next major update, or rolled into that major update.
 <br/><br/>
-**Categorize background images**:<br/>
+**Categorize background images**: (**low priority, easy difficulty**)<br/>
 &emsp;This request is also fair, but I am unsure that there are enough backgrounds to justify categorization. There are just over 20 choices, and most of their titles are evocative and descriptive enough to tell what they are going to feature. In addition, I like the idea of allowing the user to browse and discover what they like the best based on those titles and their personal curiousity. I may not actually implement this feature at all, but I will consider it based on my own testing and/or if more user feedback for it arises.
  <br/><br/>
-**Font change preview (akin to MS Word)**:<br/>
+**Font change preview (akin to MS Word)**: (**low priority, hard difficulty**)<br/>
 &emsp;This sounds like a nice and convenient feature that I would like myself. However, there are some possible issues that may prevent its inclusion. It would likely take considerable reworking of the program to implment it, so it has a lower priority.
 <br/><br/>
-**Apply Bible Verse *only* to the first tab opened**:<br/>
+**Apply Bible Verse *only* to the first tab opened**: (**low priority, mid difficulty**)<br/>
 &emsp;This feature sounds very strange to me, but it's important to note that this was suggested by the same person whose Google widgets were not included on my new tab page. If I can reinclude those widgets, then I don't believe that this odd feature would be a priority for them. Only if there is actually no way to do so, then I would consider adding this as an option.
 <br/><br/>
-**Randomize background image with each tab opened**:<br/>
+**Randomize background image with each tab opened**: (**mid priority, low difficulty**)<br/>
 &emsp;This feature makes more sense to add, and I don't believe it would be too hard to implement either. This could be added in a minor update, but it doesn't have too high of a priority.
 <br/><br/>
-**Ability to open and have multiple verses for comparison**:<br/>
+**Ability to open and have multiple verses for comparison**: (**low priority, mid difficulty**)<br/>
 &emsp;While this feature could be neat, verse comparison is not the primary purpose of my extension. I believe that there would be better websites and extensions out there primarily for that purpose. However, I could consider adding this in the further future. Of course, with more support, I would implement it sooner.
 <br/><br/>
-**Change 3-line menu button**:<br/>
+**Change 3-line menu button**: (**low priority, low difficulty**)<br/>
 &emsp;This was an interesting request. A couple users were unfamiliar with the 3-line button (I hate "hamburger button" with a vengeance) as a way to open and close menus. Early in my extensions design, having this be the menu button was an intentional choice so that I could avoid putting words on the screen like "Menu" or "Open Menu". Doing so would have made it obvious, but it also goes against the entire point of focusing in on the words of the verse(s). I also made the button light grey and on lowered opacity such that it would blend with any background but still be visible. I could only see myself slightly raising its opacity. In addition, I could also include an "X" button as an additional way to close the menu.
 <br/><br/>
-**Ability to change verse header underline size/thickness**:<br/>
+**Ability to change verse header underline size/thickness**: (**low priority, low difficulty**)<br/>
 &emsp;This addition would be very easy to implement in my extension, and I can certainly have it within the next minor or major update.
 <br/><br/>
-**Disable ability to select images when colors are active**:<br/>
+**Disable ability to select images when colors are active**: (**low priority, hard difficulty**)<br/>
 &emsp;This was requested as a way to make what is able and what is *not* able to be done more obvious to users. While it is a common-sense thing to implement, I have had difficulty in programming similar features to it in my extension. In addition, no other users during testing pointed it out as an issue for them. Also, personally, I like to be able to change the image, even when I'm not able to see it yet. Unless users point this out as an issue in the future, I may not implement this in my extension.
 <br/><br/>
 
