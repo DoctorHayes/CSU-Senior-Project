@@ -1042,7 +1042,7 @@ This, and many more variations and combinations can be made with these pages. An
 <br/><br/>
 For my last step of my implementation, I had to prepare and upload my extension to the Chrome Web Store for their approval. Besides just making sure the extension itself was ready, this involved a number of things. This included setting up the Chrome Web Store listing information, assets, and distribution, explaining what the extension does and is for, giving justification for each Chrome API permission requested in my manifest form, and accounting for any user data collected and/or used.<br/>
 ![SS Chrome Web Store Dev Profile](ss/SS-chrome.png)
-<hr>
+<hr><br/>
 
 ## 6 - Test Plan <a id="section6"></a>
 ### 6.1 - Introduction <a id="section6-1"></a>
