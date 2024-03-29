@@ -1030,30 +1030,18 @@ The same can be done with the Bible Version, which also categorizes it by langua
 Now, let's pick up the pace and look at the wide variety of features available. You can customize the main background - choices of images or any color you like, the verse window, the window's border, the header, the text of the verse itself, and event the elements of the settings sidebar itself!
 ![SS settings page pic](ss/SS-settings1.png) ![SS settings page pics](ss/SS-settings2.png)
 <br/><br/>
-Here, I'll demonstrate some possibilities to customize and explain what I changed.<br/>
-...
-[SS promo ?]()
-<br/>
-...
-[SS promo ?]()
-<br/>
-...
-[SS promo ?]()
-<br/>
-...
-[SS new]()
-<br/>
-...
-[SS new]()
-<br/>
-...
-[SS new]()
+Here, I'll demonstrate some possibilities to customize and explain what I changed.<br/><br/>
+First, I changed the background of both the main page *and* the verse window. Then, I changed the color of the verse to be white and removed the "Verse of the Day" header. I also changed the thickness and opacity of the border of the verse window.
+[SS promo 1](ss/ss2.png)
 <br/><br/>
-And to top it all off, even after all the changes I've made, I can return back to how I best like my Bible Verse Vista page!<br/>
-[SS back to normal]()
+Here, I changed both backgrounds again. Yes, the verse window has a background, but notice that I lowered the opacity of the window's background. I changed the font, the font size, and its color.
+[SS promo 2](ss/ss3.png)
 <br/><br/>
-For my last step of my implementation, I had to prepare and upload my extension to the Chrome Web Store for their approval. This involved a number of things, including (NF???).<br/>
-[SS Chrome Web Store Dev Profile stuff???]()
+This, and many more variations and combinations can be made with these pages. And to top it all off, even after all the changes I've made, I can return back to how I best like my Bible Verse Vista page!<br/>
+[SS back to normal](ss/SS-mine.png)
+<br/><br/>
+For my last step of my implementation, I had to prepare and upload my extension to the Chrome Web Store for their approval. Besides just making sure the extension itself was ready, this involved a number of things. This included setting up the Chrome Web Store listing information, assets, and distribution, explaining what the extension does and is for, giving justification for each Chrome API permission requested in my manifest form, and accounting for any user data collected and/or used.<br/>
+[SS Chrome Web Store Dev Profile](ss/SS-chrome.png)
 
 ## 6 - Test Plan <a id="section6"></a>
 ### 6.1 - Introduction <a id="section6-1"></a>
