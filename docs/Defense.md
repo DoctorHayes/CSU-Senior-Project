@@ -107,6 +107,23 @@ Today, Christians have the opportunity to deliver the Word in a more effective, 
 <br/>
 (varied length could be 1 page, could be 3-4 pages)
 <br/><br/>
+[
+To build my Chrome Extension, I encountered a wide range of tasks and challenges, each requiring different skills and knowledge. Here's a comprehensive list of what I’ve needed to learn and figure out:
+<br/>
+1. **HTML and CSS**: Knowing HTML and CSS is necessary for designing the user interface of my extension. I’ve needed to create popup pages, options pages, and other UI elements using HTML and style them using CSS to ensure a visually appealing and user-friendly interface.
+2. **JavaScript Fundamentals**: Understanding the basics of JavaScript is crucial as it's the primary language for building Chrome Extensions. I’ve needed to learn about variables, functions, loops, conditionals, and other fundamental concepts.
+3. **Chrome Extension Architecture**: Familiarizing myself with the architecture of Chrome Extensions, including background scripts, content scripts, popup pages, and options pages, is essential. I’ve needed to understand how these components interact and communicate with each other.
+4. **DOM Manipulation**: Understanding how to manipulate the Document Object Model (DOM) using JavaScript is essential for dynamically updating the UI of my extension based on user interactions or other events.
+5. **Asynchronous JavaScript**: Dealing with asynchronous operations, such as fetching data from external sources or performing actions in the background, requires a good understanding of asynchronous JavaScript programming using promises, async/await, or callbacks.
+6. **Chrome Extension APIs**: Chrome provides a set of APIs that allow extensions to interact with browser features and functionality. I’ve needed to learn about these APIs and how to use them for tasks such as storage, tabs, messaging, and notifications.
+7. **Event Handling**: Handling user interactions and browser events effectively is crucial for providing a smooth user experience. I’ve needed to learn how to capture and handle events such as clicks, input changes, keyboard events, and page loads.
+8. **Data Storage**: Storing user preferences, extension settings, or other data locally or remotely requires knowledge of different storage mechanisms such as Chrome storage, local storage, or external databases.
+9. **Error Handling and Debugging**: Knowing how to handle errors gracefully and debug issues effectively is essential for troubleshooting and improving the quality of my extension. I’ve needed to learn about debugging tools, console logging, and error handling techniques.
+10. **Security Best Practices**: Understanding security best practices for Chrome Extensions is crucial to prevent security vulnerabilities and protect user data. I’ve needed to learn about permissions, content security policies, and secure communication practices.
+11. **Deployment and Publishing**: Understanding the process of packaging, deploying, and publishing my extension to the Chrome Web Store is essential for making my extension available to users. I’ve needed to learn about packaging requirements, publishing guidelines, and submission processes.
+Overall, building a Chrome Extension involves a diverse set of skills and knowledge areas, including programming, web development, user interface design, testing, and deployment. By mastering these areas, I can create a high-quality and successful extension that meets the needs of my users.
+]
+<br/><br/>
 
 ## 3 - Project Languages, Software, and Hardware <a id="section3"></a>
 Project Languages:
