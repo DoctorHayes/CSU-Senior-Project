@@ -1009,26 +1009,26 @@ Key features include the ability to choose between automatic or manual selection
 I did this by utilizing three languages - HTML, CSS, and JavaScript - the basics for building webpages. HTML creates the structure of the webpage and all its elements, CSS deals with the visuals of all those elements, and JavaScript deals with the interactive features on the webpage, connections to Bible Gateway, and how all the settings are saved and synced.<br/>
 <br/>
 One way to start showing the implementation is to show how I like to have my own new tab customized. Here is also what my settings sidebar looks like - just very basic HTML and CSS used to show and hide it from the screen.<br/>
-[SS my page]() [SS settings sidebar]()
+[SS my page](SS-mine.png) [SS settings sidebar](SS-mine-settings.png)
 <br/><br/>
 I will go through how I got to this level of customization, but first, I want to show an important feature. Here in the settings page, I have implemented buttons for "Save User Settings", "Return to Defaults", and "Load User Settings". After pressing the save button, I can return to these settings at any time by pressing load. Also saved are the default settings, which can be returned to at any time.<br/>
-[SS Default/Save/Load buttons]() [SS default page]()
+[SS Default/Save/Load buttons](SS-mine-saves.png) [SS default page](SS-default.png)
 <br/><br/>
 This is the page I'll be starting from to demonstrate the present key features of Bible Verse Vista. However, I can reload my saved settings from before, as I stated previously. All of this was possible thanks to JavaScripts saving features that can store the many values for the default page and a user-preferred page (and return to either at any time).<br/>
-[SS reloaded page]()
+[SS reloaded page](SS-mine.png)
 <br/><br/>
 Anyways, back to the rest of the main features, we can see that the default page is very basic. Not quite a blank slate, but very close, and that was my intent. This allows users to let their creativity find what they best prefer. From the basics, we see the Verse of the Day, the Bible Version, and the Theme.<br/>
 There are three themes: Light Mode, Dark Mode, and User Mode. User Mode basically starts in Light Mode, and I wanted to separate the User Mode from it so that Light Mode could be easily set and returned to at any time. Not all users want to go through each element they are able to color, including myself. For my own sake, I simply set mine to dark mode. However, to show the full breadth of the features, I will keep it in User Mode.<br/>
-[SS default settings]()
+[SS default settings](SS-default.png)
 <br/><br/>
 Pulling from Bible Gateway's website via Javascript allows me to use their Automatic Verse of the Day code, but I also manually coded a way to access any verse(s) from their website. This gives the users their own choice of verse at any time so long as they type the book, chapter, and verse(s). Notice how it now isn't the same as the automatic verse from before.
-[SS User Choice VotD]()
+[SS User Choice VotD](SS-verse.png)
 <br/><br/>
 The same can be done with the Bible Version, which also categorizes it by language, which I access from Bible Gateway by storing each url section in JavaScript.
-[SS new Bible version, differ language?]()
+[SS new Bible version](SS-langs.png) [SS new Bible version and language](SS-langs2.png)
 <br/><br/>
 Now, let's pick up the pace and look at the wide variety of features available. You can customize the main background - choices of images or any color you like, the verse window, the window's border, the header, the text of the verse itself, and event the elements of the settings sidebar itself!
-[SS settings page pics]()
+[SS settings page pic](SS-settings1.png) [SS settings page pics](SS-settings2.png)
 <br/><br/>
 Here, I'll demonstrate some possibilities to customize and explain what I changed.<br/>
 ...
