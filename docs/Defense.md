@@ -100,29 +100,20 @@ Today, Christians have the opportunity to deliver the Word in a more effective, 
 <br/><br/>
 
 ## 2 - Research and Background <a id="section2"></a>
-(NF???)
-(all the things I needed to figure out – describing what I had to learn / what would you need to learn PRIOR to understanding how project works or how to make project)
+In designing and building my Chrome Extension, I encountered a wide range of tasks and challenges, each requiring different skills and knowledge. Here's a comprehensive list of what I’ve needed to learn and figure out:
 <br/>
-(just do my best to recall)
-<br/>
-(varied length could be 1 page, could be 3-4 pages)
-<br/><br/>
-[
-To build my Chrome Extension, I encountered a wide range of tasks and challenges, each requiring different skills and knowledge. Here's a comprehensive list of what I’ve needed to learn and figure out:
-<br/>
-1. **HTML and CSS**: Knowing HTML and CSS is necessary for designing the user interface of my extension. I’ve needed to create popup pages, options pages, and other UI elements using HTML and style them using CSS to ensure a visually appealing and user-friendly interface.
-2. **JavaScript Fundamentals**: Understanding the basics of JavaScript is crucial as it's the primary language for building Chrome Extensions. I’ve needed to learn about variables, functions, loops, conditionals, and other fundamental concepts.
-3. **Chrome Extension Architecture**: Familiarizing myself with the architecture of Chrome Extensions, including background scripts, content scripts, popup pages, and options pages, is essential. I’ve needed to understand how these components interact and communicate with each other.
-4. **DOM Manipulation**: Understanding how to manipulate the Document Object Model (DOM) using JavaScript is essential for dynamically updating the UI of my extension based on user interactions or other events.
-5. **Asynchronous JavaScript**: Dealing with asynchronous operations, such as fetching data from external sources or performing actions in the background, requires a good understanding of asynchronous JavaScript programming using promises, async/await, or callbacks.
-6. **Chrome Extension APIs**: Chrome provides a set of APIs that allow extensions to interact with browser features and functionality. I’ve needed to learn about these APIs and how to use them for tasks such as storage, tabs, messaging, and notifications.
-7. **Event Handling**: Handling user interactions and browser events effectively is crucial for providing a smooth user experience. I’ve needed to learn how to capture and handle events such as clicks, input changes, keyboard events, and page loads.
-8. **Data Storage**: Storing user preferences, extension settings, or other data locally or remotely requires knowledge of different storage mechanisms such as Chrome storage, local storage, or external databases.
-9. **Error Handling and Debugging**: Knowing how to handle errors gracefully and debug issues effectively is essential for troubleshooting and improving the quality of my extension. I’ve needed to learn about debugging tools, console logging, and error handling techniques.
-10. **Security Best Practices**: Understanding security best practices for Chrome Extensions is crucial to prevent security vulnerabilities and protect user data. I’ve needed to learn about permissions, content security policies, and secure communication practices.
-11. **Deployment and Publishing**: Understanding the process of packaging, deploying, and publishing my extension to the Chrome Web Store is essential for making my extension available to users. I’ve needed to learn about packaging requirements, publishing guidelines, and submission processes.
-Overall, building a Chrome Extension involves a diverse set of skills and knowledge areas, including programming, web development, user interface design, testing, and deployment. By mastering these areas, I can create a high-quality and successful extension that meets the needs of my users.
-]
+1. **HTML and CSS**: Knowing HTML and CSS was absolutely necessary for designing the user interface of my extension. I created the background, the verse window, the settings sidebar, all the options and their changes, and other UI elements using HTML along with CSS styling to structure to ensure a structured, visually appealing, and user-friendly interface.
+(NF???) 2. **JavaScript Fundamentals**: Understanding the basics of JavaScript was crucial as well, as it's the primary language for building Chrome Extensions. (?)I’ve needed to learn about variables, functions, loops, conditionals, and other fundamental concepts.
+(NF???)3. **Chrome Extension Architecture**: Familiarizing myself with the architecture of Chrome Extensions, including background scripts and content scripts is essential. I’ve needed to understand how these components interact and communicate with each other.
+(NF???)4. **DOM Manipulation**: Understanding how to manipulate the Document Object Model (DOM) using JavaScript is essential for dynamically updating the UI of my extension based on user interactions or other events.
+5. **Asynchronous JavaScript**: Dealing with asynchronous operations, such as fetching data from external sources or performing actions in the background, requires a good understanding of asynchronous JavaScript programming using promises, async/await, or callbacks. Understanding this was one of the most critical pieces for my extension to work, as it enabled the extension to connect with Bible Gateway - the foundation for this extension.
+(NF???)6. **Chrome Extension APIs**: Chrome provides a set of APIs that allow extensions to interact with browser features and functionality. I’ve needed to learn about these APIs and how to use them for tasks such as storage, tabs, messaging, and notifications.
+(NF???)7. **Event Handling**: Handling user interactions and browser events effectively is crucial for providing a smooth user experience. I’ve needed to learn how to capture and handle events such as clicks, input changes, keyboard events, and page loads.
+(NF???)8. **Data Storage**: Storing user preferences, extension settings, or other data locally or remotely requires knowledge of different storage mechanisms such as Chrome storage, local storage, or external databases.
+(NF???)9. **Error Handling and Debugging**: Knowing how to handle errors gracefully and debug issues effectively is essential for troubleshooting and improving the quality of my extension. I’ve needed to learn about debugging tools, console logging, and error handling techniques.
+(NF???)10. **Security Best Practices**: Understanding security best practices for Chrome Extensions is crucial to prevent security vulnerabilities and protect user data. I’ve needed to learn about permissions, content security policies, and secure communication practices.
+11. **Deployment and Publishing**: Understanding the process of packaging, deploying, and publishing my extension to the Chrome Web Store was obviously essential for making my extension available to users. I’ve needed to learn about the specific packaging requirements, publishing guidelines, and submission processes. Thankfully, once you have the $5 Chrome Web Store developer account, they explain what is needed from there. Nothing is all that complicated, but it can be a bit to go through if you aren't expecting it.
+In retrospect, building a Chrome Extension involved a decent spread set of skills and knowledge areas, including programming languages and methodologies, web development, user interface design, and Chrome Web Store deployment. By learning and working through these areas, I created what I would consider a successful extension that meets the needs of my users.
 <br/><br/>
 
 ## 3 - Project Languages, Software, and Hardware <a id="section3"></a>
@@ -998,10 +989,7 @@ Dependencies: 1
 <br/>
 
 ## 5 - Project Implementation <a id="section5"></a>
-(NF???)
-(can say/describe(?) design and features, explain how you wrote it (high-level, little detail(?)), how submitted to Chrome Web Store (deployment) ) 
 <br/>
-<br/><br/>
 The Bible Verse Vista extension aims to replace the normal new tab with a page that displays Bible verses, but I wanted to distinguish it from other similar extensions that are often extremely limited or bland with how they execute it. However, I also know that not everybody is meticulous or extreme in their desire to customize. As such, my extension was specifically designed with the idea of pairing simplicity with high customizability - to cater to all followers of Christ so they may imbue more of God's Word in their daily online activities in a way that suits them personally.<br/>
 <br/>
 Key features include the ability to choose between automatic or manual selection of daily verses, select from a variety of Bible versions available on Bible Gateway, and customize the background image or color of new tabs. Users can also customize the appearance of the verse window, including the font, color, and size of the text. Additionally, the extension offers light and dark mode options to suit different preferences.<br/>
@@ -1262,6 +1250,7 @@ From this, I know that I have largely satisfied the target audience for my exten
 <br/>
 (can itemize or write paragraphs with subheadings, maybe like each problem with a mini-paragraph?)
 <br/><br/>
+- when needing to upload to the Chrome Web Store, the guides supplied by Google themselves were out of date and far stricter than what the actual publishing process required. many Chrome extensions I saw in comparison had far less than what many guides stated were required, but they were apparently accepted by the Web Store as well (This was a significant stressor and time cost with how much I had noted I had to do, but really didn't need to do)
 
 ## 9 - Future Enhancements <a id="section9"></a>
 Looking at the overall <a href="#section7">Test Results</a>, it was clear that the testers were very satisfied with Bible Verse Vista in its current state. Having asked for explanations on both my quantitative and qualitative questions, I compiled all suggestions made from them into the <a href="#section7-1">Advised Changes</a> section from earlier. While the list may seem long, only a couple of these features made any serious impact on the overall user perception of my extension. As such, my plans and reasoning for each suggested feature will be included here as part of this extension's future enhancements.
