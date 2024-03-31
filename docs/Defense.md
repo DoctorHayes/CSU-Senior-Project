@@ -1243,13 +1243,28 @@ From this, I know that I have largely satisfied the target audience for my exten
 <br/><br/>
 
 ## 8 - Challenges Overcome <a id="section8"></a>
-(NF???)
-<br/>
-(looking for it NOT being super easy, had to work hard, learned stuff in the process, show significant progress - not necessarily need a lot of detail, go through problems and how I had to stretch myself)
-<br/>
-(can itemize or write paragraphs with subheadings, maybe like each problem with a mini-paragraph?)
+**Other Projects**:<br/>
+&emsp;As was expected in my constraints for this project, I was (and still am) facing ongoing courses with weekly projects that divided my attention away from this project. Naturally, the only way to overcome it was to deal with them all. However, I also came to develop a weekly schedule where I do as much of my coursework possible all on Monday and Tuesday. Then, by the latter part of each week, I have the ability to devote longer periods of time towards this project. This greatly helped in this project's completion, especially in the long run.
 <br/><br/>
-- when needing to upload to the Chrome Web Store, the guides supplied by Google themselves were out of date and far stricter than what the actual publishing process required. many Chrome extensions I saw in comparison had far less than what many guides stated were required, but they were apparently accepted by the Web Store as well (This was a significant stressor and time cost with how much I had noted I had to do, but really didn't need to do)
+**Creative Side**:<br/>
+&emsp;One thing that I struggled with early in my project was how I would plan to format the extension to begin with. Various ideas were tossed around in my mind, including a toggled, "user-intuitive" settings mode where users would click and manipulate what they'd want to change. I came to decide that it was both too ambitious for my skill level and unnecessarily complicated for users and for the myriad settings I had in mind. I also considered putting the settings on a page separate from the new tab itself (by clicking the extenion icon on top of the browser page), but that would also be hard for some users and would make the extension feel disjointed and discourage user interaction with the customization. I would finally decide on the simple and reliable sidebar with its basic layout on the new tab page itself.
+<br/><br/>
+**Javascript**:<br/>
+&emsp;Relearning basic JavaScript and learning advanced JavaScript, like asynchronous JS, was crucial to my project, and it was by far the hardest portion of my project. So much of my project relies on it, and every step was something that I had to do research on - tutorials, forums, videos, etc. This included (but certainly wasn't limited to) Chrome's restrictions in relation to HTML JS scripts, implementing the settings, and saving and syncing those settings.  Eventually, my self-taught trial-and-error pulled through to where I had a structure to build from. After my thorough JS foundation was set, it only got easier from there.
+<br/><br/>
+**Workspace Lost**:<br/>
+&emsp;Due to critical issues regarding my usual workspace (to the point of no possible repair), I had to borrow and work within a limited environment on another laptop throughout the remainder of my projects development. This negatively affected the time taken for development and testing for my project. Thankfully, this would soon even out as the system become more aclimated to my workload.
+**API Quota Error**:<br/>
+&emsp;One major error that I faced and overcame was an API quota error. Basically, users were able to "focus" on selection boxes to where up/down arrow keys could actively change the setting itself. Since this process was instant and the message was broadcast out to sync the settings change with all the new tabs, spamming the selection resulted in an overflow in the API message quota. This would result in the settings not being saved at all for a decent period of time until Google Chrome permitted so. For my original fix, I'd planned to use a delay such that, if a settings change was made in too short a time, it wouldn't actually confirm and broadcast that setting until a certain time had passed. Early attempts at this were highly unsatisfying to where it made the extension feel sluggish and ruined the user experience. Thankfully, my dissatisfaction brought me to think from different perspectives. Instead of delaying prompts, I disabled the ability to "focus" on the selection options altogether. (I had not previously recognized this "focus" feature, and I had learned about it through my usual research methods. To explain it simply, it's what happens when you tab into a text box. However, it can occur under other circumstances as well, which is why I did a full removal of the feature.)
+<br/><br/>
+**Sickness**:<br/>
+&emsp;My family and I got extremely sick for multiple weeks during the latter half of my project. This greatly, if not entirely, hampered my progress on the project. This was unpredictable, unavoidable, and something that I simply had to weather.
+<br/><br/>
+**Testers and Testing**:<br/>
+&emsp;I had a lot of difficulty in finding the right number and right variety of testers. On top of that, once they were eventually decided, it was a struggle to find the time to go through the test with each and every one of them. This was further accentuated by my own scheduling troubles. As a result, the testing phase was dragged out over multiple weeks when it could have been accomplished within only one.
+<br/><br/>
+**Chrome Web Store Deployment**:<br/>
+&emsp;Getting the extension uploaded to the Chrome Web Store was another challenge I faced. I did all the research I could before had to prepare my materials, but it turned out that the guides supplied by Google themselves were out of date, inconsistent with each other, and far stricter than what the actual publishing process required. (Independent guides and videos were also insufficient.) The only true way to know what was required of me was to purchase the $5 Chrome Web Store developer account and try it for myself. However, I only learned this after the significant time cost and stress that preceded it.
 
 ## 9 - Future Enhancements <a id="section9"></a>
 Looking at the overall <a href="#section7">Test Results</a>, it was clear that the testers were very satisfied with Bible Verse Vista in its current state. Having asked for explanations on both my quantitative and qualitative questions, I compiled all suggestions made from them into the <a href="#section7-1">Advised Changes</a> section from earlier. While the list may seem long, only a couple of these features made any serious impact on the overall user perception of my extension. As such, my plans and reasoning for each suggested feature will be included here as part of this extension's future enhancements.
