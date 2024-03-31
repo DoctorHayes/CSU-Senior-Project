@@ -1254,6 +1254,7 @@ From this, I know that I have largely satisfied the target audience for my exten
 <br/><br/>
 **Workspace Lost**:<br/>
 &emsp;Due to critical issues regarding my usual workspace (to the point of no possible repair), I had to borrow and work within a limited environment on another laptop throughout the remainder of my projects development. This negatively affected the time taken for development and testing for my project. Thankfully, this would soon even out as the system become more aclimated to my workload.
+<br/><br/>
 **API Quota Error**:<br/>
 &emsp;One major error that I faced and overcame was an API quota error. Basically, users were able to "focus" on selection boxes to where up/down arrow keys could actively change the setting itself. Since this process was instant and the message was broadcast out to sync the settings change with all the new tabs, spamming the selection resulted in an overflow in the API message quota. This would result in the settings not being saved at all for a decent period of time until Google Chrome permitted so. For my original fix, I'd planned to use a delay such that, if a settings change was made in too short a time, it wouldn't actually confirm and broadcast that setting until a certain time had passed. Early attempts at this were highly unsatisfying to where it made the extension feel sluggish and ruined the user experience. Thankfully, my dissatisfaction brought me to think from different perspectives. Instead of delaying prompts, I disabled the ability to "focus" on the selection options altogether. (I had not previously recognized this "focus" feature, and I had learned about it through my usual research methods. To explain it simply, it's what happens when you tab into a text box. However, it can occur under other circumstances as well, which is why I did a full removal of the feature.)
 <br/><br/>
@@ -1308,7 +1309,5 @@ Looking at the overall <a href="#section7">Test Results</a>, it was clear that t
 
 ## 10 - Defense Presentation Slides <a id="section10"></a>
 (NF???)
-<br/>
-(DO NOT WORK ON UNTIL OTHER STUFF DONE)
-<br/>
+<br/><br/>
 (Bobby project?, Rico had TOO MUCH detail, NF???)
