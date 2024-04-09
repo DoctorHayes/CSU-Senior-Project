@@ -1010,10 +1010,10 @@ This is the page I'll be starting from to demonstrate the present key features o
 <br/><br/>
 Anyways, back to the rest of the main features, we can see that the default page is very basic. Not quite a blank slate, but very close, and that was my intent. This allows users to let their creativity find what they best prefer. From the basics, we see the Verse of the Day, the Bible Version, and the Theme.<br/>
 There are three themes: Light Mode, Dark Mode, and User Mode. User Mode basically starts in Light Mode, and I wanted to separate the User Mode from it so that Light Mode could be easily set and returned to at any time. Not all users want to go through each element they are able to color, including myself. For my own sake, I simply set mine to dark mode. However, to show the full breadth of the features, I will keep it in User Mode.<br/>
-![SS default settings](./ss/SS-default.png)
+![SS default settings](./Bible-Verse-Vista/docs/ss/SS-default.png)
 <br/><br/>
 Pulling from Bible Gateway's website via Javascript allows me to use their Automatic Verse of the Day code, but I also manually coded a way to access any verse(s) from their website. This gives the users their own choice of verse at any time so long as they type the book, chapter, and verse(s). Notice how it now isn't the same as the automatic verse from before.
-![SS User Choice VotD](./ss/SS-verse.png)
+![SS User Choice VotD](Bible-Verse-Vista/docs/ss/SS-verse.png)
 <br/><br/>
 The same can be done with the Bible Version, which also categorizes it by language, which I access from Bible Gateway by storing each url section in JavaScript.
 ![SS new Bible version](./ss/SS-langs.png) 
