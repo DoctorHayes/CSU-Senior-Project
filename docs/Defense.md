@@ -996,7 +996,7 @@ Key features include the ability to choose between automatic or manual selection
 I did this by utilizing three languages - HTML, CSS, and JavaScript - the basics for building webpages. HTML creates the structure of the webpage and all its elements, CSS deals with the visuals of all those elements, and JavaScript deals with the interactive features on the webpage, connections to Bible Gateway, and how all the settings are saved and synced.<br/>
 <br/>
 One way to start showing the implementation is to show how I like to have my own new tab customized. Here is also what my settings sidebar looks like - just very basic HTML and CSS used to show and hide it from the screen.<br/>
-![SS my page](../ss/SS-mine.png) ![SS settings sidebar](../ss/SS-mine-settings.png)
+![SS my page](./ss/SS-mine.png) ![SS settings sidebar](./ss/SS-mine-settings.png)
 <br/><br/>
 I will go through how I got to this level of customization, but first, I want to show an important feature. Here in the settings page, I have implemented buttons for "Save User Settings", "Return to Defaults", and "Load User Settings". After pressing the save button, I can return to these settings at any time by pressing load. Also saved are the default settings, which can be returned to at any time.<br/>
 ![SS Default/Save/Load buttons](../ss/SS-mine-saves.png) ![SS default page](../ss/SS-default.png)
