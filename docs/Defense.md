@@ -997,7 +997,7 @@ I did this by utilizing three languages - HTML, CSS, and JavaScript - the basics
 <br/>
 One way to start showing the implementation is to show how I like to have my own new tab customized. Here is also what my settings sidebar looks like - just very basic HTML and CSS used to show and hide it from the screen.<br/>
 ![SS my page](https://github.com/BFurrow-Collab/Bible-Verse-Vista/blob/master/docs/ss/SS-chrome.png "Chrome") 
-![SS settings sidebar](./ss/SS-mine-settings.png)
+![SS settings sidebar](/ss/SS-mine-settings.png)
 <br/><br/>
 I will go through how I got to this level of customization, but first, I want to show an important feature. Here in the settings page, I have implemented buttons for "Save User Settings", "Return to Defaults", and "Load User Settings". After pressing the save button, I can return to these settings at any time by pressing load. Also saved are the default settings, which can be returned to at any time.<br/>
 ![SS Default/Save/Load buttons](./ss/SS-mine-saves.png) 
