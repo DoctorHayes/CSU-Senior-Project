@@ -996,7 +996,7 @@ Key features include the ability to choose between automatic or manual selection
 I did this by utilizing three languages - HTML, CSS, and JavaScript - the basics for building webpages. HTML creates the structure of the webpage and all its elements, CSS deals with the visuals of all those elements, and JavaScript deals with the interactive features on the webpage, connections to Bible Gateway, and how all the settings are saved and synced.<br/>
 <br/>
 One way to start showing the implementation is to show how I like to have my own new tab customized. Here is also what my settings sidebar looks like - just very basic HTML and CSS used to show and hide it from the screen.<br/>
-![SS my page](https://github.com/BFurrow-Collab/Bible-Verse-Vista/blob/master/docs/ss/SS-chrome.png?raw=true) 
+![SS my page](https://raw.githubusercontent.com/BFurrow-Collab/Bible-Verse-Vista/master/docs/ss/SS-chrome.png) 
 
 <br/>
 ![SS settings sidebar](/ss/SS-mine-settings.png)
