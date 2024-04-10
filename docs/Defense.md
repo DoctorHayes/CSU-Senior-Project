@@ -997,6 +997,7 @@ I did this by utilizing three languages - HTML, CSS, and JavaScript - the basics
 <br/>
 One way to start showing the implementation is to show how I like to have my own new tab customized. Here is also what my settings sidebar looks like - just very basic HTML and CSS used to show and hide it from the screen.<br/>
 ![SS my page](https://github.com/BFurrow-Collab/Bible-Verse-Vista/blob/master/docs/ss/SS-chrome.png?raw=true) 
+
 <br/>
 ![SS settings sidebar](/ss/SS-mine-settings.png)
 <br/><br/>
