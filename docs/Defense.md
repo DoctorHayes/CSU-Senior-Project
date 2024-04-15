@@ -1315,6 +1315,4 @@ Looking at the overall <a href="#section7">Test Results</a>, it was clear that t
 <br/><br/>
 
 ## 10 - Defense Presentation Slides <a id="section10"></a>
-(NF???)
-<br/><br/>
-(Bobby project?, Rico had TOO MUCH detail, NF???)
+(NF??? link pdf here)
