@@ -1153,7 +1153,7 @@ This document outlines the testing strategy and approach for the development of 
 - It would also assess generalities regarding performance, usability, and overall aesthetics.
 - The questionnaire would request a number on a satisfaction scale from 1 to 5, with 5 as most pleasing, for each of these.
   - (The goal is to have a 4 on average.)
-  - There would also be a blank on the side to put ones specific qualitative reasoning.
+  - There would also be a blank on the side to put ones specific reasoning.
 - Their final overall experience will be graded on the same scale.
 - There will be a section at the end for specific recommendations and changes to take into consideration.
 
@@ -1220,7 +1220,7 @@ Testing was performed according to the general guidelines laid out in the 6.3 - 
 - Ability to change verse header underline size/thickness
 - Disable ability to select images when colors are active
 ### 7.2 - Test Reports <a id="section7-2"></a>
-![](Quantitative_Graph.png)
+![](Graph1.png)
 <br/>
 Overall usability scored 4.7/5.<br/>
 Ease of navigation scored 4.8/5.<br/>
@@ -1232,7 +1232,7 @@ Every category was rated with 4's or 5's, save for a single outlier (3) in Expec
 **Overall rating: 4.8/5**
 <br/><br/>
 
-![](Qualitative_Graph.png)
+![](Graph2.png)
 <br/>
 When asked about what they liked most about the extension, 8/10 appreciated the options.<br/>
 8/10 did not find any difficulty in using the extension. 2/10 were unfamiliar with Google Extensions.<br/>
@@ -1275,7 +1275,7 @@ From this, I know that I have largely satisfied the target audience for my exten
 &emsp;Getting the extension uploaded to the Chrome Web Store was another challenge I faced. I did all the research I could before had to prepare my materials, but it turned out that the guides supplied by Google themselves were out of date, inconsistent with each other, and far stricter than what the actual publishing process required. (Independent guides and videos were also insufficient.) The only true way to know what was required of me was to purchase the $5 Chrome Web Store developer account and try it for myself. However, I only learned this after the significant time cost and stress that preceded it.
 
 ## 9 - Future Enhancements <a id="section9"></a>
-Looking at the overall <a href="#section7">Test Results</a>, it was clear that the testers were very satisfied with Bible Verse Vista in its current state. Having asked for explanations on both my quantitative and qualitative questions, I compiled all suggestions made from them into the <a href="#section7-1">Advised Changes</a> section from earlier. While the list may seem long, only a couple of these features made any serious impact on the overall user perception of my extension. As such, my plans and reasoning for each suggested feature will be included here as part of this extension's future enhancements.
+Looking at the overall <a href="#section7">Test Results</a>, it was clear that the testers were very satisfied with Bible Verse Vista in its current state. Having asked for explanations on all my questions, I compiled all suggestions made from them into the <a href="#section7-1">Advised Changes</a> section from earlier. While the list may seem long, only a couple of these features made any serious impact on the overall user perception of my extension. As such, my plans and reasoning for each suggested feature will be included here as part of this extension's future enhancements.
 <br/><br/>
 **Custom user background images**: (**mid priority, hard difficulty**)<br/>
 &emsp;While it would be very easy to upload more background images, I believe that giving users the ability to upload their own images to use would more than satisfy their wishes. Simply adding more images would increase the size and impact the performance of my extension. Also, it's a feature that I wanted to include from the beginning of this project that was lost in the busy development schedule. It will be one of the next features that I will include in my next major update.
