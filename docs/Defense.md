@@ -947,7 +947,7 @@ Rationale:<br/>
 </p>
 <p>
 Fit Criterion:<br/>
-&emsp; The extension will have a "Save Settings" and "Load Settings" buttons that save the current settings state of the extension and can restore those settings at a later time.
+&emsp; The extension will have "Save Settings" and "Load Settings" buttons that save the current settings state of the extension and can restore those settings at a later time.
 </p>
 <p>
 Priority: 3
@@ -970,7 +970,7 @@ Description:<br/>
 </p>
 <p>
 Rationale:<br/>
-&emsp; However the settings page is implemented in this extension, it too should be able to appeal to users aesthetic preferences. This is especially the case for if it appears on the new tab page itself rather than a separate menu page since it could otherwise clash with the new tab's customized aesthetics.
+&emsp; However the settings page is implemented in this extension, it too should be able to appeal to users' aesthetic preferences. This is especially true if it appears on the new tab page itself rather than a separate menu page since it could otherwise clash with the new tab's customized aesthetics.
 </p>
 <p>
 Fit Criterion:<br/>
@@ -999,14 +999,14 @@ One way to start showing the implementation is to show how I like to have my own
 ![SS my page](https://raw.githubusercontent.com/BFurrow-Collab/Bible-Verse-Vista/master/docs/ss/SS-chrome.png) 
 
 <br/>
-![SS settings sidebar](/ss/SS-mine-settings.png)
+![SS settings sidebar](ss/SS-mine-settings.png?raw=true)
 <br/><br/>
 I will go through how I got to this level of customization, but first, I want to show an important feature. Here in the settings page, I have implemented buttons for "Save User Settings", "Return to Defaults", and "Load User Settings". After pressing the save button, I can return to these settings at any time by pressing load. Also saved are the default settings, which can be returned to at any time.<br/>
 ![SS Default/Save/Load buttons](./ss/SS-mine-saves.png?raw=true) 
 <br/>
 ![SS default page](../ss/SS-default.png)
 <br/><br/>
-This is the page I'll be starting from to demonstrate the present key features of Bible Verse Vista. However, I can reload my saved settings from before, as I stated previously. All of this was possible thanks to JavaScripts saving features that can store the many values for the default page and a user-preferred page (and return to either at any time).<br/>
+This is the page I'll be starting from to demonstrate the present key features of Bible Verse Vista. However, I can reload my saved settings from before, as I stated previously. All of this was possible thanks to JavaScript's saving features that can store the many values for the default page and a user-preferred page (and return to either at any time).<br/>
 ![SS reloaded page](Bible-Verse-Vista/docs/ss/SS-mine.png)
 <br/><br/>
 Anyways, back to the rest of the main features, we can see that the default page is very basic. Not quite a blank slate, but very close, and that was my intent. This allows users to let their creativity find what they best prefer. From the basics, we see the Verse of the Day, the Bible Version, and the Theme.<br/>
